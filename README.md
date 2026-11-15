@@ -1,38 +1,102 @@
-# Bridges Mavors — aplicación combinada
+# Bridges Mavors
 
-Actualización de datos: inercia térmica aparente TES de día/noche disponible en la inspección. Mapas2D TES_Thermal_Inertia, TES_Dust y mola_roughness añadidos, selector debajo del mapa. Descargas, pruebas y bloqueos científicos en [informe adicional](docs/additional-science/REPORT.md). Verificación reproducible: WebApp/backend/.venv/Scripts/python.exe scripts/validate-additional-science.py.
+**Bridges Mavors** es una plataforma interactiva para explorar el terreno marciano y apoyar la planificación de misiones hipotéticas en la región de Jezero. El proyecto combina mapas orbitales de la NASA, un modelo 3D del terreno, datos científicos y herramientas de análisis en una interfaz inspirada en un centro de control de misión.
 
-La aplicación principal está en **WebApp/**:
+[**Abrir la aplicación**](https://agusbianchi-ui.github.io/NasaSpaceAppsChallenge-BridgesMavors/) · [Documentación de la API](https://bridges-mavors-api.onrender.com/docs) · [Fuentes y atribuciones](SOURCES.md)
 
-- WebApp/frontend/src: interfaz React, visor 3D, rutas manuales/A*, mapas NASA y módulos de IA.
-- WebApp/backend/app: API FastAPI de ciencia, catálogo NASA, análisis eólico, asistente y tareas.
-- WebApp/mars_ml: procesamiento e investigación del ZIP del compañero.
-- recursosU/: fuentes, originales, scripts y documentación históricos conservados.
-- output-stage1/, output-stage3/, output-stage4/: derivados y cachés consumidos por la aplicación.
-- integration-review/: respaldo anterior, ZIP extraído, inventarios y evidencias de la combinación.
+## ¿Qué permite hacer?
 
-Las carpetas ops_mars-main/ y backend/ de la raíz son copias parciales históricas, identificadas con LEGACY_COPY.md. No ejecutar sus servidores ni los scripts reorganize.py/consolidate.py antiguos: esos scripts borran o mueven carpetas y originaron referencias rotas. Se conservaron para recuperación; no son el punto de desarrollo.
+- **Explorar Marte en 2D:** consultar mosaicos orbitales y capas de Mars Trek, con sus metadatos y fuentes.
+- **Recorrer el terreno en 3D:** navegar por un modelo voxelizado de la región, inspeccionar puntos y crear o importar una ruta de referencia.
+- **Planificar rutas:** definir condiciones de misión, comparar alternativas calculadas con A*, visualizar perfiles de elevación y exportar o importar una misión en JSON.
+- **Consultar información científica:** explorar elevación, pendiente, orientación, rugosidad y otras variables disponibles, junto con su procedencia y limitaciones. La inercia térmica aparente TES de día y noche está disponible para consultas por posición.
+- **Analizar dinámica eólica:** consultar catálogos y ejecutar análisis de observaciones cuando se cuenta con imágenes, máscaras y metadatos locales adecuados.
+- **Organizar una misión:** usar un tablero de tareas y un asistente que responde con información disponible del sistema.
 
-## Arranque
+Para probar el recorrido principal, abrí **Mars Explorer**, elegí **Load 3D terrain**, después **Import preliminary route**, **Use endpoints only** y **Calculate routes**. La carga inicial del modelo es progresiva y descarga aproximadamente 52 MiB.
 
-Ejecutar Start-BridgesMavors.ps1 desde esta carpeta. Inicia los servidores locales que falten y muestra el enlace http://127.0.0.1:4173/explorer. La vista usa la última compilación.
+## Datos y alcance
 
-Después de cambiar frontend, ejecutar desde WebApp/frontend: npm run build. Para desarrollo: npm run dev. Para backend: WebApp/backend/.venv/Scripts/python.exe -m uvicorn app.main:app --host 127.0.0.1 --port 8000, desde WebApp/backend. API documentada en http://127.0.0.1:8000/docs.
+El mapa 2D consulta imágenes de NASA Mars Trek. El terreno científico utiliza un modelo de elevación HRSC/MOLA remuestreado a 250 m y sus derivados; la altura del modelo 3D tiene una exageración visual de 3×. La planificación utiliza las muestras científicas, no la altura visual exagerada. También se incluye un escenario histórico regional de polvo MY36 de resolución gruesa.
 
-## Verificación
+La telemetría, los eventos, el progreso de misión y algunos objetivos de la interfaz son **simulados**. Las condiciones y umbrales de planificación son hipótesis editables; el sistema no certifica la transitabilidad ni reemplaza la evaluación científica o de seguridad de una misión real. Cuando faltan datos, la aplicación los muestra como no disponibles.
 
-Frontend: npm run lint, npm run build y npm run test:terrain desde WebApp/frontend.
-Backend: .venv/Scripts/python.exe -m pytest tests ../mars_ml/tests -q, desde WebApp/backend, con PYTHONPATH incluyendo WebApp y WebApp/backend.
-Dependencias: npm ci en frontend; uv pip install --python WebApp/backend/.venv/Scripts/python.exe -r WebApp/backend/requirements.txt desde la raíz.
+El asistente actual usa respuestas deterministas basadas en información del sistema; no requiere una clave de IA. El módulo eólico no incluye un modelo predictivo entrenado y validado ni todas las imágenes necesarias para ejecutar análisis propios. Los resultados y las tareas del servidor se almacenan en memoria y pueden perderse al reiniciarse.
 
-Detalles y límites en docs/INTEGRATION_REPORT.md. El catálogo de imágenes y las simulaciones de misión no constituyen mediciones científicas validadas. Los análisis eólicos necesitan imágenes/etiquetas locales y metadatos; el ZIP aporta manifiestos, no todos los píxeles ni un modelo predictivo entrenado.
+Consultá las [limitaciones científicas](docs/SCIENTIFIC_LIMITATIONS.md), el [diccionario de datos](docs/DATA_DICTIONARY.md) y las [fuentes](SOURCES.md) para conocer el alcance de cada producto.
 
-## Etapas 5 y 6 auditadas — 2026-11-15
+## Tecnologías
 
-Inspección científica, indicadores agrupados, condiciones compartidas y A* conectados a Mars Explorer, Route Planner y Terrain Analysis. Se preservaron IA, mapa 2D, original y chunks. Estado detallado, archivos, pruebas y capturas: [auditoría](docs/AUDIT_STAGES_05_06.md). [Límites científicos](docs/SCIENTIFIC_LIMITATIONS.md), [diccionario](docs/DATA_DICTIONARY.md) y [arquitectura](docs/ARCHITECTURE.md).
+- **Frontend:** React, Vite, React Router, Three.js y OpenLayers.
+- **Backend:** Python, FastAPI y Uvicorn.
+- **Análisis científico:** NumPy, SciPy, Rasterio y el paquete `mars_ml`.
+- **Despliegue:** GitHub Pages para el frontend y Render para la API.
 
-Para comprobar: Load 3D terrain → Import preliminary route → Use endpoints only → Calculate routes. Comparar alternativas y perfil; inspeccionar mediante clic derecho o Inspect mode. Export mission guarda JSON; Import mission valida entradas y requiere recalcular. Cambiar condiciones marca resultados anteriores Outdated. La guía completa incluye filtros, exclusiones, ausencia de solución, cancelación y persistencia entre páginas.
+## Ejecutar el proyecto localmente
 
-Datos efectivos: DEM HRSC/MOLA a 250 m y polvo histórico MY36 regional opcional. Temperatura, viento, movilidad mecánica y radiación no evaluados se muestran Unavailable. Hora local/Ls/clima deshabilitados sin MCD. No hay optimización temporal ni navegación certificada. Contornos exactos y prueba táctil física pendientes; sólo LOD0.
+### Requisitos
 
-Resultado final: 170 pruebas Python aprobadas, una omitida por symlinks Windows; 17 pruebas frontend, lint y build aprobados. Reproducción científica desde raíz: WebApp/backend/.venv/Scripts/python.exe scripts/validate-stages-05-06.py. Las advertencias de bundles grandes persisten; no equivalen a una prueba de rendimiento móvil.
+- Node.js 22 y npm.
+- Python 3.14 y Git.
+- Los archivos de terreno y datos científicos incluidos en el repositorio. Si faltan, consultá la [guía de despliegue](docs/DEPLOYMENT.md).
+
+### 1. Preparar y ejecutar la API
+
+Desde la raíz del proyecto:
+
+```bash
+python -m venv .venv
+```
+
+Activá el entorno virtual y ejecutá:
+
+```bash
+python -m pip install -r WebApp/backend/requirements.txt
+cd WebApp/backend
+python -m uvicorn app.main:app --host 127.0.0.1 --port 8000
+```
+
+La API estará disponible en `http://127.0.0.1:8000` y su documentación interactiva en `http://127.0.0.1:8000/docs`.
+
+### 2. Preparar y ejecutar el frontend
+
+En otra terminal:
+
+```bash
+cd WebApp/frontend
+npm ci
+npm run dev
+```
+
+Abrí la dirección que indique Vite, normalmente `http://localhost:5173`. Por defecto, el frontend consulta la API local en el puerto 8000. Los ejemplos de configuración están en [`WebApp/frontend/.env.example`](WebApp/frontend/.env.example) y [`WebApp/backend/.env.example`](WebApp/backend/.env.example).
+
+En Windows también podés usar `Start-BridgesMavors.ps1` desde la raíz para iniciar los servicios locales. El script sirve la última compilación del frontend; ejecutá `npm run build` en `WebApp/frontend` después de modificarlo.
+
+## Estructura del repositorio
+
+```text
+WebApp/
+├── frontend/          Interfaz, mapas, visor 3D y planificación
+├── backend/           API, consultas científicas y servicios
+└── mars_ml/           Herramientas de análisis e investigación eólica
+data/                  Productos científicos adicionales
+output-stage4/         Datos regionales derivados para consultas y rutas
+docs/                  Arquitectura, fuentes, limitaciones y despliegue
+recursosU/             Fuentes y materiales históricos del terreno
+```
+
+La aplicación activa está en `WebApp/`. Las carpetas `backend/` y `ops_mars-main/` de la raíz son copias históricas, no los servidores principales. Los scripts históricos `reorganize.py` y `consolidate.py` mueven o eliminan archivos y no son necesarios para ejecutar la aplicación.
+
+## Verificación y despliegue
+
+Desde `WebApp/frontend`:
+
+```bash
+npm run lint
+npm run build
+npm run test:terrain
+```
+
+Para ejecutar las pruebas del backend y de `mars_ml`, desde `WebApp/backend`, incluí `WebApp` y `WebApp/backend` en `PYTHONPATH` y ejecutá `python -m pytest tests ../mars_ml/tests -q`.
+
+La aplicación publicada usa el plan gratuito de Render: el backend puede tardar en responder después de un período de inactividad. Para configurar otro despliegue, consultá [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md). No incluyas credenciales en el código ni en variables `VITE_*`, que quedan expuestas en el frontend.
