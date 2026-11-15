@@ -1,0 +1,185 @@
+{
+  "dataset_id": "coprates_chasma_dunes",
+  "name": "Coprates Chasma dune morphometry, thermal inertia and CTX products",
+  "source": "figshare collection 5198183",
+  "provider": "figshare",
+  "mission": "Mars Reconnaissance Orbiter",
+  "instrument": "Context Camera (CTX) and High Resolution Imaging Science Experiment (HiRISE) references",
+  "location": "Coprates Chasma, Valles Marineris, Mars",
+  "acquisition_dates": [],
+  "acquisition_dates_status": "requires_pds_resolution",
+  "resolution": [
+    {
+      "value": 6.0,
+      "unit": "m/pixel",
+      "product": "CTX orthoimages F10_039683 and F11_040039"
+    },
+    {
+      "value": 20.0,
+      "unit": "m/pixel",
+      "product": "CTX DEM and FOM derived from the two orthoimages"
+    }
+  ],
+  "coordinate_reference_system": {
+    "name": "Mars Equidistant Cylindrical (source shapefile)",
+    "units": "metre",
+    "spheroid": "MARS",
+    "semi_major_axis_m": 3396190.0,
+    "central_meridian_deg": 296.82,
+    "wkt": "PROJCS[\"Equidistant_Cylindrical\",GEOGCS[\"GCS_D_Unknown\",DATUM[\"D_unknown\",SPHEROID[\"Unknown\",3396190.0,0.0]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Equidistant_Cylindrical\"],PARAMETER[\"false_easting\",0.0],PARAMETER[\"false_northing\",0.0],PARAMETER[\"central_meridian\",296.82],PARAMETER[\"standard_parallel_1\",0.0],UNIT[\"Meter\",1.0]]",
+    "raster_crs_status": "Validate the GeoTIFF CRS and transform before combining vectors and rasters."
+  },
+  "data_type": "vector_annotation_and_raster_products",
+  "license": "CC BY 4.0",
+  "limitations": [
+    "Acquisition timestamps are not present in the ArcGIS .tif.xml sidecars and must be resolved from PDS labels or indexes.",
+    "The two CTX orthoimages are separated by a published multi-year baseline but the exact interval must be verified before computing a rate.",
+    "Polygon IDs must be matched to data-table rows by explicit inspection; do not assume row order or one-to-one identity.",
+    "The data tables mix dune morphometry, ripple displacement, thermal inertia and registration error; these quantities are not interchangeable.",
+    "Published ripple and brink migration values are context for validation, not labels for every polygon.",
+    "The CTX DEM is a product derived from the orthoimages; it is not co-registered with unrelated HiRISE DTMs."
+  ],
+  "doi": "10.6084/m9.figshare.c.5198183.v3",
+  "url": "https://figshare.com/collections/Coprates_Chasma_Dune_Data/5198183/3",
+  "version": "3",
+  "retrieved_at_utc": "2026-11-14T00:00:00+00:00",
+  "has_pixels": false,
+  "has_labels": true,
+  "has_temporal_series": true,
+  "files": [
+    {
+      "name": "Dune_polygon.zip",
+      "size_bytes": 13708,
+      "url": "https://ndownloader.figshare.com/files/25401038",
+      "role": "vector_annotation",
+      "selected": true
+    },
+    {
+      "name": "BoazmaSJ_Coprates_Dunes_DataTables.xlsx",
+      "size_bytes": 45783,
+      "url": "https://ndownloader.figshare.com/files/26297815",
+      "role": "measurement_table",
+      "selected": true
+    },
+    {
+      "name": "Index_CTX_DEM.xlsx",
+      "size_bytes": 10788,
+      "url": "https://ndownloader.figshare.com/files/25401029",
+      "role": "product_index",
+      "selected": true
+    },
+    {
+      "name": "F10_039683_1658_XN_14S063W_6m_o.tif",
+      "size_bytes": 13727162,
+      "url": "https://ndownloader.figshare.com/files/25400984",
+      "role": "ctx_orthoimage_6m",
+      "selected": true
+    },
+    {
+      "name": "F10_039683_1658_XN_14S063W_6m_o.tfw",
+      "size_bytes": 91,
+      "url": "https://ndownloader.figshare.com/files/25400981",
+      "role": "world_file",
+      "selected": false
+    },
+    {
+      "name": "F10_039683_1658_XN_14S063W_6m_o.tif.aux.xml",
+      "size_bytes": 2472,
+      "url": "https://ndownloader.figshare.com/files/25400987",
+      "role": "arcgis_metadata",
+      "selected": false
+    },
+    {
+      "name": "F10_039683_1658_XN_14S063W_6m_o.tif.ovr",
+      "size_bytes": 4967003,
+      "url": "https://ndownloader.figshare.com/files/25400993",
+      "role": "overview",
+      "selected": false
+    },
+    {
+      "name": "F10_039683_1658_XN_14S063W_6m_o.tif.xml",
+      "size_bytes": 5880,
+      "url": "https://ndownloader.figshare.com/files/25400996",
+      "role": "arcgis_metadata",
+      "selected": false
+    },
+    {
+      "name": "F11_040039_1660_XN_14S063W_6m_o.tif",
+      "size_bytes": 12401790,
+      "url": "https://ndownloader.figshare.com/files/25401014",
+      "role": "ctx_orthoimage_6m",
+      "selected": true
+    },
+    {
+      "name": "F11_040039_1660_XN_14S063W_6m_o.tfw",
+      "size_bytes": 91,
+      "url": "https://ndownloader.figshare.com/files/25401011",
+      "role": "world_file",
+      "selected": false
+    },
+    {
+      "name": "F11_040039_1660_XN_14S063W_6m_o.tif.aux.xml",
+      "size_bytes": 2267,
+      "url": "https://ndownloader.figshare.com/files/25401017",
+      "role": "arcgis_metadata",
+      "selected": false
+    },
+    {
+      "name": "F11_040039_1660_XN_14S063W_6m_o.tif.ovr",
+      "size_bytes": 4658928,
+      "url": "https://ndownloader.figshare.com/files/25401020",
+      "role": "overview",
+      "selected": false
+    },
+    {
+      "name": "F11_040039_1660_XN_14S063W_6m_o.tif.xml",
+      "size_bytes": 5880,
+      "url": "https://ndownloader.figshare.com/files/25401023",
+      "role": "arcgis_metadata",
+      "selected": false
+    },
+    {
+      "name": "F10_039683_F11_040039_20m_o.tif",
+      "size_bytes": 10094961,
+      "url": "https://ndownloader.figshare.com/files/25401002",
+      "role": "ctx_dem_20m",
+      "selected": true
+    },
+    {
+      "name": "F10_039683_F11_040039_20m_o.tfw",
+      "size_bytes": 93,
+      "url": "https://ndownloader.figshare.com/files/25400999",
+      "role": "world_file",
+      "selected": false
+    },
+    {
+      "name": "F10_039683_F11_040039_20m_o.tif.aux.xml",
+      "size_bytes": 2268,
+      "url": "https://ndownloader.figshare.com/files/25401005",
+      "role": "arcgis_metadata",
+      "selected": false
+    },
+    {
+      "name": "F10_039683_F11_040039_20m_o.tif.ovr",
+      "size_bytes": 3803109,
+      "url": "https://ndownloader.figshare.com/files/25401008",
+      "role": "overview",
+      "selected": false
+    }
+  ],
+  "published_context": {
+    "citation_doi": "10.1029/2020JE006608",
+    "citation": "Boazman et al., Measuring Ripple and Dune Migration in Coprates Chasma, Valles Marineris: A Source to Sink Aeolian System on Mars?, JGR Planets, 2021.",
+    "published_dune_brink_migration_m_per_earth_year": [0.1, 0.3],
+    "published_analysis_interval": "approximately 2007-2014",
+    "vector_record_count": 21,
+    "worksheet_rows_including_header": {
+      "Dune morphometrics (fig 3)": 116,
+      "CTX vs HiRISE heights (fig3)": 22,
+      "Thermal inertia (fig4)": 11,
+      "Ripple displacement( fig7)": 117,
+      "ripple mis registration (fig7)": 6
+    }
+  },
+  "notes": "Verified through the figshare API on 2026-11-14. The shapefile has 21 polygon records with an ID field. The tables and rasters are separate products; published summary ranges must not be used as per-dune labels."
+}

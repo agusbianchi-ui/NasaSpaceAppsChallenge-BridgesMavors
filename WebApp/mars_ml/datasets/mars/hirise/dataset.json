@@ -1,0 +1,54 @@
+{
+  "dataset_id": "hirise_pds_archive",
+  "name": "HiRISE PDS archive",
+  "source": "NASA Planetary Data System",
+  "provider": "HiRISE PDS",
+  "mission": "Mars Reconnaissance Orbiter",
+  "instrument": "High Resolution Imaging Science Experiment (HiRISE)",
+  "location": "Mars (global archive; no site selected in this manifest)",
+  "acquisition_dates": [],
+  "acquisition_dates_status": "not_applicable",
+  "resolution": [
+    {
+      "value": 0.25,
+      "unit": "m/pixel",
+      "product": "orthorectified image products"
+    },
+    {
+      "value": 1.0,
+      "unit": "m/pixel",
+      "product": "DTM and FOM products"
+    }
+  ],
+  "coordinate_reference_system": {
+    "name": "Product-specific Mars map projection",
+    "units": "metre",
+    "spheroid": "MARS",
+    "semi_major_axis_m": 3396190.0,
+    "status": "Each product label must be inspected; do not assume a common grid or projection."
+  },
+  "data_type": "raster_archive",
+  "license": "NASA PDS data policy; verify individual product labels",
+  "limitations": [
+    "No HiRISE product has been selected, downloaded or validated in this manifest.",
+    "Orthorectified image naming and processing level vary across the archive; ERRATA must be checked.",
+    "Not all products are controlled to the same cartographic reference, and DTMs may not be co-registered.",
+    "JPEG 2000 reading depends on the GDAL drivers available in the local Rasterio build.",
+    "Acquisition time, incidence, emission, phase and solar longitude must come from labels or indexes, never from filenames alone.",
+    "HiRISE coverage is not itself a multitemporal dune-change dataset."
+  ],
+  "doi": null,
+  "url": "https://hirise-pds.lpl.arizona.edu/PDS/",
+  "version": null,
+  "retrieved_at_utc": "2026-11-14T00:00:00+00:00",
+  "has_pixels": false,
+  "has_labels": false,
+  "has_temporal_series": false,
+  "files": [],
+  "published_context": {
+    "archive_directories": ["CATALOG", "DOCUMENT", "DTM", "EDR", "EXTRAS", "INDEX", "LABEL", "RDR"],
+    "index_files": ["INDEX/DTMCUMINDEX.LBL", "INDEX/RDRCUMINDEX.LBL"],
+    "errata": "ERRATA.TXT"
+  },
+  "notes": "Archive-level record only. A future site-specific manifest must name individual product IDs and verify their labels before any download."
+}

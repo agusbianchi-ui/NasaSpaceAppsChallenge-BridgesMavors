@@ -1,0 +1,212 @@
+prune: Removed types... TextureInfo (215), Material (43)
+Some extensions were not registered for I/O, and will not be written.
+Some extensions were not registered for I/O, and will not be written.
+Some extensions were not registered for I/O, and will not be written.
+Some extensions were not registered for I/O, and will not be written.
+Some extensions were not registered for I/O, and will not be written.
+Some extensions were not registered for I/O, and will not be written.
+Some extensions were not registered for I/O, and will not be written.
+Some extensions were not registered for I/O, and will not be written.
+Some extensions were not registered for I/O, and will not be written.
+Some extensions were not registered for I/O, and will not be written.
+Some extensions were not registered for I/O, and will not be written.
+Some extensions were not registered for I/O, and will not be written.
+Some extensions were not registered for I/O, and will not be written.
+Some extensions were not registered for I/O, and will not be written.
+Some extensions were not registered for I/O, and will not be written.
+Some extensions were not registered for I/O, and will not be written.
+Some extensions were not registered for I/O, and will not be written.
+Some extensions were not registered for I/O, and will not be written.
+Some extensions were not registered for I/O, and will not be written.
+Some extensions were not registered for I/O, and will not be written.
+Some extensions were not registered for I/O, and will not be written.
+Some extensions were not registered for I/O, and will not be written.
+Some extensions were not registered for I/O, and will not be written.
+Some extensions were not registered for I/O, and will not be written.
+Some extensions were not registered for I/O, and will not be written.
+Some extensions were not registered for I/O, and will not be written.
+Some extensions were not registered for I/O, and will not be written.
+Some extensions were not registered for I/O, and will not be written.
+Some extensions were not registered for I/O, and will not be written.
+Some extensions were not registered for I/O, and will not be written.
+Some extensions were not registered for I/O, and will not be written.
+Some extensions were not registered for I/O, and will not be written.
+Some extensions were not registered for I/O, and will not be written.
+Some extensions were not registered for I/O, and will not be written.
+Some extensions were not registered for I/O, and will not be written.
+Some extensions were not registered for I/O, and will not be written.
+Some extensions were not registered for I/O, and will not be written.
+Some extensions were not registered for I/O, and will not be written.
+Some extensions were not registered for I/O, and will not be written.
+Some extensions were not registered for I/O, and will not be written.
+Some extensions were not registered for I/O, and will not be written.
+Some extensions were not registered for I/O, and will not be written.
+Some extensions were not registered for I/O, and will not be written.
+Some extensions were not registered for I/O, and will not be written.
+Some extensions were not registered for I/O, and will not be written.
+Some extensions were not registered for I/O, and will not be written.
+Some extensions were not registered for I/O, and will not be written.
+[
+  {
+    "file": "terrain-lod0-meshopt.glb",
+    "lod": 0,
+    "bytes": 54385420,
+    "sha256": "1da31d88aecfa70c2642b2209c896c0d7a20abbb2758b6ff3cf870f20b3aff06",
+    "bounds": [
+      [
+        -100000,
+        1800,
+        -101000
+      ],
+      [
+        100000,
+        15462,
+        101000
+      ]
+    ],
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "transform": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "resolution_model_units": 250,
+    "resolution_scientific": null,
+    "triangles": 2897732,
+    "meshes": 44,
+    "materials": 1,
+    "primitives": 44,
+    "draw_calls_single_pass_estimate": 44,
+    "compression": "EXT_meshopt_compression; no quantization transform",
+    "max_position_error": 0,
+    "color_normal_index_equivalence": true,
+    "threejs_node_load": true,
+    "validation": {
+      "numErrors": 0,
+      "numWarnings": 0,
+      "numInfos": 2,
+      "numHints": 0,
+      "messages": [
+        {
+          "code": "UNSUPPORTED_EXTENSION",
+          "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+          "severity": 2,
+          "pointer": "/extensionsUsed/0"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/buffers/0"
+        }
+      ],
+      "truncated": false
+    },
+    "decoded_validation": {
+      "numErrors": 0,
+      "numWarnings": 0,
+      "numInfos": 0,
+      "numHints": 0,
+      "messages": [],
+      "truncated": false
+    }
+  },
+  {
+    "file": "terrain-joined-meshopt.glb",
+    "lod": 0,
+    "bytes": 54324304,
+    "sha256": "d045d8f23416f91ca391df7081dadbc33baf5ba8b91027d7fecffb321b6b0fe5",
+    "bounds": [
+      [
+        -100000,
+        1800,
+        -101000
+      ],
+      [
+        100000,
+        15462,
+        101000
+      ]
+    ],
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "transform": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "resolution_model_units": 250,
+    "resolution_scientific": null,
+    "triangles": 2897732,
+    "meshes": 1,
+    "materials": 1,
+    "primitives": 1,
+    "draw_calls_single_pass_estimate": 1,
+    "compression": "EXT_meshopt_compression; no quantization transform",
+    "max_position_error": 0,
+    "color_normal_index_equivalence": true,
+    "threejs_node_load": true,
+    "validation": {
+      "numErrors": 0,
+      "numWarnings": 0,
+      "numInfos": 2,
+      "numHints": 0,
+      "messages": [
+        {
+          "code": "UNSUPPORTED_EXTENSION",
+          "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+          "severity": 2,
+          "pointer": "/extensionsUsed/0"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/buffers/0"
+        }
+      ],
+      "truncated": false
+    },
+    "decoded_validation": {
+      "numErrors": 0,
+      "numWarnings": 0,
+      "numInfos": 0,
+      "numHints": 0,
+      "messages": [],
+      "truncated": false
+    }
+  }
+]

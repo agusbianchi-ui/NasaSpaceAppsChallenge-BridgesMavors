@@ -1,0 +1,1147 @@
+{
+  "source": "MapaMarteN.glb",
+  "source_sha256": "8786642ea6461b4c62ee5b0f9a3b190a962e84ef1e3844dd293a73494068ab48",
+  "rows": 808,
+  "columns": 800,
+  "cellSize": 250.0,
+  "originX": -100000.0,
+  "originZ": -101000.0,
+  "bounds": [
+    [
+      -100000.0,
+      1800.0,
+      -101000.0
+    ],
+    [
+      100000.0,
+      15462.0,
+      101000.0
+    ]
+  ],
+  "axes": "X east, Y visual up, Z south",
+  "order": "row-major: rows increase +Z, columns increase +X",
+  "cellConvention": "half-open [min,max), center=min+cellSize/2",
+  "dtype": "float32",
+  "endianness": "little",
+  "nodata": "NaN and mask=0",
+  "mask": "uint8, 1 valid, 0 absent",
+  "classification": "Registered visual/scientific bundle; variable classifications are separate",
+  "georeference_verified": true,
+  "verticalScale": "Visual exaggeration 3x with -4500 m reference and 2 m quantization; scientific grid unexaggerated",
+  "modelToOptimized": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "nodeTransforms": [
+    {
+      "node": 0,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "node": 1,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "node": 2,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "node": 3,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "node": 4,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "node": 5,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "node": 6,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "node": 7,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "node": 8,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "node": 9,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "node": 10,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "node": 11,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "node": 12,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "node": 13,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "node": 14,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "node": 15,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "node": 16,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "node": 17,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "node": 18,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "node": 19,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "node": 20,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "node": 21,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "node": 22,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "node": 23,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "node": 24,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "node": 25,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "node": 26,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "node": 27,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "node": 28,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "node": 29,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "node": 30,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "node": 31,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "node": 32,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "node": 33,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "node": 34,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "node": 35,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "node": 36,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "node": 37,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "node": 38,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "node": 39,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "node": 40,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "node": 41,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "node": 42,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "node": 43,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    }
+  ],
+  "validCells": 507538,
+  "enclosedHoleCells": 0,
+  "exteriorAbsentCells": 138862,
+  "visual_elevation.bin": {
+    "bytes": 2585600,
+    "sha256": "36f723b223baf148bcd10fa0d288aaee5090990db56fa09d8b3074d73887bf99",
+    "dtype": "float32 little-endian"
+  },
+  "valid_mask.bin": {
+    "bytes": 646400,
+    "sha256": "afe8b31169a4910b4e29c9362eefc47ca187ac208a4d79b7d11fa8bcefd016a5",
+    "dtype": "uint8"
+  },
+  "stage": 4,
+  "georeference_scope": "complete geometry and mask match to georeferenced source pipeline; not independent surveyed positional accuracy",
+  "crs_wkt": "PROJCRS[\"unknown\",BASEGEOGCRS[\"unknown\",DATUM[\"unknown\",ELLIPSOID[\"unknown\",3396190,0,LENGTHUNIT[\"metre\",1,ID[\"EPSG\",9001]]]],PRIMEM[\"Reference meridian\",0,ANGLEUNIT[\"degree\",0.0174532925199433,ID[\"EPSG\",9122]]]],CONVERSION[\"unknown\",METHOD[\"Azimuthal Equidistant\",ID[\"EPSG\",1125]],PARAMETER[\"Latitude of natural origin\",17.5,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8801]],PARAMETER[\"Longitude of natural origin\",77,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8802]],PARAMETER[\"False easting\",0,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8806]],PARAMETER[\"False northing\",0,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8807]]],CS[Cartesian,2],AXIS[\"(E)\",east,ORDER[1],LENGTHUNIT[\"metre\",1,ID[\"EPSG\",9001]]],AXIS[\"(N)\",north,ORDER[2],LENGTHUNIT[\"metre\",1,ID[\"EPSG\",9001]]]]",
+  "radius_m": 3396190,
+  "latitude_type": "planetocentric",
+  "longitude_direction": "positive east",
+  "longitude_domain": [
+    -180,
+    180
+  ],
+  "region": "NASA EMC Jezero Crater EZ buffer FID27 and surrounding terrain; region is not only Jezero crater",
+  "projection_center": [
+    77,
+    17.5
+  ],
+  "horizontal_unit": "metre",
+  "horizontal_scale": 1,
+  "rotation_degrees": 0,
+  "visual_transform": {
+    "formula": "Y=3*(round(h/2)*2+4500)",
+    "vertical_exaggeration": 3,
+    "reference_elevation_m": -4500,
+    "quantization_m": 2,
+    "inverse_unquantized_formula": "h=Y/3-4500",
+    "inverse_limitation": "recovers quantized h only, \u00b11 m relative to processed DEM"
+  },
+  "vertical_reference": "HRSC/MOLA blended product elevations preserved; exact areoid realization not identified in retrieved labels; not ellipsoidal height",
+  "scientific_elevation_unit": "m",
+  "source_id": "hrsc-mola-v2",
+  "source_info": {
+    "wkt": "GEOGCS[\"GCS_Mars_2000_Sphere\",DATUM[\"Mars_2000_(Sphere)\",SPHEROID[\"Mars_2000_Sphere_IAU_IAG\",3396190,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+    "transform": [
+      0.003374120830641,
+      0.0,
+      74.99918177569359,
+      0.0,
+      -0.003374120830641,
+      19.50111936458694
+    ],
+    "shape": [
+      1215,
+      1185
+    ],
+    "nodata": -32768.0,
+    "scale": 1.0,
+    "offset": 0.0,
+    "bounds": [
+      74.99918177569359,
+      15.401562555358126,
+      78.99751496000317,
+      19.50111936458694
+    ]
+  },
+  "source_resolution": {
+    "nominal_m": 200,
+    "degrees": 0.003374120830641,
+    "effective": "blend of differing source resolutions; not uniformly 200 m measured detail"
+  },
+  "scientific_grid_method": "bilinear source reprojection, no exaggeration, mask by official polygon cell centers",
+  "historical_grid_offset": [
+    108,
+    112
+  ],
+  "coverage_lon_lat": [
+    75.23273450676716,
+    15.79815395026328,
+    78.76726549323286,
+    19.201822252318696
+  ],
+  "gradient_method": "3x3 plane through central elevation; 8 neighbor geodesic east/north offsets on Mars sphere; requires all nine valid",
+  "roughness_method": "RMS plane residual across 9 samples, not mechanical stability",
+  "local_relief_method": "maximum minus minimum in 3x3; all samples required",
+  "aspect_method": "downhill clockwise from geographic north; null for flat/invalid",
+  "geodesic_adjacent_x_distance_m": [
+    249.96324192607284,
+    249.99999994486427
+  ],
+  "aspect.bin": {
+    "bytes": 2585600,
+    "sha256": "fbc119d0af0fac0c6e257aca59e1f73920c1338d85390fc738eaa064abb30b93",
+    "dtype": "float32 little-endian"
+  },
+  "local_relief.bin": {
+    "bytes": 2585600,
+    "sha256": "7286adcc4f0102dcc075814879e9e35fff65f9bdfaffde54983514e347134ea5",
+    "dtype": "float32 little-endian"
+  },
+  "roughness.bin": {
+    "bytes": 2585600,
+    "sha256": "500fdd5c9669aee0fe23d9c517c8402cc4e8cd72888ef44987ae983df337c5ac",
+    "dtype": "float32 little-endian"
+  },
+  "scientific_elevation.bin": {
+    "bytes": 2585600,
+    "sha256": "dfc84c673159fe675e5fa7371f58d3d07a2f6189452d5e7c68f5b11e786304b8",
+    "dtype": "float32 little-endian"
+  },
+  "slope.bin": {
+    "bytes": 2585600,
+    "sha256": "a5a2041a90655d1e742638b1eaf522215cc171e706e88fbb1ee9b2fa35960535",
+    "dtype": "float32 little-endian"
+  },
+  "lineage": [
+    {
+      "file": "MapaMarteN.glb",
+      "sha256": "8786642ea6461b4c62ee5b0f9a3b190a962e84ef1e3844dd293a73494068ab48",
+      "bytes": 242847404
+    },
+    {
+      "file": "MapaMarte1.blend",
+      "sha256": "b7d34987535c32a9c66b8db133b5e0b23757b9f734821abfd79374593aaf9511",
+      "bytes": 383597133
+    },
+    {
+      "file": "data/raw/ez-hrsc200.tif",
+      "sha256": "8f29232a711b87259e62ff1fe556841969c1b32686b361b332c4214375a81e46",
+      "bytes": 2887375
+    },
+    {
+      "file": "data/raw/ez-viking.tif",
+      "sha256": "e1b29e7cb03c7fef14e5863f7f72b0d3de4da40508e83e791e4d1acacea76a63",
+      "bytes": 3149287
+    },
+    {
+      "file": "data/raw/ez-layer4.json",
+      "sha256": "6cdd718f80c1b2aba5c2fb30db7eeeea26fb678e405f809156db062faca4c761",
+      "bytes": 14810
+    },
+    {
+      "file": "output-visual/ez-dem.tif",
+      "sha256": "9b8155ec1ec1124aba6d33cae3810a70e1262177950735b403abc73d5c0b7718",
+      "bytes": 4197975
+    },
+    {
+      "file": "output-visual/elevation.f32",
+      "sha256": "694d36d2d83933d10a86b20837344d1dba00ab5181111e2986e8cc0f3bfa12b5",
+      "bytes": 4194304
+    },
+    {
+      "file": "output-visual/metadata.json",
+      "sha256": "a5602bbc11bd07c2c8274f41c17164523dfbb47f04644289a3212ffb03e95a3c",
+      "bytes": 3533
+    },
+    {
+      "file": "scripts/build_visual.py",
+      "sha256": "721d1fbf57933cc0429e007b7ec7dcbfe69646fed9735c8433b4a76433bd9dd2",
+      "bytes": 8894
+    },
+    {
+      "file": "scripts/download_visual.py",
+      "sha256": "5f77598386fcb4b79df0a9d2a3d8b8fde0c4dbb6d9a73120390e406b74004f16",
+      "bytes": 2850
+    },
+    {
+      "file": "scripts/extract-stage3.py",
+      "sha256": "4ffbc742c0085ced98a279523ea2526ef6fd7328e4477c34c0caf03159a61ba1",
+      "bytes": 5245
+    }
+  ]
+}

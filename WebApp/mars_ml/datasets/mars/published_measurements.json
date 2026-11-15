@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.0.0",
+  "description": "Published aggregate ranges for context only. These values are not per-dune labels and must not be used as training targets for individual dunes.",
+  "measurements": [
+    {
+      "measurement_id": "coprates_brink_migration",
+      "dataset_id": "coprates_chasma_dunes",
+      "citation_doi": "10.1029/2020JE006608",
+      "citation": "Boazman et al., Measuring Ripple and Dune Migration in Coprates Chasma, Valles Marineris: A Source to Sink Aeolian System on Mars?, JGR Planets, 2021.",
+      "quantity": "dune_brink_migration_rate",
+      "value_min": 0.1,
+      "value_max": 0.3,
+      "unit": "m per Earth year",
+      "spatial_scope": "Coprates Chasma dune field, aggregate",
+      "temporal_scope": "approximately 2007-2014",
+      "usage": "aggregate_context_only",
+      "limitations": [
+        "The range aggregates observations across the study area.",
+        "It is not a label for any individual polygon in the shapefile.",
+        "The acquisition interval must still be verified before a local rate is computed."
+      ],
+      "notes": "Reported brink migration range; do not assign it to individual dunes."
+    },
+    {
+      "measurement_id": "ctx_multitemporal_migration",
+      "dataset_id": "ctx_multitemporal_six_sites",
+      "citation_doi": "10.1029/2019EA000874",
+      "citation": "Davis et al., Quantified Aeolian Dune Changes on Mars Derived From Repeat Context Camera Images, Earth and Space Science, 2020.",
+      "quantity": "dune_migration_rate",
+      "value_min": 0.2,
+      "value_max": 1.1,
+      "unit": "m per Earth year",
+      "spatial_scope": "Six study sites, aggregate",
+      "temporal_scope": "approximately 7.5-11 Earth years depending on site",
+      "usage": "aggregate_context_only",
+      "limitations": [
+        "The range aggregates six separate dune fields.",
+        "It is not a label for individual dunes.",
+        "Site-specific baselines differ and must be resolved independently."
+      ],
+      "notes": "Published aggregate migration range for the repeat-CTX study."
+    },
+    {
+      "measurement_id": "ctx_multitemporal_flux",
+      "dataset_id": "ctx_multitemporal_six_sites",
+      "citation_doi": "10.1029/2019EA000874",
+      "citation": "Davis et al., Quantified Aeolian Dune Changes on Mars Derived From Repeat Context Camera Images, Earth and Space Science, 2020.",
+      "quantity": "sediment_flux",
+      "value_min": 2.4,
+      "value_max": 11.6,
+      "unit": "m^3 per m per Earth year",
+      "spatial_scope": "Six study sites, aggregate",
+      "temporal_scope": "approximately 7.5-11 Earth years depending on site",
+      "usage": "aggregate_context_only",
+      "limitations": [
+        "Flux is not migration rate and the two must not be interchanged.",
+        "The range aggregates six separate dune fields.",
+        "It is not a label for individual dunes."
+      ],
+      "notes": "Published aggregate flux range; keep separate from displacement metrics."
+    },
+    {
+      "measurement_id": "pasteur_ripple_migration_regional",
+      "dataset_id": "jezero_crater_repeat_coverage_assessment",
+      "citation_doi": "10.1002/esp.6013",
+      "citation": "Sahu et al., regional study reporting Pasteur crater ripple-crest rates.",
+      "quantity": "ripple_crest_migration_rate",
+      "value_min": 0.29,
+      "value_max": 1.18,
+      "unit": "m per Earth year",
+      "spatial_scope": "Pasteur crater, regional comparison",
+      "temporal_scope": "Study-specific; not a Jezero interval",
+      "usage": "aggregate_context_only",
+      "limitations": [
+        "Pasteur crater is not Jezero Crater.",
+        "These values must not be transferred to Jezero or used as Jezero labels.",
+        "Interior dune migration at Jezero is reported to be limited."
+      ],
+      "notes": "Included only to prevent unsupported transfer to Jezero."
+    }
+  ]
+}

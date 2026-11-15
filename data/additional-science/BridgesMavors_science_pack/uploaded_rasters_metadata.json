@@ -1,0 +1,183 @@
+[
+  {
+    "file": "mola_roughness.tif",
+    "role": "visual_reference_only",
+    "numeric_science_values": false,
+    "width": 2880,
+    "height": 1440,
+    "bands": 3,
+    "dtypes": [
+      "uint8",
+      "uint8",
+      "uint8"
+    ],
+    "color_interpretation": [
+      "red",
+      "green",
+      "blue"
+    ],
+    "crs": "ESRI:104905",
+    "crs_wkt": "GEOGCS[\"GCS_Mars_2000\",DATUM[\"D_Mars_2000\",SPHEROID[\"Mars_2000_IAU_IAG\",3396190,169.894447223612,AUTHORITY[\"ESRI\",\"107905\"]],AUTHORITY[\"ESRI\",\"106905\"]],PRIMEM[\"Reference_Meridian\",0,AUTHORITY[\"ESRI\",\"108900\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"ESRI\",\"104905\"]]",
+    "transform_gdal": [
+      -180.062523180252,
+      0.125046360460533,
+      0.0,
+      90.06252343035058,
+      0.0,
+      -0.125046360590838
+    ],
+    "bounds": [
+      -180.062523180252,
+      -90.00423582045616,
+      180.07099494608306,
+      90.06252343035058
+    ],
+    "pixel_size_degrees": [
+      0.125046360460533,
+      0.125046360590838
+    ],
+    "nodata": 0.0,
+    "units": [
+      null,
+      null,
+      null
+    ],
+    "scales": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "offsets": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sha256": "f603e13f7c4c2f54c41086e8dee308d6a5536ee5021b3410d0b4eeb51b5a46c4",
+    "tags": {
+      "DataType": "Generic",
+      "AREA_OR_POINT": "Area"
+    }
+  },
+  {
+    "file": "TES_Dust.tif",
+    "role": "visual_reference_only",
+    "numeric_science_values": false,
+    "width": 2880,
+    "height": 1440,
+    "bands": 3,
+    "dtypes": [
+      "uint8",
+      "uint8",
+      "uint8"
+    ],
+    "color_interpretation": [
+      "red",
+      "green",
+      "blue"
+    ],
+    "crs": "ESRI:104905",
+    "crs_wkt": "GEOGCS[\"GCS_Mars_2000\",DATUM[\"D_Mars_2000\",SPHEROID[\"Mars_2000_IAU_IAG\",3396190,169.894447223612,AUTHORITY[\"ESRI\",\"107905\"]],AUTHORITY[\"ESRI\",\"106905\"]],PRIMEM[\"Reference_Meridian\",0,AUTHORITY[\"ESRI\",\"108900\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"ESRI\",\"104905\"]]",
+    "transform_gdal": [
+      -180.0,
+      0.125,
+      0.0,
+      90.0,
+      0.0,
+      -0.125
+    ],
+    "bounds": [
+      -180.0,
+      -90.0,
+      180.0,
+      90.0
+    ],
+    "pixel_size_degrees": [
+      0.125,
+      0.125
+    ],
+    "nodata": null,
+    "units": [
+      null,
+      null,
+      null
+    ],
+    "scales": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "offsets": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sha256": "9b3e7c3e2bc450fa70f953c9700fb89f2e9e2ae0acc4bfce5934154e3e624e44",
+    "tags": {
+      "AREA_OR_POINT": "Area"
+    }
+  },
+  {
+    "file": "TES_Thermal_Inertia.tif",
+    "role": "visual_reference_only",
+    "numeric_science_values": false,
+    "width": 2880,
+    "height": 1440,
+    "bands": 4,
+    "dtypes": [
+      "uint8",
+      "uint8",
+      "uint8",
+      "uint8"
+    ],
+    "color_interpretation": [
+      "red",
+      "green",
+      "blue",
+      "alpha"
+    ],
+    "crs": "ESRI:104905",
+    "crs_wkt": "GEOGCS[\"GCS_Mars_2000\",DATUM[\"D_Mars_2000\",SPHEROID[\"Mars_2000_IAU_IAG\",3396190,169.894447223612,AUTHORITY[\"ESRI\",\"107905\"]],AUTHORITY[\"ESRI\",\"106905\"]],PRIMEM[\"Reference_Meridian\",0,AUTHORITY[\"ESRI\",\"108900\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"ESRI\",\"104905\"]]",
+    "transform_gdal": [
+      -180.0,
+      0.125,
+      0.0,
+      90.0,
+      0.0,
+      -0.125
+    ],
+    "bounds": [
+      -180.0,
+      -90.0,
+      180.0,
+      90.0
+    ],
+    "pixel_size_degrees": [
+      0.125,
+      0.125
+    ],
+    "nodata": null,
+    "units": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "scales": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "offsets": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sha256": "39f0b9be9cc4b53deeab43a6ff71f67e62065f1a52f16585f5c46f5d68fe1279",
+    "tags": {
+      "DataType": "Generic",
+      "AREA_OR_POINT": "Area"
+    }
+  }
+]

@@ -1,0 +1,63 @@
+{
+  "source_url": "https://asc-pds-services.s3.us-west-2.amazonaws.com/mosaic/Mars/HRSC_MOLA_Blend/Mars_HRSC_MOLA_BlendDEM_Global_200mp_v2.tif",
+  "checks": [
+    {
+      "crop_row": 10,
+      "crop_column": 10,
+      "global_row": 20904,
+      "global_column": 75585,
+      "longitude": 75.03461004441532,
+      "latitude": 19.46569109586521,
+      "remote_raw_value": 98,
+      "local_raw_value": 98,
+      "byte_start": 4461668194
+    },
+    {
+      "crop_row": 300,
+      "crop_column": 400,
+      "global_row": 21194,
+      "global_column": 75975,
+      "longitude": 76.3505171683653,
+      "latitude": 18.48719605497932,
+      "remote_raw_value": -1206,
+      "local_raw_value": -1206,
+      "byte_start": 4523551494
+    },
+    {
+      "crop_row": 600,
+      "crop_column": 600,
+      "global_row": 21494,
+      "global_column": 76175,
+      "longitude": 77.0253413344935,
+      "latitude": 17.47495980578702,
+      "remote_raw_value": -2041,
+      "local_raw_value": -2041,
+      "byte_start": 4587568294
+    },
+    {
+      "crop_row": 900,
+      "crop_column": 1000,
+      "global_row": 21794,
+      "global_column": 76575,
+      "longitude": 78.37498966674991,
+      "latitude": 16.46272355659472,
+      "remote_raw_value": -3314,
+      "local_raw_value": -3314,
+      "byte_start": 4651585494
+    },
+    {
+      "crop_row": 1200,
+      "crop_column": 1170,
+      "global_row": 22094,
+      "global_column": 76745,
+      "longitude": 78.94859020795887,
+      "latitude": 15.45048730740242,
+      "remote_raw_value": -3805,
+      "local_raw_value": -3805,
+      "byte_start": 4715602234
+    }
+  ],
+  "result": "all five distributed source pixels and their center coordinates match",
+  "scope": "source sample verification, not checksum of global file",
+  "header_sha256": "c4189705c45c65eef450cacd4942fc31832a75b48fa35df2b578aa7689f028d7"
+}

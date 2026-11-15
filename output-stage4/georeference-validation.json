@@ -1,0 +1,69 @@
+{
+  "all_top_cells_compared": 507538,
+  "max_visual_difference": 0.0,
+  "max_rebuilt_dem_difference_m": 0.0,
+  "control_points": [
+    {
+      "row": 404,
+      "column": 400,
+      "x": 125.0,
+      "z": 125.0,
+      "visual_y": 6264.0,
+      "scientific_elevation": -2412.146484375,
+      "longitude": 77.00221113940998,
+      "latitude": 17.49789116215703,
+      "roundtrip_error_model_units": 2.084590278172982e-10
+    },
+    {
+      "row": 292,
+      "column": 288,
+      "x": -27875.0,
+      "z": -27875.0,
+      "visual_y": 7548.0,
+      "scientific_elevation": -1984.0396728515625,
+      "longitude": 76.50562082632818,
+      "latitude": 17.969652728254758,
+      "roundtrip_error_model_units": 2.6193447411060333e-10
+    },
+    {
+      "row": 542,
+      "column": 538,
+      "x": 34625.0,
+      "z": 34625.0,
+      "visual_y": 4554.0,
+      "scientific_elevation": -2982.395263671875,
+      "longitude": 77.61054920885944,
+      "latitude": 16.914929499838557,
+      "roundtrip_error_model_units": 2.9831426218152046e-10
+    },
+    {
+      "row": 242,
+      "column": 488,
+      "x": 22125.0,
+      "z": -40375.0,
+      "visual_y": 6678.0,
+      "scientific_elevation": -2273.5869140625,
+      "longitude": 77.39286676130241,
+      "latitude": 18.180761024085612,
+      "roundtrip_error_model_units": 9.276845958083868e-10
+    },
+    {
+      "row": 492,
+      "column": 238,
+      "x": -40375.0,
+      "z": 22125.0,
+      "visual_y": 6882.0,
+      "scientific_elevation": -2205.004638671875,
+      "longitude": 76.28725089318057,
+      "latitude": 17.125472656512216,
+      "roundtrip_error_model_units": 2.9831426218152046e-10
+    }
+  ],
+  "control_type": "source grid checkpoints plus published projection center; no independent ground survey",
+  "projection_center_check": [
+    77.0,
+    17.5
+  ],
+  "quantization_max_error_m": 1.0,
+  "source_pixels_remote_check": "see remote-source-check.json"
+}

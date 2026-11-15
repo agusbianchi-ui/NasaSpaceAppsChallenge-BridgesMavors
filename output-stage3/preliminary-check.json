@@ -1,0 +1,24 @@
+{
+  "points": 155,
+  "start": {
+    "index": 0,
+    "row": 181,
+    "col": 499,
+    "x": 24875.0,
+    "y": 5790.0,
+    "z": -55625.0
+  },
+  "destination": {
+    "index": 154,
+    "row": 321,
+    "col": 433,
+    "x": 8375.0,
+    "y": 7350.0,
+    "z": -20625.0
+  },
+  "max_visual_y_difference": 0.0,
+  "all_positions_valid": true,
+  "optimized_transform": "identity",
+  "screenshot_alignment": "not required by user clarification: cyan circle and point only indicate preliminary start/end; no geographic registration claimed",
+  "route_status": "preliminary_topographic_only"
+}

@@ -1,0 +1,7 @@
+{
+  "WebApp/backend/app/api/v1/ai.py": true,
+  "WebApp/backend/app/core/config.py": true,
+  "WebApp/backend/app/services/aeolian_service.py": true,
+  "WebApp/frontend/src/components/ai/AIAssistant.jsx": true,
+  "WebApp/frontend/src/pages/AISystems.jsx": true
+}

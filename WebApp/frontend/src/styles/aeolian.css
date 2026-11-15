@@ -1,0 +1,824 @@
+/* Aeolian Dynamics */
+
+.aeolian-notice {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 12px 14px;
+  border: 1px solid rgba(61, 214, 140, 0.24);
+  border-radius: var(--radius-md);
+  background: rgba(61, 214, 140, 0.06);
+  color: #a7d9be;
+  font-size: 0.76rem;
+}
+
+.aeolian-notice svg {
+  flex-shrink: 0;
+  margin-top: 1px;
+  color: var(--success);
+}
+
+.aeolian-notice p span {
+  color: var(--success);
+  font-weight: 600;
+}
+
+.aeolian-notice--compact {
+  padding: 9px 11px;
+  font-size: 0.71rem;
+}
+
+.aeolian-datasets {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.35fr);
+  gap: 16px;
+  align-items: start;
+}
+
+.dataset-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.dataset-card {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background: rgba(9, 13, 20, 0.32);
+  color: var(--text);
+  text-align: left;
+  cursor: pointer;
+  transition:
+    background var(--transition),
+    border-color var(--transition);
+}
+
+.dataset-card:hover {
+  border-color: var(--border-strong);
+  background: rgba(232, 117, 50, 0.05);
+}
+
+.dataset-card.is-selected {
+  border-color: rgba(232, 117, 50, 0.44);
+  background: linear-gradient(
+    110deg,
+    rgba(232, 117, 50, 0.13),
+    rgba(232, 117, 50, 0.03)
+  );
+}
+
+.dataset-card__top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.dataset-card__name {
+  font-size: 0.8rem;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.dataset-card__location,
+.dataset-card__meta {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--muted);
+  font-size: 0.66rem;
+}
+
+.dataset-card__location svg {
+  flex-shrink: 0;
+  color: var(--accent);
+}
+
+.dataset-card__meta {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-family: var(--font-mono);
+  font-size: 0.56rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.dataset-detail__lead {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: var(--muted);
+  font-size: 0.74rem;
+}
+
+.dataset-detail__lead p {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.dataset-detail__lead svg {
+  flex-shrink: 0;
+  color: var(--accent);
+}
+
+.metadata-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 9px;
+  margin: 0;
+}
+
+.metadata-grid--compact {
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+}
+
+.metadata-item {
+  padding: 9px 10px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: rgba(9, 13, 20, 0.3);
+}
+
+.metadata-item dt {
+  color: var(--muted);
+  font-family: var(--font-mono);
+  font-size: 0.56rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.metadata-item dd {
+  margin: 3px 0 0;
+  overflow-wrap: anywhere;
+  font-size: 0.72rem;
+}
+
+.dataset-detail__section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.dataset-detail__section h3,
+.dataset-blockers h3,
+.result-section h3 {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-family: var(--font-mono);
+  font-size: 0.64rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.dataset-detail__section h3 svg,
+.dataset-blockers h3 svg {
+  flex-shrink: 0;
+  color: var(--accent);
+}
+
+.dataset-blockers h3 svg,
+.result-section h3 svg {
+  color: var(--warning);
+}
+
+.inline-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.inline-list li {
+  padding: 4px 7px;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  background: rgba(9, 13, 20, 0.35);
+  font-size: 0.64rem;
+}
+
+.resolution-list {
+  display: grid;
+  gap: 6px;
+}
+
+.resolution-list li {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  padding: 7px 9px;
+  border-left: 2px solid rgba(232, 117, 50, 0.4);
+  background: rgba(232, 117, 50, 0.04);
+}
+
+.resolution-list strong {
+  font-size: 0.72rem;
+  font-weight: 600;
+}
+
+.resolution-list span {
+  color: var(--muted);
+  font-size: 0.64rem;
+}
+
+.dataset-flags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.dataset-flag {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 8px;
+  border: 1px solid rgba(224, 87, 74, 0.22);
+  border-radius: 999px;
+  background: rgba(224, 87, 74, 0.06);
+  color: #e68d85;
+  font-family: var(--font-mono);
+  font-size: 0.56rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.dataset-flag--ok {
+  border-color: rgba(61, 214, 140, 0.22);
+  background: rgba(61, 214, 140, 0.07);
+  color: #6fe0ac;
+}
+
+.dataset-blockers {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 11px 12px;
+  border: 1px solid rgba(242, 184, 75, 0.22);
+  border-radius: var(--radius-md);
+  background: rgba(242, 184, 75, 0.05);
+}
+
+.dataset-files {
+  max-height: 250px;
+  overflow: auto;
+}
+
+.reason-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.reason-list li {
+  position: relative;
+  padding-left: 13px;
+  color: var(--muted);
+  font-size: 0.71rem;
+  line-height: 1.5;
+}
+
+.reason-list li::before {
+  content: "";
+  position: absolute;
+  top: 0.58em;
+  left: 0;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--warning);
+}
+
+/* Analysis form */
+
+.aeolian-form-panel .panel__body,
+.aeolian-results .panel__body {
+  gap: 18px;
+}
+
+.aeolian-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.observation-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.observation-card,
+.form-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-width: 0;
+  margin: 0;
+  padding: 14px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background: rgba(9, 13, 20, 0.26);
+}
+
+.observation-card legend,
+.form-section legend {
+  padding: 0 6px;
+  color: var(--accent);
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  min-width: 0;
+}
+
+.field > span:first-child {
+  color: var(--muted);
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.field input,
+.field select {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid var(--border);
+  border-radius: 7px;
+  background: rgba(9, 13, 20, 0.62);
+  color: var(--text);
+  font-size: 0.76rem;
+  transition:
+    border-color var(--transition),
+    background var(--transition);
+}
+
+.field input:hover,
+.field select:hover {
+  border-color: var(--border-strong);
+}
+
+.field input:focus,
+.field select:focus {
+  border-color: rgba(232, 117, 50, 0.55);
+  outline: none;
+  background: rgba(9, 13, 20, 0.82);
+}
+
+.field input[aria-invalid="true"] {
+  border-color: rgba(224, 87, 74, 0.65);
+}
+
+.field--wide {
+  grid-column: 1 / -1;
+}
+
+.field__hint {
+  color: var(--muted);
+  font-size: 0.62rem;
+  line-height: 1.45;
+}
+
+.field__error {
+  color: #f08a80;
+  font-size: 0.63rem;
+  line-height: 1.4;
+}
+
+.checkbox-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  color: var(--muted);
+  font-size: 0.72rem;
+  cursor: pointer;
+}
+
+.checkbox-row input {
+  flex-shrink: 0;
+  margin-top: 2px;
+  accent-color: var(--accent);
+}
+
+.form-error {
+  display: flex;
+  align-items: flex-start;
+  gap: 9px;
+  padding: 11px 12px;
+  border: 1px solid rgba(224, 87, 74, 0.3);
+  border-radius: var(--radius-md);
+  background: rgba(224, 87, 74, 0.07);
+  color: #f0a49d;
+  font-size: 0.73rem;
+}
+
+.form-error > svg {
+  flex-shrink: 0;
+  margin-top: 1px;
+  color: var(--danger);
+}
+
+.form-error > div,
+.form-error > p {
+  flex: 1;
+}
+
+.form-error .button-secondary {
+  flex-shrink: 0;
+}
+
+.aeolian-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding-top: 14px;
+  border-top: 1px solid var(--border);
+}
+
+.button-primary,
+.button-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 9px 13px;
+  border: 1px solid var(--border-strong);
+  border-radius: 7px;
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition:
+    background var(--transition),
+    border-color var(--transition),
+    opacity var(--transition);
+}
+
+.button-primary {
+  border-color: rgba(232, 117, 50, 0.48);
+  background: rgba(232, 117, 50, 0.16);
+  color: #f4b28b;
+}
+
+.button-primary:hover:not(:disabled) {
+  border-color: rgba(232, 117, 50, 0.7);
+  background: rgba(232, 117, 50, 0.25);
+}
+
+.button-primary:disabled {
+  opacity: 0.62;
+  cursor: wait;
+}
+
+.button-secondary {
+  background: rgba(21, 31, 43, 0.6);
+  color: var(--text);
+}
+
+.button-secondary:hover {
+  border-color: var(--accent);
+  background: rgba(232, 117, 50, 0.08);
+}
+
+.spin {
+  animation: spin 0.9s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.aeolian-loading {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 8px 0;
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+
+.aeolian-loading svg {
+  color: var(--accent);
+}
+
+/* Results */
+
+.metric-card__value--small {
+  font-size: 0.94rem;
+  line-height: 1.35;
+}
+
+.result-meta {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 9px;
+  margin: 0;
+}
+
+.result-meta--compact {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.result-meta__item {
+  padding: 9px 10px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: rgba(9, 13, 20, 0.3);
+}
+
+.result-meta__item dt {
+  color: var(--muted);
+  font-family: var(--font-mono);
+  font-size: 0.56rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.result-meta__item dd {
+  margin: 3px 0 0;
+  overflow-wrap: anywhere;
+  font-size: 0.71rem;
+}
+
+.result-meta__sub {
+  display: block;
+  margin-top: 2px;
+  color: var(--muted);
+  font-size: 0.6rem;
+}
+
+.chart-frame--aeolian {
+  height: 240px;
+}
+
+.pair-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.pair-card {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  padding: 14px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background: rgba(9, 13, 20, 0.25);
+}
+
+.pair-card__header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.pair-card__eyebrow {
+  color: var(--accent);
+  font-family: var(--font-mono);
+  font-size: 0.56rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.pair-card__header h3 {
+  margin-top: 2px;
+  font-size: 0.94rem;
+  font-weight: 600;
+}
+
+.pair-card__dates {
+  margin-top: 3px;
+  color: var(--muted);
+  font-size: 0.66rem;
+}
+
+.pair-section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-top: 12px;
+  border-top: 1px dashed var(--border);
+}
+
+.pair-section__heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.pair-section__heading h4 {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--text);
+  font-family: var(--font-mono);
+  font-size: 0.64rem;
+  font-weight: 500;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.pair-section__heading h4 svg {
+  flex-shrink: 0;
+  color: var(--accent);
+}
+
+.pair-metrics {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(128px, 1fr));
+  gap: 7px;
+  margin: 0;
+}
+
+.pair-metric {
+  padding: 8px;
+  border: 1px solid var(--border);
+  border-radius: 7px;
+  background: rgba(9, 13, 20, 0.32);
+}
+
+.pair-metric dt {
+  color: var(--muted);
+  font-family: var(--font-mono);
+  font-size: 0.54rem;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+.pair-metric dd {
+  margin: 3px 0 0;
+  overflow-wrap: anywhere;
+  font-family: var(--font-mono);
+  font-size: 0.76rem;
+}
+
+.pair-metric dd span {
+  margin-left: 3px;
+  color: var(--muted);
+  font-size: 0.58rem;
+}
+
+.pair-details summary {
+  color: var(--muted);
+  font-size: 0.67rem;
+  cursor: pointer;
+}
+
+.pair-details .reason-list {
+  margin-top: 8px;
+}
+
+.result-columns {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.result-section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 12px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background: rgba(9, 13, 20, 0.25);
+}
+
+.result-details {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 12px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background: rgba(9, 13, 20, 0.25);
+}
+
+.result-details summary {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: var(--muted);
+  font-family: var(--font-mono);
+  font-size: 0.64rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.result-details summary svg {
+  color: var(--accent);
+}
+
+/* Prediction availability */
+
+.prediction-status {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 13px;
+  border: 1px solid rgba(242, 184, 75, 0.24);
+  border-radius: var(--radius-md);
+  background: rgba(242, 184, 75, 0.055);
+}
+
+.prediction-status__icon {
+  display: grid;
+  flex-shrink: 0;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  border: 1px solid rgba(242, 184, 75, 0.25);
+  border-radius: 9px;
+  background: rgba(242, 184, 75, 0.08);
+  color: var(--warning);
+}
+
+.prediction-status h3 {
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.prediction-status p {
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 0.72rem;
+  line-height: 1.55;
+}
+
+.aeolian-footer-note {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 10px 12px;
+  border: 1px dashed var(--border-strong);
+  border-radius: var(--radius-md);
+  color: var(--muted);
+  font-size: 0.69rem;
+}
+
+.aeolian-footer-note svg {
+  flex-shrink: 0;
+  margin-top: 1px;
+  color: var(--accent);
+}
+
+@media (max-width: 1180px) {
+  .aeolian-datasets {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .observation-list,
+  .result-columns {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+@media (max-width: 700px) {
+  .form-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .field--wide {
+    grid-column: auto;
+  }
+
+  .aeolian-actions,
+  .pair-card__header,
+  .pair-section__heading {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .pair-metrics {
+    grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+  }
+
+  .chart-frame--aeolian {
+    height: 280px;
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "scientific_elevation": true,
+  "visual_elevation": true,
+  "valid_mask": true,
+  "slope": true,
+  "aspect": true,
+  "roughness": true
+}

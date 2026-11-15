@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: bridges-mavors-api
+    runtime: python
+    buildCommand: python scripts/check-deploy-science.py && pip install -r WebApp/backend/requirements.txt
+    startCommand: cd WebApp/backend && uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.14.3
+      - key: CORS_ORIGINS
+        sync: false

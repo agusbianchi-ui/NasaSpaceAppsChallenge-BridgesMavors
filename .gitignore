@@ -1,0 +1,49 @@
+# Local environments, builds and caches
+.venv/
+node_modules/
+dist/
+__pycache__/
+.pytest_cache/
+.env
+.env.*
+!.env.example
+# Preserve originals locally; do not commit large assets
+*.glb
+*.blend
+*.blend1
+*.zip
+*.mp4
+data/raw/
+output/
+output-region/
+output-visual/
+modelo-regional-jezero/
+
+# Reproducible local staging from output-stage1
+ops_mars-main/frontend/public/terrain/
+
+data/science/
+output-stage4/*.bin
+output-stage4/*.npz
+output-stage4/*.tif
+
+# Combined app and recovery copies
+integration-review/
+WebApp/backend/.venv/
+WebApp/frontend/public/terrain/
+
+# Original science package and numeric derived rasters stay local
+data/additional-science/**/raw/
+data/additional-science/**/numeric/
+data/additional-science/**/references/
+
+# Deployment assets required by the viewer and scientific API (each < 100 MB)
+!WebApp/frontend/public/terrain/
+!WebApp/frontend/public/terrain/**
+!WebApp/frontend/public/terrain/**/*.glb
+!output-stage4/*.bin
+!output-stage4/dust-my36-region.npz
+!data/additional-science/BridgesMavors_science_pack/numeric/
+!data/additional-science/BridgesMavors_science_pack/numeric/*.tif
+*.pem
+*.key

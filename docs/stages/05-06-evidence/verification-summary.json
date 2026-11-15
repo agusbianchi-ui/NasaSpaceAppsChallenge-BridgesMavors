@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-15",
+  "python": {
+    "passed": 170,
+    "skipped": 1,
+    "skip_reason": "Windows symlink privilege 1314",
+    "command": "PYTHONPATH=WebApp;WebApp/backend .venv/Scripts/python.exe -m pytest tests ../mars_ml/tests -q",
+    "seconds": 5.39
+  },
+  "frontend": {
+    "tests": 17,
+    "failed": 0,
+    "lint": "passed",
+    "production_build": "passed",
+    "warning": "Large bundles ~896/949 kB uncompressed"
+  },
+  "browser": {
+    "environment": "Codex integrated browser; Windows; localhost preview and FastAPI",
+    "tested": [
+      "44 sectors",
+      "point inspection",
+      "hazards and zoom grouping",
+      "mission thresholds/dust",
+      "A* strategies",
+      "no valid route",
+      "cancellation",
+      "stale results",
+      "route persistence",
+      "mission JSON export/import/recalculation",
+      "IA response",
+      "2D map"
+    ],
+    "console_errors_final": [],
+    "limitations": [
+      "No physical touch device",
+      "Right drag and touch streams verified via controller/OrbitControls tests, not native automated right drag",
+      "Only LOD0 available",
+      "No measured FPS or mobile benchmark"
+    ]
+  },
+  "hardware": {
+    "cpu": "Intel Core i9-14900HX",
+    "video_controllers": [
+      "NVIDIA RTX 4080 Laptop GPU",
+      "Intel UHD Graphics"
+    ],
+    "browser_gpu_assignment": "not measured"
+  },
+  "integrity": {
+    "original_sha256": "8786642ea6461b4c62ee5b0f9a3b190a962e84ef1e3844dd293a73494068ab48",
+    "stage1_manifest_assets_verified": 46,
+    "public_chunks_verified": 44,
+    "ai_key_files_identical_to_backup": 5,
+    "scientific_arrays_verified": 6,
+    "current_documentation_links": "valid"
+  },
+  "http_final": {
+    "frontend_routes": 200,
+    "terrain_metadata": 200,
+    "hazard_indicators": 200
+  }
+}

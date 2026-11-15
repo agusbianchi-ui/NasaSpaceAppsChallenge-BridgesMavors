@@ -1,0 +1,3775 @@
+{
+  "source": "../MapaMarteN.glb",
+  "source_sha256": "8786642ea6461b4c62ee5b0f9a3b190a962e84ef1e3844dd293a73494068ab48",
+  "removed": [
+    "Vista giratoria - no exportar"
+  ],
+  "original_to_optimized": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "optimized_to_original": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "georeference_verified": false,
+  "lods": [
+    0
+  ],
+  "assets": [
+    {
+      "file": "terrain-lod0-meshopt.glb",
+      "lod": 0,
+      "bytes": 54385420,
+      "sha256": "1da31d88aecfa70c2642b2209c896c0d7a20abbb2758b6ff3cf870f20b3aff06",
+      "bounds": [
+        [
+          -100000,
+          1800,
+          -101000
+        ],
+        [
+          100000,
+          15462,
+          101000
+        ]
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "transform": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "resolution_model_units": 250,
+      "resolution_scientific": null,
+      "triangles": 2897732,
+      "meshes": 44,
+      "materials": 1,
+      "primitives": 44,
+      "draw_calls_single_pass_estimate": 44,
+      "compression": "EXT_meshopt_compression; no quantization transform",
+      "max_position_error": 0,
+      "color_normal_index_equivalence": true,
+      "threejs_node_load": true,
+      "validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/buffers/0"
+          }
+        ],
+        "truncated": false
+      },
+      "decoded_validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "file": "chunks/chunk-00.glb",
+      "lod": 0,
+      "bytes": 188248,
+      "sha256": "ae49bf55894a7d9ac58dac82b5ee8715dc5f30b6dc6d711d3744f025055a1d23",
+      "bounds": [
+        [
+          -30750,
+          1800,
+          -101000
+        ],
+        [
+          0,
+          9834,
+          -96000
+        ]
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "transform": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "resolution_model_units": 250,
+      "resolution_scientific": null,
+      "triangles": 9856,
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "draw_calls_single_pass_estimate": 1,
+      "compression": "EXT_meshopt_compression; no quantization transform",
+      "max_position_error": 0,
+      "color_normal_index_equivalence": true,
+      "threejs_node_load": true,
+      "validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/buffers/0"
+          }
+        ],
+        "truncated": false
+      },
+      "decoded_validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "file": "chunks/chunk-01.glb",
+      "lod": 0,
+      "bytes": 186852,
+      "sha256": "19cb77a8904999603b189c3ee52c2addafd43656a8bb459a79c382eec2ffc8a8",
+      "bounds": [
+        [
+          0,
+          1800,
+          -101000
+        ],
+        [
+          30750,
+          8970,
+          -96000
+        ]
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "transform": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "resolution_model_units": 250,
+      "resolution_scientific": null,
+      "triangles": 9792,
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "draw_calls_single_pass_estimate": 1,
+      "compression": "EXT_meshopt_compression; no quantization transform",
+      "max_position_error": 0,
+      "color_normal_index_equivalence": true,
+      "threejs_node_load": true,
+      "validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/buffers/0"
+          }
+        ],
+        "truncated": false
+      },
+      "decoded_validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "file": "chunks/chunk-02.glb",
+      "lod": 0,
+      "bytes": 163104,
+      "sha256": "8598ab13f1367bee21094da35972758462a27230edd75e5b1a6f3e437f8b96c2",
+      "bounds": [
+        [
+          -77250,
+          1800,
+          -77500
+        ],
+        [
+          -64000,
+          11706,
+          -64000
+        ]
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "transform": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "resolution_model_units": 250,
+      "resolution_scientific": null,
+      "triangles": 8860,
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "draw_calls_single_pass_estimate": 1,
+      "compression": "EXT_meshopt_compression; no quantization transform",
+      "max_position_error": 0,
+      "color_normal_index_equivalence": true,
+      "threejs_node_load": true,
+      "validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/buffers/0"
+          }
+        ],
+        "truncated": false
+      },
+      "decoded_validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "file": "chunks/chunk-03.glb",
+      "lod": 0,
+      "bytes": 1280308,
+      "sha256": "32ffcd198a1e5c9c9e338173ef6620b197264dd129cda0abec319e77a3cc103c",
+      "bounds": [
+        [
+          -64000,
+          1800,
+          -95750
+        ],
+        [
+          -32000,
+          12882,
+          -64000
+        ]
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "transform": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "resolution_model_units": 250,
+      "resolution_scientific": null,
+      "triangles": 70554,
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "draw_calls_single_pass_estimate": 1,
+      "compression": "EXT_meshopt_compression; no quantization transform",
+      "max_position_error": 0,
+      "color_normal_index_equivalence": true,
+      "threejs_node_load": true,
+      "validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/buffers/0"
+          }
+        ],
+        "truncated": false
+      },
+      "decoded_validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "file": "chunks/chunk-04.glb",
+      "lod": 0,
+      "bytes": 1746532,
+      "sha256": "1af61ef3e926162a20c3c29637e5d144c174681676816b749749e661b0e011e0",
+      "bounds": [
+        [
+          -32000,
+          1800,
+          -96000
+        ],
+        [
+          0,
+          10920,
+          -64000
+        ]
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "transform": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "resolution_model_units": 250,
+      "resolution_scientific": null,
+      "triangles": 93514,
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "draw_calls_single_pass_estimate": 1,
+      "compression": "EXT_meshopt_compression; no quantization transform",
+      "max_position_error": 0,
+      "color_normal_index_equivalence": true,
+      "threejs_node_load": true,
+      "validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/buffers/0"
+          }
+        ],
+        "truncated": false
+      },
+      "decoded_validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "file": "chunks/chunk-05.glb",
+      "lod": 0,
+      "bytes": 1761104,
+      "sha256": "10b373861dc186c76dbe21a67ab2d44358df2089100aba8404b76912c027123e",
+      "bounds": [
+        [
+          0,
+          1800,
+          -96000
+        ],
+        [
+          32000,
+          8802,
+          -64000
+        ]
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "transform": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "resolution_model_units": 250,
+      "resolution_scientific": null,
+      "triangles": 93354,
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "draw_calls_single_pass_estimate": 1,
+      "compression": "EXT_meshopt_compression; no quantization transform",
+      "max_position_error": 0,
+      "color_normal_index_equivalence": true,
+      "threejs_node_load": true,
+      "validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/buffers/0"
+          }
+        ],
+        "truncated": false
+      },
+      "decoded_validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "file": "chunks/chunk-06.glb",
+      "lod": 0,
+      "bytes": 1268260,
+      "sha256": "50539d07826a00393b1c22752511904508d6e342d426f73534b8951bce9c0ed6",
+      "bounds": [
+        [
+          32000,
+          1800,
+          -95750
+        ],
+        [
+          64000,
+          8154,
+          -64000
+        ]
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "transform": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "resolution_model_units": 250,
+      "resolution_scientific": null,
+      "triangles": 69730,
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "draw_calls_single_pass_estimate": 1,
+      "compression": "EXT_meshopt_compression; no quantization transform",
+      "max_position_error": 0,
+      "color_normal_index_equivalence": true,
+      "threejs_node_load": true,
+      "validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/buffers/0"
+          }
+        ],
+        "truncated": false
+      },
+      "decoded_validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "file": "chunks/chunk-07.glb",
+      "lod": 0,
+      "bytes": 164120,
+      "sha256": "620c2b68e09a57be72118c97f13a46081e0f49639b5d112b5c521a2a5605d1ed",
+      "bounds": [
+        [
+          64000,
+          1800,
+          -77500
+        ],
+        [
+          77250,
+          6534,
+          -64000
+        ]
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "transform": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "resolution_model_units": 250,
+      "resolution_scientific": null,
+      "triangles": 8866,
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "draw_calls_single_pass_estimate": 1,
+      "compression": "EXT_meshopt_compression; no quantization transform",
+      "max_position_error": 0,
+      "color_normal_index_equivalence": true,
+      "threejs_node_load": true,
+      "validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/buffers/0"
+          }
+        ],
+        "truncated": false
+      },
+      "decoded_validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "file": "chunks/chunk-08.glb",
+      "lod": 0,
+      "bytes": 1240148,
+      "sha256": "3b2efc271ba312019ff5226c4455c9395600f69a04158273eea750f4aad17a4e",
+      "bounds": [
+        [
+          -94750,
+          1800,
+          -64000
+        ],
+        [
+          -64000,
+          15462,
+          -32000
+        ]
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "transform": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "resolution_model_units": 250,
+      "resolution_scientific": null,
+      "triangles": 68728,
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "draw_calls_single_pass_estimate": 1,
+      "compression": "EXT_meshopt_compression; no quantization transform",
+      "max_position_error": 0,
+      "color_normal_index_equivalence": true,
+      "threejs_node_load": true,
+      "validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/buffers/0"
+          }
+        ],
+        "truncated": false
+      },
+      "decoded_validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "file": "chunks/chunk-09.glb",
+      "lod": 0,
+      "bytes": 1727320,
+      "sha256": "1814cc36d6a546c8d476c21b954eeea9b730e827d0b23e93e73c4ca024ffe513",
+      "bounds": [
+        [
+          -64000,
+          7692,
+          -64000
+        ],
+        [
+          -32000,
+          13098,
+          -32000
+        ]
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "transform": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "resolution_model_units": 250,
+      "resolution_scientific": null,
+      "triangles": 94616,
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "draw_calls_single_pass_estimate": 1,
+      "compression": "EXT_meshopt_compression; no quantization transform",
+      "max_position_error": 0,
+      "color_normal_index_equivalence": true,
+      "threejs_node_load": true,
+      "validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/buffers/0"
+          }
+        ],
+        "truncated": false
+      },
+      "decoded_validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "file": "chunks/chunk-10.glb",
+      "lod": 0,
+      "bytes": 1748404,
+      "sha256": "fe213740260f6fd9796b10ecd20427b763252451203567e1a2fe1fef5cc619d0",
+      "bounds": [
+        [
+          -32000,
+          7128,
+          -64000
+        ],
+        [
+          0,
+          9708,
+          -32000
+        ]
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "transform": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "resolution_model_units": 250,
+      "resolution_scientific": null,
+      "triangles": 92778,
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "draw_calls_single_pass_estimate": 1,
+      "compression": "EXT_meshopt_compression; no quantization transform",
+      "max_position_error": 0,
+      "color_normal_index_equivalence": true,
+      "threejs_node_load": true,
+      "validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/buffers/0"
+          }
+        ],
+        "truncated": false
+      },
+      "decoded_validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "file": "chunks/chunk-11.glb",
+      "lod": 0,
+      "bytes": 1755020,
+      "sha256": "4f1659e058e194249b4526706853bf24e129db676a0d4d9b2176ad72def27a32",
+      "bounds": [
+        [
+          0,
+          5358,
+          -64000
+        ],
+        [
+          32000,
+          9240,
+          -32000
+        ]
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "transform": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "resolution_model_units": 250,
+      "resolution_scientific": null,
+      "triangles": 93102,
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "draw_calls_single_pass_estimate": 1,
+      "compression": "EXT_meshopt_compression; no quantization transform",
+      "max_position_error": 0,
+      "color_normal_index_equivalence": true,
+      "threejs_node_load": true,
+      "validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/buffers/0"
+          }
+        ],
+        "truncated": false
+      },
+      "decoded_validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "file": "chunks/chunk-12.glb",
+      "lod": 0,
+      "bytes": 1631740,
+      "sha256": "7e3a1418b2408fe263a78859b476604a9ebb028cba79aebc3dfc59fe0a709b60",
+      "bounds": [
+        [
+          32000,
+          5076,
+          -64000
+        ],
+        [
+          64000,
+          10266,
+          -32000
+        ]
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "transform": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "resolution_model_units": 250,
+      "resolution_scientific": null,
+      "triangles": 90416,
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "draw_calls_single_pass_estimate": 1,
+      "compression": "EXT_meshopt_compression; no quantization transform",
+      "max_position_error": 0,
+      "color_normal_index_equivalence": true,
+      "threejs_node_load": true,
+      "validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/buffers/0"
+          }
+        ],
+        "truncated": false
+      },
+      "decoded_validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "file": "chunks/chunk-13.glb",
+      "lod": 0,
+      "bytes": 1309840,
+      "sha256": "3363a2bbdab8cf73f8f4f546890692bfabd8305c5c26aa8d02caa57c7271d91e",
+      "bounds": [
+        [
+          64000,
+          1800,
+          -64000
+        ],
+        [
+          94750,
+          11994,
+          -32000
+        ]
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "transform": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "resolution_model_units": 250,
+      "resolution_scientific": null,
+      "triangles": 70438,
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "draw_calls_single_pass_estimate": 1,
+      "compression": "EXT_meshopt_compression; no quantization transform",
+      "max_position_error": 0,
+      "color_normal_index_equivalence": true,
+      "threejs_node_load": true,
+      "validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/buffers/0"
+          }
+        ],
+        "truncated": false
+      },
+      "decoded_validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "file": "chunks/chunk-14.glb",
+      "lod": 0,
+      "bytes": 126244,
+      "sha256": "edc11b2fb1d6bbe0b55a3cd52476e710a49a64925acb92e318c113f533d20b7d",
+      "bounds": [
+        [
+          -100000,
+          1800,
+          -27750
+        ],
+        [
+          -96000,
+          11202,
+          0
+        ]
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "transform": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "resolution_model_units": 250,
+      "resolution_scientific": null,
+      "triangles": 6696,
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "draw_calls_single_pass_estimate": 1,
+      "compression": "EXT_meshopt_compression; no quantization transform",
+      "max_position_error": 0,
+      "color_normal_index_equivalence": true,
+      "threejs_node_load": true,
+      "validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/buffers/0"
+          }
+        ],
+        "truncated": false
+      },
+      "decoded_validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "file": "chunks/chunk-15.glb",
+      "lod": 0,
+      "bytes": 1724040,
+      "sha256": "e871c96d139ac2cd5c2c3f44a8807c636f43dbf4be8801ef90d392d8863c1fc1",
+      "bounds": [
+        [
+          -96000,
+          1800,
+          -32000
+        ],
+        [
+          -64000,
+          11982,
+          0
+        ]
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "transform": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "resolution_model_units": 250,
+      "resolution_scientific": null,
+      "triangles": 92076,
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "draw_calls_single_pass_estimate": 1,
+      "compression": "EXT_meshopt_compression; no quantization transform",
+      "max_position_error": 0,
+      "color_normal_index_equivalence": true,
+      "threejs_node_load": true,
+      "validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/buffers/0"
+          }
+        ],
+        "truncated": false
+      },
+      "decoded_validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "file": "chunks/chunk-16.glb",
+      "lod": 0,
+      "bytes": 1786848,
+      "sha256": "e3cab8c313b5100af661005db710a8444f2372374d4fca4b04aa7ed4fbd315f6",
+      "bounds": [
+        [
+          -64000,
+          7050,
+          -32000
+        ],
+        [
+          -32000,
+          14178,
+          0
+        ]
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "transform": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "resolution_model_units": 250,
+      "resolution_scientific": null,
+      "triangles": 94410,
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "draw_calls_single_pass_estimate": 1,
+      "compression": "EXT_meshopt_compression; no quantization transform",
+      "max_position_error": 0,
+      "color_normal_index_equivalence": true,
+      "threejs_node_load": true,
+      "validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/buffers/0"
+          }
+        ],
+        "truncated": false
+      },
+      "decoded_validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "file": "chunks/chunk-17.glb",
+      "lod": 0,
+      "bytes": 1847876,
+      "sha256": "3786fd52f4184311a811e9b36ef4c7697e1ae10c2a380732ed46a8221ca7e589",
+      "bounds": [
+        [
+          -32000,
+          5556,
+          -32000
+        ],
+        [
+          0,
+          8670,
+          0
+        ]
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "transform": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "resolution_model_units": 250,
+      "resolution_scientific": null,
+      "triangles": 94298,
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "draw_calls_single_pass_estimate": 1,
+      "compression": "EXT_meshopt_compression; no quantization transform",
+      "max_position_error": 0,
+      "color_normal_index_equivalence": true,
+      "threejs_node_load": true,
+      "validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/buffers/0"
+          }
+        ],
+        "truncated": false
+      },
+      "decoded_validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "file": "chunks/chunk-18.glb",
+      "lod": 0,
+      "bytes": 1829416,
+      "sha256": "9f2b10cd2e6a28ff65127a1f45cc868f925dcb1f1e1ea8d93ac8a759773ae563",
+      "bounds": [
+        [
+          0,
+          4254,
+          -32000
+        ],
+        [
+          32000,
+          8892,
+          0
+        ]
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "transform": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "resolution_model_units": 250,
+      "resolution_scientific": null,
+      "triangles": 93188,
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "draw_calls_single_pass_estimate": 1,
+      "compression": "EXT_meshopt_compression; no quantization transform",
+      "max_position_error": 0,
+      "color_normal_index_equivalence": true,
+      "threejs_node_load": true,
+      "validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/buffers/0"
+          }
+        ],
+        "truncated": false
+      },
+      "decoded_validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "file": "chunks/chunk-19.glb",
+      "lod": 0,
+      "bytes": 1820680,
+      "sha256": "c99796f1369ef46a1400ea213a95e6dddacae0fa87e8a968cc587f7a94a33dc7",
+      "bounds": [
+        [
+          32000,
+          4008,
+          -32000
+        ],
+        [
+          64000,
+          8082,
+          0
+        ]
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "transform": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "resolution_model_units": 250,
+      "resolution_scientific": null,
+      "triangles": 94538,
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "draw_calls_single_pass_estimate": 1,
+      "compression": "EXT_meshopt_compression; no quantization transform",
+      "max_position_error": 0,
+      "color_normal_index_equivalence": true,
+      "threejs_node_load": true,
+      "validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/buffers/0"
+          }
+        ],
+        "truncated": false
+      },
+      "decoded_validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "file": "chunks/chunk-20.glb",
+      "lod": 0,
+      "bytes": 1841732,
+      "sha256": "6053e584bca43892d51ed7ffe39213999505542379a2e0508b127d1a4210c97b",
+      "bounds": [
+        [
+          64000,
+          1800,
+          -32000
+        ],
+        [
+          96000,
+          9516,
+          0
+        ]
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "transform": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "resolution_model_units": 250,
+      "resolution_scientific": null,
+      "triangles": 94662,
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "draw_calls_single_pass_estimate": 1,
+      "compression": "EXT_meshopt_compression; no quantization transform",
+      "max_position_error": 0,
+      "color_normal_index_equivalence": true,
+      "threejs_node_load": true,
+      "validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/buffers/0"
+          }
+        ],
+        "truncated": false
+      },
+      "decoded_validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "file": "chunks/chunk-21.glb",
+      "lod": 0,
+      "bytes": 131908,
+      "sha256": "bd10b4164605445009aa8e623078b73fd84d88770152643307f2c96550388706",
+      "bounds": [
+        [
+          96000,
+          1800,
+          -27750
+        ],
+        [
+          100000,
+          4326,
+          0
+        ]
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "transform": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "resolution_model_units": 250,
+      "resolution_scientific": null,
+      "triangles": 6734,
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "draw_calls_single_pass_estimate": 1,
+      "compression": "EXT_meshopt_compression; no quantization transform",
+      "max_position_error": 0,
+      "color_normal_index_equivalence": true,
+      "threejs_node_load": true,
+      "validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/buffers/0"
+          }
+        ],
+        "truncated": false
+      },
+      "decoded_validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "file": "chunks/chunk-22.glb",
+      "lod": 0,
+      "bytes": 128740,
+      "sha256": "6538cc8108aa31b5cc5db490d142ab9b6c82a7a5c2c2a82b858c501e57800089",
+      "bounds": [
+        [
+          -100000,
+          1800,
+          0
+        ],
+        [
+          -96000,
+          10536,
+          27750
+        ]
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "transform": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "resolution_model_units": 250,
+      "resolution_scientific": null,
+      "triangles": 6764,
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "draw_calls_single_pass_estimate": 1,
+      "compression": "EXT_meshopt_compression; no quantization transform",
+      "max_position_error": 0,
+      "color_normal_index_equivalence": true,
+      "threejs_node_load": true,
+      "validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/buffers/0"
+          }
+        ],
+        "truncated": false
+      },
+      "decoded_validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "file": "chunks/chunk-23.glb",
+      "lod": 0,
+      "bytes": 1772096,
+      "sha256": "f15ad1709e168bb144d1d0eeb330270b0c09c5345d2de7dccc9875715b1e8717",
+      "bounds": [
+        [
+          -96000,
+          1800,
+          0
+        ],
+        [
+          -64000,
+          13842,
+          32000
+        ]
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "transform": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "resolution_model_units": 250,
+      "resolution_scientific": null,
+      "triangles": 93636,
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "draw_calls_single_pass_estimate": 1,
+      "compression": "EXT_meshopt_compression; no quantization transform",
+      "max_position_error": 0,
+      "color_normal_index_equivalence": true,
+      "threejs_node_load": true,
+      "validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/buffers/0"
+          }
+        ],
+        "truncated": false
+      },
+      "decoded_validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "file": "chunks/chunk-24.glb",
+      "lod": 0,
+      "bytes": 1783048,
+      "sha256": "8934ce9868f0cd77dffc03a398060515e6ca415c1e6bae13c433ab6ef0b65c17",
+      "bounds": [
+        [
+          -64000,
+          5688,
+          0
+        ],
+        [
+          -32000,
+          12984,
+          32000
+        ]
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "transform": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "resolution_model_units": 250,
+      "resolution_scientific": null,
+      "triangles": 94612,
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "draw_calls_single_pass_estimate": 1,
+      "compression": "EXT_meshopt_compression; no quantization transform",
+      "max_position_error": 0,
+      "color_normal_index_equivalence": true,
+      "threejs_node_load": true,
+      "validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/buffers/0"
+          }
+        ],
+        "truncated": false
+      },
+      "decoded_validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "file": "chunks/chunk-25.glb",
+      "lod": 0,
+      "bytes": 1888264,
+      "sha256": "6d92da37d056d64a8cef49fe9a4e16083a1fdae0b8911effbab689ae2878144f",
+      "bounds": [
+        [
+          -32000,
+          4824,
+          0
+        ],
+        [
+          0,
+          10746,
+          32000
+        ]
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "transform": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "resolution_model_units": 250,
+      "resolution_scientific": null,
+      "triangles": 95042,
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "draw_calls_single_pass_estimate": 1,
+      "compression": "EXT_meshopt_compression; no quantization transform",
+      "max_position_error": 0,
+      "color_normal_index_equivalence": true,
+      "threejs_node_load": true,
+      "validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/buffers/0"
+          }
+        ],
+        "truncated": false
+      },
+      "decoded_validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "file": "chunks/chunk-26.glb",
+      "lod": 0,
+      "bytes": 1890616,
+      "sha256": "771c87220209dadca1f2d2efcc7fe8eb8a804cf23a51bab5f386d9e5525f5231",
+      "bounds": [
+        [
+          0,
+          4074,
+          0
+        ],
+        [
+          32000,
+          8796,
+          32000
+        ]
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "transform": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "resolution_model_units": 250,
+      "resolution_scientific": null,
+      "triangles": 95030,
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "draw_calls_single_pass_estimate": 1,
+      "compression": "EXT_meshopt_compression; no quantization transform",
+      "max_position_error": 0,
+      "color_normal_index_equivalence": true,
+      "threejs_node_load": true,
+      "validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/buffers/0"
+          }
+        ],
+        "truncated": false
+      },
+      "decoded_validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "file": "chunks/chunk-27.glb",
+      "lod": 0,
+      "bytes": 1788088,
+      "sha256": "d95013e14f6cb98a7d5c9b82d041d3c23b2a63c3d60f3261a437bccbbbe0eee2",
+      "bounds": [
+        [
+          32000,
+          2850,
+          0
+        ],
+        [
+          64000,
+          7110,
+          32000
+        ]
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "transform": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "resolution_model_units": 250,
+      "resolution_scientific": null,
+      "triangles": 93404,
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "draw_calls_single_pass_estimate": 1,
+      "compression": "EXT_meshopt_compression; no quantization transform",
+      "max_position_error": 0,
+      "color_normal_index_equivalence": true,
+      "threejs_node_load": true,
+      "validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/buffers/0"
+          }
+        ],
+        "truncated": false
+      },
+      "decoded_validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "file": "chunks/chunk-28.glb",
+      "lod": 0,
+      "bytes": 1807484,
+      "sha256": "2af863220311ffc84bb3ee8d528debcdcb2b8d6cd4e494cd0ee3e3d3ee941757",
+      "bounds": [
+        [
+          64000,
+          1800,
+          0
+        ],
+        [
+          96000,
+          5346,
+          32000
+        ]
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "transform": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "resolution_model_units": 250,
+      "resolution_scientific": null,
+      "triangles": 93316,
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "draw_calls_single_pass_estimate": 1,
+      "compression": "EXT_meshopt_compression; no quantization transform",
+      "max_position_error": 0,
+      "color_normal_index_equivalence": true,
+      "threejs_node_load": true,
+      "validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/buffers/0"
+          }
+        ],
+        "truncated": false
+      },
+      "decoded_validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "file": "chunks/chunk-29.glb",
+      "lod": 0,
+      "bytes": 132936,
+      "sha256": "0460ddc578adf5d6a0f7e61a4cb564cc4baccc106b88a3474f64ce8a262839ba",
+      "bounds": [
+        [
+          96000,
+          1800,
+          0
+        ],
+        [
+          100000,
+          3354,
+          27750
+        ]
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "transform": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "resolution_model_units": 250,
+      "resolution_scientific": null,
+      "triangles": 6746,
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "draw_calls_single_pass_estimate": 1,
+      "compression": "EXT_meshopt_compression; no quantization transform",
+      "max_position_error": 0,
+      "color_normal_index_equivalence": true,
+      "threejs_node_load": true,
+      "validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/buffers/0"
+          }
+        ],
+        "truncated": false
+      },
+      "decoded_validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "file": "chunks/chunk-30.glb",
+      "lod": 0,
+      "bytes": 1285880,
+      "sha256": "a45fa44ca08d506a5c00c803417a669a0f8beea293191a5945919cbb3a22b723",
+      "bounds": [
+        [
+          -94750,
+          1800,
+          32000
+        ],
+        [
+          -64000,
+          15402,
+          64000
+        ]
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "transform": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "resolution_model_units": 250,
+      "resolution_scientific": null,
+      "triangles": 69886,
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "draw_calls_single_pass_estimate": 1,
+      "compression": "EXT_meshopt_compression; no quantization transform",
+      "max_position_error": 0,
+      "color_normal_index_equivalence": true,
+      "threejs_node_load": true,
+      "validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/buffers/0"
+          }
+        ],
+        "truncated": false
+      },
+      "decoded_validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "file": "chunks/chunk-31.glb",
+      "lod": 0,
+      "bytes": 1733028,
+      "sha256": "2ee1f5e1aa72ca5e0f11062dcfb7b4877325a83a48167533b0d96c9e5e4fe95c",
+      "bounds": [
+        [
+          -64000,
+          5634,
+          32000
+        ],
+        [
+          -32000,
+          13800,
+          64000
+        ]
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "transform": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "resolution_model_units": 250,
+      "resolution_scientific": null,
+      "triangles": 95570,
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "draw_calls_single_pass_estimate": 1,
+      "compression": "EXT_meshopt_compression; no quantization transform",
+      "max_position_error": 0,
+      "color_normal_index_equivalence": true,
+      "threejs_node_load": true,
+      "validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/buffers/0"
+          }
+        ],
+        "truncated": false
+      },
+      "decoded_validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "file": "chunks/chunk-32.glb",
+      "lod": 0,
+      "bytes": 1772404,
+      "sha256": "3c4c54360a624ea9edc366ae0d68a8e1361236ee074aa05acc8dbcdeb422b213",
+      "bounds": [
+        [
+          -32000,
+          4614,
+          32000
+        ],
+        [
+          0,
+          7506,
+          64000
+        ]
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "transform": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "resolution_model_units": 250,
+      "resolution_scientific": null,
+      "triangles": 93916,
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "draw_calls_single_pass_estimate": 1,
+      "compression": "EXT_meshopt_compression; no quantization transform",
+      "max_position_error": 0,
+      "color_normal_index_equivalence": true,
+      "threejs_node_load": true,
+      "validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/buffers/0"
+          }
+        ],
+        "truncated": false
+      },
+      "decoded_validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "file": "chunks/chunk-33.glb",
+      "lod": 0,
+      "bytes": 1770124,
+      "sha256": "127eab73a94c67b59e38c110b1e987a521444662186083a0ac5c02eeb15b8c58",
+      "bounds": [
+        [
+          0,
+          3888,
+          32000
+        ],
+        [
+          32000,
+          11136,
+          64000
+        ]
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "transform": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "resolution_model_units": 250,
+      "resolution_scientific": null,
+      "triangles": 93862,
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "draw_calls_single_pass_estimate": 1,
+      "compression": "EXT_meshopt_compression; no quantization transform",
+      "max_position_error": 0,
+      "color_normal_index_equivalence": true,
+      "threejs_node_load": true,
+      "validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/buffers/0"
+          }
+        ],
+        "truncated": false
+      },
+      "decoded_validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "file": "chunks/chunk-34.glb",
+      "lod": 0,
+      "bytes": 1710424,
+      "sha256": "b71f60b349b698dfad74358abc6588e1939bd0276d0d7366efeaac68d8982600",
+      "bounds": [
+        [
+          32000,
+          2838,
+          32000
+        ],
+        [
+          64000,
+          5844,
+          64000
+        ]
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "transform": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "resolution_model_units": 250,
+      "resolution_scientific": null,
+      "triangles": 92974,
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "draw_calls_single_pass_estimate": 1,
+      "compression": "EXT_meshopt_compression; no quantization transform",
+      "max_position_error": 0,
+      "color_normal_index_equivalence": true,
+      "threejs_node_load": true,
+      "validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/buffers/0"
+          }
+        ],
+        "truncated": false
+      },
+      "decoded_validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "file": "chunks/chunk-35.glb",
+      "lod": 0,
+      "bytes": 1245644,
+      "sha256": "1c363e95c5c2c8ef53b0b02527e2edf22c7eb537e2aba5076db43f46cbeaa673",
+      "bounds": [
+        [
+          64000,
+          1800,
+          32000
+        ],
+        [
+          94750,
+          3984,
+          64000
+        ]
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "transform": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "resolution_model_units": 250,
+      "resolution_scientific": null,
+      "triangles": 67446,
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "draw_calls_single_pass_estimate": 1,
+      "compression": "EXT_meshopt_compression; no quantization transform",
+      "max_position_error": 0,
+      "color_normal_index_equivalence": true,
+      "threejs_node_load": true,
+      "validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/buffers/0"
+          }
+        ],
+        "truncated": false
+      },
+      "decoded_validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "file": "chunks/chunk-36.glb",
+      "lod": 0,
+      "bytes": 173628,
+      "sha256": "0956e4630c07ce5c6ea1ee1912ac4d9935b049417eedd6b8a317942c53b51529",
+      "bounds": [
+        [
+          -77250,
+          1800,
+          64000
+        ],
+        [
+          -64000,
+          14640,
+          77500
+        ]
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "transform": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "resolution_model_units": 250,
+      "resolution_scientific": null,
+      "triangles": 9196,
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "draw_calls_single_pass_estimate": 1,
+      "compression": "EXT_meshopt_compression; no quantization transform",
+      "max_position_error": 0,
+      "color_normal_index_equivalence": true,
+      "threejs_node_load": true,
+      "validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/buffers/0"
+          }
+        ],
+        "truncated": false
+      },
+      "decoded_validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "file": "chunks/chunk-37.glb",
+      "lod": 0,
+      "bytes": 1254508,
+      "sha256": "06ca2635923787fd1f06022d3935aaf194abd896dd6a5c62704b1ab5c7a12028",
+      "bounds": [
+        [
+          -64000,
+          1800,
+          64000
+        ],
+        [
+          -32000,
+          10728,
+          95750
+        ]
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "transform": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "resolution_model_units": 250,
+      "resolution_scientific": null,
+      "triangles": 69892,
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "draw_calls_single_pass_estimate": 1,
+      "compression": "EXT_meshopt_compression; no quantization transform",
+      "max_position_error": 0,
+      "color_normal_index_equivalence": true,
+      "threejs_node_load": true,
+      "validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/buffers/0"
+          }
+        ],
+        "truncated": false
+      },
+      "decoded_validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "file": "chunks/chunk-38.glb",
+      "lod": 0,
+      "bytes": 1610236,
+      "sha256": "e238de1ec778f1db47f99aa721be898735181893ec0ed2647ad19aa4306feaa7",
+      "bounds": [
+        [
+          -32000,
+          1800,
+          64000
+        ],
+        [
+          0,
+          8220,
+          96000
+        ]
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "transform": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "resolution_model_units": 250,
+      "resolution_scientific": null,
+      "triangles": 88702,
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "draw_calls_single_pass_estimate": 1,
+      "compression": "EXT_meshopt_compression; no quantization transform",
+      "max_position_error": 0,
+      "color_normal_index_equivalence": true,
+      "threejs_node_load": true,
+      "validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/buffers/0"
+          }
+        ],
+        "truncated": false
+      },
+      "decoded_validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "file": "chunks/chunk-39.glb",
+      "lod": 0,
+      "bytes": 1681700,
+      "sha256": "0231f491fd993eaff5a17be32ab363a74a510bb49f48678bded7f9f47f5b1511",
+      "bounds": [
+        [
+          0,
+          1800,
+          64000
+        ],
+        [
+          32000,
+          7074,
+          96000
+        ]
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "transform": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "resolution_model_units": 250,
+      "resolution_scientific": null,
+      "triangles": 91422,
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "draw_calls_single_pass_estimate": 1,
+      "compression": "EXT_meshopt_compression; no quantization transform",
+      "max_position_error": 0,
+      "color_normal_index_equivalence": true,
+      "threejs_node_load": true,
+      "validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/buffers/0"
+          }
+        ],
+        "truncated": false
+      },
+      "decoded_validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "file": "chunks/chunk-40.glb",
+      "lod": 0,
+      "bytes": 1193620,
+      "sha256": "ad8f140c3232f4fa6ed65121ac436763fd74538c6b22456bfb41179421bdbdee",
+      "bounds": [
+        [
+          32000,
+          1800,
+          64000
+        ],
+        [
+          64000,
+          6144,
+          95750
+        ]
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "transform": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "resolution_model_units": 250,
+      "resolution_scientific": null,
+      "triangles": 67384,
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "draw_calls_single_pass_estimate": 1,
+      "compression": "EXT_meshopt_compression; no quantization transform",
+      "max_position_error": 0,
+      "color_normal_index_equivalence": true,
+      "threejs_node_load": true,
+      "validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/buffers/0"
+          }
+        ],
+        "truncated": false
+      },
+      "decoded_validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "file": "chunks/chunk-41.glb",
+      "lod": 0,
+      "bytes": 165828,
+      "sha256": "dd0432f39d7e0df00849844a62fa32de16486483561f024a022a4d44bf6dcd73",
+      "bounds": [
+        [
+          64000,
+          1800,
+          64000
+        ],
+        [
+          77250,
+          5424,
+          77500
+        ]
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "transform": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "resolution_model_units": 250,
+      "resolution_scientific": null,
+      "triangles": 8998,
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "draw_calls_single_pass_estimate": 1,
+      "compression": "EXT_meshopt_compression; no quantization transform",
+      "max_position_error": 0,
+      "color_normal_index_equivalence": true,
+      "threejs_node_load": true,
+      "validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/buffers/0"
+          }
+        ],
+        "truncated": false
+      },
+      "decoded_validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "file": "chunks/chunk-42.glb",
+      "lod": 0,
+      "bytes": 166440,
+      "sha256": "41dc56364abfaf1196932e7879ac60e950206688b3711137c33857c24681b56e",
+      "bounds": [
+        [
+          -30750,
+          1800,
+          96000
+        ],
+        [
+          0,
+          7554,
+          101000
+        ]
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "transform": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "resolution_model_units": 250,
+      "resolution_scientific": null,
+      "triangles": 9156,
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "draw_calls_single_pass_estimate": 1,
+      "compression": "EXT_meshopt_compression; no quantization transform",
+      "max_position_error": 0,
+      "color_normal_index_equivalence": true,
+      "threejs_node_load": true,
+      "validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/buffers/0"
+          }
+        ],
+        "truncated": false
+      },
+      "decoded_validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "file": "chunks/chunk-43.glb",
+      "lod": 0,
+      "bytes": 176684,
+      "sha256": "bfc78c69e96c42f0095039f0b9097ddc876ac13407d6379c280f6a5ca6c24e7d",
+      "bounds": [
+        [
+          0,
+          1800,
+          96000
+        ],
+        [
+          30750,
+          7086,
+          101000
+        ]
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "transform": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "resolution_model_units": 250,
+      "resolution_scientific": null,
+      "triangles": 9572,
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "draw_calls_single_pass_estimate": 1,
+      "compression": "EXT_meshopt_compression; no quantization transform",
+      "max_position_error": 0,
+      "color_normal_index_equivalence": true,
+      "threejs_node_load": true,
+      "validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/buffers/0"
+          }
+        ],
+        "truncated": false
+      },
+      "decoded_validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "file": "terrain-joined-meshopt.glb",
+      "lod": 0,
+      "bytes": 54324304,
+      "sha256": "d045d8f23416f91ca391df7081dadbc33baf5ba8b91027d7fecffb321b6b0fe5",
+      "bounds": [
+        [
+          -100000,
+          1800,
+          -101000
+        ],
+        [
+          100000,
+          15462,
+          101000
+        ]
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "transform": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "resolution_model_units": 250,
+      "resolution_scientific": null,
+      "triangles": 2897732,
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "draw_calls_single_pass_estimate": 1,
+      "compression": "EXT_meshopt_compression; no quantization transform",
+      "max_position_error": 0,
+      "color_normal_index_equivalence": true,
+      "threejs_node_load": true,
+      "validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/buffers/0"
+          }
+        ],
+        "truncated": false
+      },
+      "decoded_validation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    }
+  ]
+}

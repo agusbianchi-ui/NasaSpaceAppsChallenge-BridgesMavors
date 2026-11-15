@@ -1,0 +1,104 @@
+{
+  "dataset_id": "ctx_multitemporal_six_sites",
+  "name": "Quantified aeolian dune changes on Mars from repeat Context Camera images",
+  "source": "figshare collection 4649537",
+  "provider": "figshare",
+  "mission": "Mars Reconnaissance Orbiter",
+  "instrument": "Context Camera (CTX)",
+  "location": "Nili Patera; Meroe Patera; West Herschel; East Herschel; Hellespontus Montes; McLaughlin",
+  "acquisition_dates": [],
+  "acquisition_dates_status": "requires_pds_resolution",
+  "resolution": [
+    {
+      "value": 6.0,
+      "unit": "m/pixel",
+      "product": "CTX orthoimages"
+    },
+    {
+      "value": 20.0,
+      "unit": "m/pixel",
+      "product": "CTX DEM and FOM"
+    }
+  ],
+  "coordinate_reference_system": {
+    "name": "Product-specific Mars Equirectangular; each DTM tied to MOLA",
+    "units": "metre",
+    "spheroid": "MARS",
+    "semi_major_axis_m": 3396190.0,
+    "co_registration_status": "DTMs are not bundled into one simultaneous block adjustment; possible elevation steps must be checked."
+  },
+  "data_type": "raster_time_series",
+  "license": "CC BY 4.0",
+  "limitations": [
+    "The complete collection is about 1.43 GB across six sites; only a small Nili Patera subset is selected in this manifest.",
+    "Acquisition timestamps are not embedded in the ArcGIS .tif.xml sidecars and must be resolved from PDS labels or indexes.",
+    "DTMs are tied to MOLA individually and are not necessarily co-registered with each other; elevation steps and FOM quality must be inspected.",
+    "Published site-level rates and fluxes are aggregate context, not labels for individual dunes.",
+    "The six sites are separate dune fields and must not be split randomly across train and test.",
+    "A temporal baseline in Earth years does not establish that the surface change is steady or that every dune moved."
+  ],
+  "doi": "10.6084/m9.figshare.c.4649537.v1",
+  "url": "https://figshare.com/collections/Quantified_Aeolian_Dune_Changes_on_Mars_Derived_From_Repeat_Context_Camera_Images/4649537/1",
+  "version": "1",
+  "retrieved_at_utc": "2026-11-14T00:00:00+00:00",
+  "has_pixels": false,
+  "has_labels": false,
+  "has_temporal_series": true,
+  "files": [
+    {
+      "name": "B21_017762_1891_XN_09N292W_6m_o.tif",
+      "size_bytes": 50212507,
+      "url": "https://ndownloader.figshare.com/files/17471033",
+      "role": "nili_patera_ctx_orthoimage_6m_early",
+      "selected": true
+    },
+    {
+      "name": "B22_018039_1890_XN_09N292W_6m_o.tif",
+      "size_bytes": 48696449,
+      "url": "https://ndownloader.figshare.com/files/17471048",
+      "role": "nili_patera_ctx_orthoimage_6m_late",
+      "selected": true
+    },
+    {
+      "name": "DEM_B21_017762_B22_018039_20m.tif",
+      "size_bytes": 24331116,
+      "url": "https://ndownloader.figshare.com/files/17471063",
+      "role": "nili_patera_ctx_dem_20m",
+      "selected": true
+    },
+    {
+      "name": "FOM_B21_017762_B22_018039_20m.tif",
+      "size_bytes": 3222800,
+      "url": "https://ndownloader.figshare.com/files/17471078",
+      "role": "nili_patera_ctx_fom_20m",
+      "selected": true
+    }
+  ],
+  "published_context": {
+    "citation_doi": "10.1029/2019EA000874",
+    "citation": "Davis et al., Quantified Aeolian Dune Changes on Mars Derived From Repeat Context Camera Images, Earth and Space Science, 2020.",
+    "published_migration_m_per_earth_year": [0.2, 1.1],
+    "published_flux_m3_per_m_per_earth_year": [2.4, 11.6],
+    "published_baseline_earth_years": [7.5, 11.0],
+    "article_ids": {
+      "nili_patera": 9752420,
+      "meroe_patera": 9752555,
+      "west_herschel": 9752561,
+      "east_herschel": 9752567,
+      "hellespontus_montes": 9752570,
+      "mclaughlin": 9752597,
+      "index": 9752600,
+      "readme": 7007810
+    },
+    "site_file_counts": {
+      "nili_patera": 30,
+      "meroe_patera": 30,
+      "west_herschel": 30,
+      "east_herschel": 30,
+      "hellespontus_montes": 30,
+      "mclaughlin": 30
+    },
+    "total_collection_bytes": 1430014802
+  },
+  "notes": "Verified through the figshare API on 2026-11-14. The manifest selects one Nili Patera early/late CTX pair plus DEM and FOM. The remaining sites and products are referenced by article ID and must be inspected before download."
+}

@@ -1,0 +1,7 @@
+# Optional supervised-training extra. Not installed in this stage.
+# Install as the project extra:
+#   uv pip install --python mars_ml/.venv/bin/python -e "mars_ml[training]"
+# Or install this file together with requirements.txt.
+# The training entry point refuses to run until these are installed and a
+# validated labelled manifest exists.
+torch>=2.4,<3

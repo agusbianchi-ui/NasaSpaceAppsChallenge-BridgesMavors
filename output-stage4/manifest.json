@@ -1,0 +1,88 @@
+{
+  "original": "../MapaMarteN.glb",
+  "source_sha256": "8786642ea6461b4c62ee5b0f9a3b190a962e84ef1e3844dd293a73494068ab48",
+  "no_new_3d_model": true,
+  "files": [
+    {
+      "file": "aspect.bin",
+      "bytes": 2585600,
+      "sha256": "fbc119d0af0fac0c6e257aca59e1f73920c1338d85390fc738eaa064abb30b93"
+    },
+    {
+      "file": "blender-inventory.json",
+      "bytes": 21483,
+      "sha256": "447bfb026896e9f9d0eab0efe58dfaf92caad80f4a9b9bb20524ea90ac99ffeb"
+    },
+    {
+      "file": "dust-metadata.json",
+      "bytes": 9287,
+      "sha256": "322eb1f3c265c48bb2f230e1f6b56918002209487b04928d1e1be8626d3f1a5c"
+    },
+    {
+      "file": "dust-my36-region.npz",
+      "bytes": 20088,
+      "sha256": "2e34ac8dc5d7652f50183adb1a7fbfb0e63aa3286bdf10d7886098c7aae73fcb"
+    },
+    {
+      "file": "georeference-validation.json",
+      "bytes": 1978,
+      "sha256": "ccc1a9a13f47a07a12e159ecffc00e16cc5ec39375c0796c3532e85a1ca60603"
+    },
+    {
+      "file": "local_relief.bin",
+      "bytes": 2585600,
+      "sha256": "7286adcc4f0102dcc075814879e9e35fff65f9bdfaffde54983514e347134ea5"
+    },
+    {
+      "file": "README.md",
+      "bytes": 725,
+      "sha256": "c45dbb7b48c3c71949b6326869cc2c61ef1e9d30eec2070136c36fd7fab7005c"
+    },
+    {
+      "file": "remote-source-check.json",
+      "bytes": 1910,
+      "sha256": "770364b630c7c174b14c607bdd96125f79b8b3453e47790451a4e4346a5aeee2"
+    },
+    {
+      "file": "roughness.bin",
+      "bytes": 2585600,
+      "sha256": "500fdd5c9669aee0fe23d9c517c8402cc4e8cd72888ef44987ae983df337c5ac"
+    },
+    {
+      "file": "scientific_elevation.bin",
+      "bytes": 2585600,
+      "sha256": "dfc84c673159fe675e5fa7371f58d3d07a2f6189452d5e7c68f5b11e786304b8"
+    },
+    {
+      "file": "scientific_elevation.tif",
+      "bytes": 1806356,
+      "sha256": "3994522daaa5e32c4c400c4c57dd386453d9fbf2b4b28f12a6aa48f327b4b5fd"
+    },
+    {
+      "file": "slope.bin",
+      "bytes": 2585600,
+      "sha256": "a5a2041a90655d1e742638b1eaf522215cc171e706e88fbb1ee9b2fa35960535"
+    },
+    {
+      "file": "terrain_metadata.json",
+      "bytes": 20408,
+      "sha256": "17129acab87f7f90b9f17d3cf45891316c5d03028a1d0e6761d0e27adc9ad5ea"
+    },
+    {
+      "file": "valid_mask.bin",
+      "bytes": 646400,
+      "sha256": "afe8b31169a4910b4e29c9362eefc47ca187ac208a4d79b7d11fa8bcefd016a5"
+    },
+    {
+      "file": "visual_elevation.bin",
+      "bytes": 2585600,
+      "sha256": "36f723b223baf148bcd10fa0d288aaee5090990db56fa09d8b3074d73887bf99"
+    }
+  ],
+  "processing_versions": {
+    "numpy": "2.5.4",
+    "rasterio": "1.5.2",
+    "pyproj": "3.8.0",
+    "netCDF4": "1.7.5.1.post1"
+  }
+}

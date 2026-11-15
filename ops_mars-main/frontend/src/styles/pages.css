@@ -1,0 +1,217 @@
+/* Secondary pages: terrain, routes, targets, AI */
+
+.metric-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+}
+
+.metric-card {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 14px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background: linear-gradient(
+    160deg,
+    rgba(21, 31, 43, 0.82),
+    rgba(17, 24, 36, 0.9)
+  );
+}
+
+.metric-card__label {
+  color: var(--muted);
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.metric-card__value {
+  font-family: var(--font-mono);
+  font-size: 1.28rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.metric-card__detail {
+  color: var(--muted);
+  font-size: 0.66rem;
+}
+
+.coming-soon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 18px;
+  border: 1px dashed var(--border-strong);
+  border-radius: var(--radius-md);
+  background: rgba(9, 13, 20, 0.28);
+}
+
+.coming-soon__icon {
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  border: 1px solid rgba(232, 117, 50, 0.2);
+  border-radius: 10px;
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.coming-soon h3 {
+  font-size: 0.94rem;
+  font-weight: 600;
+}
+
+.coming-soon p {
+  max-width: 660px;
+  color: var(--muted);
+  font-size: 0.76rem;
+}
+
+.check-list {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  margin-top: 4px;
+}
+
+.check-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  color: var(--muted);
+  font-size: 0.74rem;
+}
+
+.check-list li svg {
+  flex-shrink: 0;
+  margin-top: 2px;
+  color: var(--accent);
+}
+
+.page-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 16px;
+}
+
+.ai-card {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  padding: 18px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  background: linear-gradient(
+    165deg,
+    rgba(21, 31, 43, 0.9),
+    rgba(17, 24, 36, 0.96)
+  );
+  box-shadow: var(--shadow-panel);
+}
+
+.ai-card__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 2px;
+}
+
+.ai-card__icon {
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  border: 1px solid rgba(232, 117, 50, 0.2);
+  border-radius: 9px;
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.ai-card__id {
+  color: var(--muted);
+  font-family: var(--font-mono);
+  font-size: 0.58rem;
+  letter-spacing: 0.12em;
+}
+
+.ai-card h3 {
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.ai-card h3 + p {
+  flex: 1;
+  color: var(--muted);
+  font-size: 0.76rem;
+}
+
+.ai-card__footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  margin-top: 4px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-family: var(--font-mono);
+  font-size: 0.58rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* Not found */
+
+.not-found {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  min-height: 60vh;
+  text-align: center;
+}
+
+.not-found > svg {
+  color: var(--accent);
+  opacity: 0.85;
+}
+
+.not-found h1 {
+  font-size: 2rem;
+  letter-spacing: -0.02em;
+}
+
+.not-found > p:not(.page-heading__eyebrow) {
+  max-width: 430px;
+  color: var(--muted);
+  font-size: 0.84rem;
+}
+
+.button-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 4px;
+  padding: 9px 14px;
+  border: 1px solid rgba(232, 117, 50, 0.35);
+  border-radius: 8px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 0.78rem;
+  text-decoration: none;
+  transition:
+    background var(--transition),
+    border-color var(--transition);
+}
+
+.button-link:hover {
+  border-color: rgba(232, 117, 50, 0.55);
+  background: rgba(232, 117, 50, 0.2);
+}

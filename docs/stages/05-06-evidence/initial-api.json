@@ -1,0 +1,4 @@
+{
+  "/hazard/indicators?x=24875&z=-55625&mars_year=36&sol=1": "HTTP Error 500: Internal Server Error",
+  "/plan/route?start_x=24875&start_z=-55625&goal_x=8375&goal_z=-20625": "HTTP Error 500: Internal Server Error"
+}

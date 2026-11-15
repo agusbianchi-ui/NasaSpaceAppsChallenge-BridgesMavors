@@ -1,0 +1,12 @@
+{
+  "overview": {
+    "max_channel_difference_8bit": 0,
+    "mean_absolute_channel_difference": 0.0,
+    "different_pixel_fraction": 0.0
+  },
+  "detail": {
+    "max_channel_difference_8bit": 0,
+    "mean_absolute_channel_difference": 0.0,
+    "different_pixel_fraction": 0.0
+  }
+}

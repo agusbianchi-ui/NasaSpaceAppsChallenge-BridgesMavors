@@ -1,0 +1,4 @@
+INFO:     127.0.0.1:57216 - "GET /api/v1/mars/layers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57216 - "GET /api/v1/mars/layers/JEZ_hirise_soc_006_orthoMosaic_25cm_Eqc_latTs0_lon0_first_dd/capabilities HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52710 - "POST /api/v1/hazard/regions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59020 - "POST /api/v1/science/inspect HTTP/1.1" 200 OK

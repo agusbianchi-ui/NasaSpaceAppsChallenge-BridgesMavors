@@ -1,0 +1,60 @@
+{
+  "dataset_id": "hargraves_crater_dunes",
+  "name": "Dune dataset for Hargraves crater, Mars",
+  "source": "Mendeley Data",
+  "provider": "Mendeley Data",
+  "mission": "Mars Reconnaissance Orbiter",
+  "instrument": "Context Camera (CTX)",
+  "location": "Hargraves Crater, Mars",
+  "acquisition_dates": [],
+  "acquisition_dates_status": "not_reported",
+  "resolution": [
+    {
+      "value": 6.0,
+      "unit": "m/pixel",
+      "product": "CTX orthoimage used by the source study"
+    }
+  ],
+  "coordinate_reference_system": {
+    "name": "Mars Sinusoidal",
+    "units": "metre",
+    "spheroid": "MARS",
+    "semi_major_axis_m": 3396190.0,
+    "central_meridian_deg": 75.488832898097,
+    "wkt": "PROJCS[\"Geographic_Coordinate_System_Sinusoidal\",GEOGCS[\"GCS_Geographic_Coordinate_System\",DATUM[\"D_MARS\",SPHEROID[\"MARS\",3396190.0,0.0]],PRIMEM[\"Reference Meridian\",0.0],UNIT[\"Degree\",0.017453292519943295]],PROJECTION[\"Sinusoidal\"],PARAMETER[\"false_easting\",0.0],PARAMETER[\"false_northing\",0.0],PARAMETER[\"central_meridian\",75.488832898097],UNIT[\"Meter\",1.0]]"
+  },
+  "data_type": "vector_annotation",
+  "license": "CC BY 4.0",
+  "limitations": [
+    "The archive contains dune polygons and morphometric attributes, not raw mission pixels.",
+    "No acquisition timestamp is attached to individual polygons.",
+    "The dataset has no temporal series and cannot support migration or displacement analysis on its own.",
+    "Polygon attributes are source-study measurements and must not be treated as labels of a trained model.",
+    "The source archive is a 7z file; its internal shapefile must be extracted and validated before use."
+  ],
+  "doi": "10.17632/bfnxzwhd4r.3",
+  "url": "https://data.mendeley.com/datasets/bfnxzwhd4r/3",
+  "version": "3",
+  "retrieved_at_utc": "2026-11-14T00:00:00+00:00",
+  "has_pixels": false,
+  "has_labels": true,
+  "has_temporal_series": false,
+  "files": [
+    {
+      "name": "Data.7z",
+      "size_bytes": 526065,
+      "url": "https://data.mendeley.com/public-files/datasets/bfnxzwhd4r/files/5c2984da-5248-47b5-aa0d-f3ea837cf09a/file_downloaded",
+      "sha256": "4438dae11902076dcec0979acaa3fd33c30993ca4384c99e2d8c0f6fa48e0788",
+      "role": "vector_archive",
+      "selected": true
+    }
+  ],
+  "published_context": {
+    "citation_doi": "10.1029/2019EA000935",
+    "citation": "Emran et al., Semiautomated Identification and Characterization of Dunes at Hargraves Crater, Mars, Earth and Space Science, 2020.",
+    "vector_record_count": 2245,
+    "geometry_types": ["Polygon"],
+    "attribute_count": 21
+  },
+  "notes": "Verified through the Mendeley public dataset API on 2026-11-14. The archive SHA-256 matches the provider checksum. Internal shapefile inspection found 2245 polygon records with morphometric attributes."
+}

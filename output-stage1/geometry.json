@@ -1,0 +1,114 @@
+{
+  "source_sha256": "8786642ea6461b4c62ee5b0f9a3b190a962e84ef1e3844dd293a73494068ab48",
+  "bytes": 242847404,
+  "MiB": 231.59733200073242,
+  "triangles": 2897732,
+  "meshes": 44,
+  "materials": 44,
+  "nodes": 45,
+  "scenes": [
+    {
+      "name": "Marte - HRSC 250m - Color orbital - Relieve 3x",
+      "nodes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ]
+    }
+  ],
+  "animations": 1,
+  "textures": 0,
+  "bounds": [
+    [
+      -100000.0,
+      1800.0,
+      -101000.0
+    ],
+    [
+      100000.0,
+      15462.0,
+      101000.0
+    ]
+  ],
+  "dimensions": [
+    200000.0,
+    13662.0,
+    202000.0
+  ],
+  "block_top_extent_unique": [
+    [
+      250.0,
+      250.0
+    ]
+  ],
+  "degenerate_triangles": 0,
+  "cross_nonzero_per_axis": {
+    "0": 940940,
+    "1": 1015076,
+    "2": 941716
+  },
+  "top_triangles": 1015076,
+  "unique_top_cells": 507538,
+  "enclosed_empty_cells": 0,
+  "grid": {
+    "shape": [
+      808,
+      800
+    ],
+    "origin_xz": [
+      -100000.0,
+      -101000.0
+    ],
+    "step": 250.0,
+    "order": "row increases +Z; column increases +X; centers origin+(index+0.5)*step",
+    "heights": "GLB local Y, float32 little-endian; visual, NOT scientific elevation",
+    "nodata": "NaN; valid.u8 1 present 0 absent"
+  },
+  "georeference_verified": false,
+  "vertical_exaggeration": "scene name says 3x; no rescaling applied",
+  "fully_internal_vertical_triangles": 0,
+  "vertical_triangles": 1882656,
+  "downward_triangles": 0
+}

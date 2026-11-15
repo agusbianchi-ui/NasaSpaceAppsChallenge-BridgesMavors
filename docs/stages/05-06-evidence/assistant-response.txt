@@ -1,0 +1,7 @@
+U
+
+¿Qué datasets están disponibles?
+
+A
+
+**Estado de la Misión Mars OPS:** Entorno simulado de demostración. - **Datos NASA:** 6 fuentes catalogadas (Perseverance, MRO, Odyssey, MGS, PDS, Mars Trek) - **Datasets Aeolian:** 5 manifestos verificados (Hargraves, Coprates, repeat CTX, HiRISE, Jezero) - **Análisis disponibles:** Migración de dunas, segmentación, detección de desplazamiento - **Métodos de registro:** Correlación de fases, ORB+RANSAC, registro de crestas - **Restricciones:** Sin modelos entrenados comprometidos, pixels no comprometidos, fechas y scales requeridos explícitamente - **Conjunto de datos:** Manifestos verificados con metadatos de fuente, resolución, CRS y limitaciones

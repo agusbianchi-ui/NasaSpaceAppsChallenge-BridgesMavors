@@ -1,0 +1,172 @@
+{
+  "schema_version": "1.0.0",
+  "description": "Catalog of environmental data sources that may be joined to dated dune observations. Metadata is catalogued but not yet validated against each provider; no source here is an in-situ measurement at a dune field unless explicitly stated.",
+  "sources": [
+    {
+      "source_id": "meda_perseverance",
+      "name": "Mars Environmental Dynamics Analyzer (MEDA)",
+      "provider": "NASA JPL / Perseverance mission",
+      "source_type": "in_situ",
+      "platform": "Perseverance rover",
+      "instrument": "MEDA",
+      "location": "Jezero Crater, Mars",
+      "variables": [
+        "wind_speed_m_s",
+        "wind_direction_deg",
+        "temperature_k",
+        "pressure_pa",
+        "relative_humidity_pct"
+      ],
+      "units": {
+        "wind_speed_m_s": "m/s",
+        "wind_direction_deg": "degrees clockwise from north",
+        "temperature_k": "K",
+        "pressure_pa": "Pa",
+        "relative_humidity_pct": "%"
+      },
+      "spatial_support": "Point measurements at the rover, not areal values over a dune field.",
+      "temporal_support": "Irregular rover operations; intervals and gaps must be inspected.",
+      "simultaneous_with_image": null,
+      "metadata_verified": false,
+      "url": null,
+      "doi": null,
+      "limitations": [
+        "Provider metadata and access terms have not been validated in this repository.",
+        "Rover point measurements are not simultaneous with orbital image acquisition by default.",
+        "Wind reference height and local roughness must be supplied before shear calculations."
+      ],
+      "notes": "Potential local weather source for Jezero; require explicit timestamps and provenance before use."
+    },
+    {
+      "source_id": "rems_curiosity",
+      "name": "Rover Environmental Monitoring Station (REMS)",
+      "provider": "NASA JPL / Curiosity mission",
+      "source_type": "in_situ",
+      "platform": "Curiosity rover",
+      "instrument": "REMS",
+      "location": "Gale Crater, Mars",
+      "variables": [
+        "wind_speed_m_s",
+        "wind_direction_deg",
+        "temperature_k",
+        "pressure_pa",
+        "relative_humidity_pct"
+      ],
+      "units": {
+        "wind_speed_m_s": "m/s",
+        "wind_direction_deg": "degrees clockwise from north",
+        "temperature_k": "K",
+        "pressure_pa": "Pa",
+        "relative_humidity_pct": "%"
+      },
+      "spatial_support": "Point measurements at the rover in Gale Crater.",
+      "temporal_support": "Irregular rover operations; intervals and gaps must be inspected.",
+      "simultaneous_with_image": null,
+      "metadata_verified": false,
+      "url": null,
+      "doi": null,
+      "limitations": [
+        "Provider metadata and access terms have not been validated in this repository.",
+        "Gale Crater is not Jezero Crater or any other dune field in this workspace.",
+        "Do not transfer local wind statistics between sites without an explicit regional model."
+      ],
+      "notes": "Regional in-situ context only; not a measurement at Hargraves, Coprates or Nili Patera."
+    },
+    {
+      "source_id": "mcd_mars_climate_database",
+      "name": "Mars Climate Database",
+      "provider": "Laboratoire de Meteorologie Dynamique and partners",
+      "source_type": "model",
+      "platform": "Global atmospheric model",
+      "instrument": "General circulation model and reanalysis products",
+      "location": "Global Mars grid",
+      "variables": [
+        "wind_speed_m_s",
+        "wind_direction_deg",
+        "temperature_k",
+        "pressure_pa",
+        "atmospheric_density_kg_m3"
+      ],
+      "units": {
+        "wind_speed_m_s": "m/s",
+        "wind_direction_deg": "degrees clockwise from north",
+        "temperature_k": "K",
+        "pressure_pa": "Pa",
+        "atmospheric_density_kg_m3": "kg/m^3"
+      },
+      "spatial_support": "Model grid cell, not a point measurement.",
+      "temporal_support": "Model output at requested times; not an observed weather record.",
+      "simultaneous_with_image": false,
+      "metadata_verified": false,
+      "url": null,
+      "doi": null,
+      "limitations": [
+        "Provider metadata, version and access terms have not been validated in this repository.",
+        "Model output is not an in-situ observation and must not be labelled as measured weather.",
+        "Interpolating to an image time does not make the value simultaneous with the image.",
+        "Model resolution and parameterizations must be reported with any extraction."
+      ],
+      "notes": "Potential climatology or boundary-condition source; keep model and observation labels distinct."
+    },
+    {
+      "source_id": "themis_thermal_inertia",
+      "name": "THEMIS thermal inertia",
+      "provider": "Arizona State University / NASA Mars Odyssey",
+      "source_type": "climatology",
+      "platform": "Mars Odyssey",
+      "instrument": "Thermal Emission Imaging System (THEMIS)",
+      "location": "Global Mars mapping",
+      "variables": [
+        "thermal_inertia_tiu"
+      ],
+      "units": {
+        "thermal_inertia_tiu": "J m^-2 K^-1 s^-1/2"
+      },
+      "spatial_support": "Orbital retrieval on a mapped grid; footprint and quality vary.",
+      "temporal_support": "Multi-observation climatology or seasonal composite, not a single acquisition.",
+      "simultaneous_with_image": false,
+      "metadata_verified": false,
+      "url": null,
+      "doi": null,
+      "limitations": [
+        "Provider metadata, product version and access terms have not been validated in this repository.",
+        "Thermal inertia is a surface property retrieval, not a wind measurement.",
+        "Do not treat a climatology composite as simultaneous weather at an image date."
+      ],
+      "notes": "Potential surface-property covariate; requires an explicit product and uncertainty reference."
+    },
+    {
+      "source_id": "insight_weather",
+      "name": "InSight weather service",
+      "provider": "NASA JPL / InSight mission",
+      "source_type": "in_situ",
+      "platform": "InSight lander",
+      "instrument": "Auxiliary Payload Sensor Suite (APSS)",
+      "location": "Elysium Planitia, Mars",
+      "variables": [
+        "wind_speed_m_s",
+        "wind_direction_deg",
+        "temperature_k",
+        "pressure_pa"
+      ],
+      "units": {
+        "wind_speed_m_s": "m/s",
+        "wind_direction_deg": "degrees clockwise from north",
+        "temperature_k": "K",
+        "pressure_pa": "Pa"
+      },
+      "spatial_support": "Point measurements at the lander in Elysium Planitia.",
+      "temporal_support": "Mission-era records with operational gaps.",
+      "simultaneous_with_image": null,
+      "metadata_verified": false,
+      "url": null,
+      "doi": null,
+      "limitations": [
+        "Provider metadata and access terms have not been validated in this repository.",
+        "Elysium Planitia is not a dune field in this workspace.",
+        "Mission coverage does not overlap all image dates."
+      ],
+      "notes": "Regional in-situ context only; do not transfer to other sites without an explicit model."
+    }
+  ]
+}

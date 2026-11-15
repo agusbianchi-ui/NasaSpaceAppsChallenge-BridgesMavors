@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "coordinate_contract": {
+    "query": "longitude east degrees [-180,180), latitude planetocentric degrees; verify actual model convention before use",
+    "earth_crs_forbidden": true
+  },
+  "uploaded_sources": {
+    "status": "visual_reference_only",
+    "catalog": "https://trek.nasa.gov/tiles/apidoc/trekAPI.html?body=mars"
+  },
+  "datasets": [
+    {
+      "id": "tes_thermal_inertia_2007",
+      "status": "download_required",
+      "type": "derived",
+      "source": "NASA PDS, Putzig & Mellon",
+      "product_id": "MGS-M-TES-5-TIMAP-V1.0",
+      "source_url": "https://pds-geosciences.wustl.edu/missions/mgs/tes-timap.html",
+      "data_url": "https://pds-geosciences.wustl.edu/mgs/mgs-m-tes-5-timap-v1/mgst_9001/data/",
+      "fields": [
+        "thermal_inertia_night",
+        "thermal_inertia_day"
+      ],
+      "unit": "J m^-2 K^-1 s^-1/2",
+      "resolution_deg": 0.05,
+      "equatorial_resolution_km": 2.96,
+      "observation_period": "1999-02 to 2004-04",
+      "mask": "zero = interpolated; retain flag; out of 5..5000 invalid",
+      "files": [
+        {
+          "name": "global_ti_day_2007.img",
+          "url": "https://pds-geosciences.wustl.edu/mgs/mgs-m-tes-5-timap-v1/mgst_9001/data/global_ti_day_2007.img"
+        },
+        {
+          "name": "global_ti_day_2007.lbl",
+          "url": "https://pds-geosciences.wustl.edu/mgs/mgs-m-tes-5-timap-v1/mgst_9001/data/global_ti_day_2007.lbl"
+        },
+        {
+          "name": "global_ti_msk_day_2007.img",
+          "url": "https://pds-geosciences.wustl.edu/mgs/mgs-m-tes-5-timap-v1/mgst_9001/data/global_ti_msk_day_2007.img"
+        },
+        {
+          "name": "global_ti_msk_day_2007.lbl",
+          "url": "https://pds-geosciences.wustl.edu/mgs/mgs-m-tes-5-timap-v1/mgst_9001/data/global_ti_msk_day_2007.lbl"
+        },
+        {
+          "name": "global_ti_night_2007.img",
+          "url": "https://pds-geosciences.wustl.edu/mgs/mgs-m-tes-5-timap-v1/mgst_9001/data/global_ti_night_2007.img"
+        },
+        {
+          "name": "global_ti_night_2007.lbl",
+          "url": "https://pds-geosciences.wustl.edu/mgs/mgs-m-tes-5-timap-v1/mgst_9001/data/global_ti_night_2007.lbl"
+        },
+        {
+          "name": "global_ti_msk_night_2007.img",
+          "url": "https://pds-geosciences.wustl.edu/mgs/mgs-m-tes-5-timap-v1/mgst_9001/data/global_ti_msk_night_2007.img"
+        },
+        {
+          "name": "global_ti_msk_night_2007.lbl",
+          "url": "https://pds-geosciences.wustl.edu/mgs/mgs-m-tes-5-timap-v1/mgst_9001/data/global_ti_msk_night_2007.lbl"
+        }
+      ]
+    },
+    {
+      "id": "mola_kilometer_roughness",
+      "status": "download_and_decode_required",
+      "type": "derived",
+      "source": "Kreslavsky & Head (2000), dataset published by M. Kreslavsky (2025)",
+      "source_url": "https://doi.org/10.5281/zenodo.15734221",
+      "paper": "https://doi.org/10.1029/2000JE001259",
+      "fields": [
+        "roughness_mola_by_baseline"
+      ],
+      "unit": null,
+      "resolution_deg": null,
+      "note": "Read author README before assigning units, transforms, baseline, NoData, byte encoding and polar coverage. Do not assume same revision as uploaded image.",
+      "files": [
+        {
+          "name": "_read_me.pdf",
+          "url": "https://zenodo.org/records/15734221/files/_read_me.pdf?download=1",
+          "md5": "ce369b8f9baf2c6fffde5d1ba7e637a6"
+        },
+        {
+          "name": "E8R0.raw",
+          "url": "https://zenodo.org/records/15734221/files/E8R0.raw?download=1",
+          "md5": "29c74864f51b2ce4e0fd4b519f11d5e9"
+        },
+        {
+          "name": "E8R1.raw",
+          "url": "https://zenodo.org/records/15734221/files/E8R1.raw?download=1",
+          "md5": "0cf3e0a934e606d68061993def1ed5d5"
+        },
+        {
+          "name": "E8R2.raw",
+          "url": "https://zenodo.org/records/15734221/files/E8R2.raw?download=1",
+          "md5": "aa36c14df63158125b0c193694ebb558"
+        },
+        {
+          "name": "N8R0.raw",
+          "url": "https://zenodo.org/records/15734221/files/N8R0.raw?download=1",
+          "md5": "3663869e680f24143e5338de1950818b"
+        },
+        {
+          "name": "N8R1.raw",
+          "url": "https://zenodo.org/records/15734221/files/N8R1.raw?download=1",
+          "md5": "b84c35e5d32fdeb08dc02399568371c1"
+        },
+        {
+          "name": "N8R2.raw",
+          "url": "https://zenodo.org/records/15734221/files/N8R2.raw?download=1",
+          "md5": "8805d50d50fda419742ec22760e5611d"
+        },
+        {
+          "name": "S8R0.raw",
+          "url": "https://zenodo.org/records/15734221/files/S8R0.raw?download=1",
+          "md5": "f354b796295d7f574dc7307cbb9110d8"
+        },
+        {
+          "name": "S8R1.raw",
+          "url": "https://zenodo.org/records/15734221/files/S8R1.raw?download=1",
+          "md5": "43bdcdcba803077728e578195c773488"
+        },
+        {
+          "name": "S8R2.raw",
+          "url": "https://zenodo.org/records/15734221/files/S8R2.raw?download=1",
+          "md5": "7a8925a8296b15093b6fecb22d3f5b2f"
+        }
+      ]
+    },
+    {
+      "id": "tes_surface_dust",
+      "status": "numeric_product_not_yet_retrieved",
+      "type": "derived",
+      "source": "JMARS / ASU MGS TES",
+      "source_url": "https://jmars.mars.asu.edu/numeric-maps",
+      "fields": [
+        "surface_dust"
+      ],
+      "unit": null,
+      "note": "TES Surface Dust numeric layer candidate; verify product definition and units. Mars Trek TES_Dust and tes_ruffdust are distinct. Do not equate without metadata."
+    },
+    {
+      "id": "tes_dust_cover_index",
+      "status": "numeric_product_not_yet_retrieved",
+      "type": "derived",
+      "source": "Ruff & Christensen 2002",
+      "source_url": "https://www.mars.asu.edu/~ruff/DCI/dci.html",
+      "paper": "https://doi.org/10.1029/2001JE001580",
+      "alternative": "https://doi.org/10.17169/refubium-50906",
+      "fields": [
+        "surface_dust_cover_index"
+      ],
+      "unit": "dimensionless",
+      "note": "Lower index indicates more dust; not percentage, not atmospheric dust. Verify original raster vs model-ready adaptation, preserve missing polar values. ASU 16 ppd PNG is colorized, not a numeric grid."
+    },
+    {
+      "id": "atmospheric_dust",
+      "status": "separate_dataset_required",
+      "source_url": "https://www-mars.lmd.jussieu.fr/mars/dust_climatology/index.html",
+      "fields": [
+        "dust_optical_depth"
+      ],
+      "note": "NetCDF historical atmospheric dust; requires year/sol/wavelength and coverage. Not supplied by the three TIFFs."
+    },
+    {
+      "id": "climate",
+      "status": "separate_dataset_required",
+      "source_url": "https://www-mars.lmd.jussieu.fr/mcd_python/",
+      "fields": [
+        "surface_temperature",
+        "atmospheric_temperature",
+        "solar_irradiance",
+        "wind_speed",
+        "pressure"
+      ],
+      "note": "Model scenario and time dependent. Not thermal inertia."
+    }
+  ]
+}

@@ -1,0 +1,2006 @@
+[
+  {
+    "coverage": "Available",
+    "position": {
+      "x": 24875,
+      "z": -55625,
+      "geographic": {
+        "latitude": 18.437931833218357,
+        "longitude": 77.44234491532272,
+        "latitude_type": "planetocentric",
+        "longitude_direction": "positive east",
+        "longitude_domain": [
+          -180,
+          180
+        ]
+      },
+      "grid": {
+        "row": 181,
+        "column": 499,
+        "center_xz": [
+          24875.0,
+          -55625.0
+        ]
+      },
+      "visual_elevation": 5790.0,
+      "scientific_elevation": -2570.583984375
+    },
+    "variables": {
+      "scientific_elevation": {
+        "name": "Scientific elevation",
+        "value": -2570.583984375,
+        "unit": "m",
+        "source": "https://astrogeology.usgs.gov/search/map/mars_mgs_mola_mex_hrsc_blended_dem_global_200m",
+        "product": "HRSC/MOLA blended DEM global 200m v2",
+        "spatial_resolution": {
+          "nominal_m": 200,
+          "processed_grid_m": 250
+        },
+        "temporal_resolution": "Static composite v2 published 2018; input acquisitions differ.",
+        "date_or_scenario": "Static source composite",
+        "method": "Unquantized reprojected DEM cell value",
+        "uncertainty": null,
+        "availability": "Available",
+        "classification": "Derived",
+        "reason": null,
+        "sample": {
+          "grid": {
+            "row": 181,
+            "column": 499,
+            "center_xz": [
+              24875.0,
+              -55625.0
+            ]
+          },
+          "source_resolution_nominal_m": 200,
+          "processed_grid_m": 250
+        }
+      },
+      "slope": {
+        "name": "Slope",
+        "value": 1.4482548236846924,
+        "unit": "degree",
+        "source": "https://astrogeology.usgs.gov/search/map/mars_mgs_mola_mex_hrsc_blended_dem_global_200m",
+        "product": "HRSC/MOLA blended DEM global 200m v2",
+        "spatial_resolution": {
+          "nominal_m": 200,
+          "processed_grid_m": 250
+        },
+        "temporal_resolution": "Static composite v2 published 2018; input acquisitions differ.",
+        "date_or_scenario": "Static source composite",
+        "method": "3x3 central-constrained plane in geodesic east/north offsets",
+        "uncertainty": null,
+        "availability": "Available",
+        "classification": "Derived",
+        "reason": null,
+        "sample": {
+          "grid": {
+            "row": 181,
+            "column": 499,
+            "center_xz": [
+              24875.0,
+              -55625.0
+            ]
+          },
+          "source_resolution_nominal_m": 200,
+          "processed_grid_m": 250
+        }
+      },
+      "aspect": {
+        "name": "Downhill aspect",
+        "value": 130.56568908691406,
+        "unit": "degree",
+        "source": "https://astrogeology.usgs.gov/search/map/mars_mgs_mola_mex_hrsc_blended_dem_global_200m",
+        "product": "HRSC/MOLA blended DEM global 200m v2",
+        "spatial_resolution": {
+          "nominal_m": 200,
+          "processed_grid_m": 250
+        },
+        "temporal_resolution": "Static composite v2 published 2018; input acquisitions differ.",
+        "date_or_scenario": "Static source composite",
+        "method": "Clockwise from true north; flat undefined",
+        "uncertainty": null,
+        "availability": "Available",
+        "classification": "Derived",
+        "reason": null,
+        "sample": {
+          "grid": {
+            "row": 181,
+            "column": 499,
+            "center_xz": [
+              24875.0,
+              -55625.0
+            ]
+          },
+          "source_resolution_nominal_m": 200,
+          "processed_grid_m": 250
+        }
+      },
+      "roughness": {
+        "name": "Detrended local roughness",
+        "value": 1.4986449480056763,
+        "unit": "m",
+        "source": "https://astrogeology.usgs.gov/search/map/mars_mgs_mola_mex_hrsc_blended_dem_global_200m",
+        "product": "HRSC/MOLA blended DEM global 200m v2",
+        "spatial_resolution": {
+          "nominal_m": 200,
+          "processed_grid_m": 250
+        },
+        "temporal_resolution": "Static composite v2 published 2018; input acquisitions differ.",
+        "date_or_scenario": "Static source composite",
+        "method": "RMS of 3x3 plane residuals; not mechanical stability",
+        "uncertainty": null,
+        "availability": "Available",
+        "classification": "Derived",
+        "reason": null,
+        "sample": {
+          "grid": {
+            "row": 181,
+            "column": 499,
+            "center_xz": [
+              24875.0,
+              -55625.0
+            ]
+          },
+          "source_resolution_nominal_m": 200,
+          "processed_grid_m": 250
+        }
+      },
+      "local_relief": {
+        "name": "Local relief",
+        "value": 16.8671875,
+        "unit": "m",
+        "source": "https://astrogeology.usgs.gov/search/map/mars_mgs_mola_mex_hrsc_blended_dem_global_200m",
+        "product": "HRSC/MOLA blended DEM global 200m v2",
+        "spatial_resolution": {
+          "nominal_m": 200,
+          "processed_grid_m": 250
+        },
+        "temporal_resolution": "Static composite v2 published 2018; input acquisitions differ.",
+        "date_or_scenario": "Static source composite",
+        "method": "3x3 max minus min",
+        "uncertainty": null,
+        "availability": "Available",
+        "classification": "Derived",
+        "reason": null,
+        "sample": {
+          "grid": {
+            "row": 181,
+            "column": 499,
+            "center_xz": [
+              24875.0,
+              -55625.0
+            ]
+          },
+          "source_resolution_nominal_m": 200,
+          "processed_grid_m": 250
+        }
+      },
+      "dust_optical_depth": {
+        "name": "Historical IR absorption CDOD at 610Pa",
+        "value": null,
+        "unit": "Pa/Pa",
+        "source": "https://www-mars.lmd.jussieu.fr/mars/dust_climatology/",
+        "product": "Gridded CDOD MY36 v2.5",
+        "spatial_resolution": {
+          "longitude_degrees": 6,
+          "latitude_degrees": 5
+        },
+        "temporal_resolution": "MY36 sols1\u2013669, one daily average; observation windows vary.",
+        "date_or_scenario": null,
+        "method": "Native daily cell; requires explicit MY36 and sol1\u2013669",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "Select Mars year36 and sol-of-year1\u00e2\u20ac\u201c669 explicitly; no current-date default.",
+        "sample": null
+      },
+      "surface_temperature": {
+        "name": "Surface temperature",
+        "value": null,
+        "unit": "K",
+        "source": "https://www-mars.lmd.jussieu.fr/mcd_python/",
+        "product": "Mars Climate Database web6.2; linked documentation6.1",
+        "spatial_resolution": null,
+        "temporal_resolution": "Scenario-dependent climatology, never current weather forecast.",
+        "date_or_scenario": null,
+        "method": "Model indexed by Ls, local time, altitude, dust/EUV scenario",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "Numerical provider and version-matched output contract not integrated; no temperatures, winds or pressure fabricated.",
+        "sample": null
+      },
+      "atmospheric_temperature": {
+        "name": "Atmospheric temperature",
+        "value": null,
+        "unit": "K",
+        "source": "https://www-mars.lmd.jussieu.fr/mcd_python/",
+        "product": "Mars Climate Database web6.2; linked documentation6.1",
+        "spatial_resolution": null,
+        "temporal_resolution": "Scenario-dependent climatology, never current weather forecast.",
+        "date_or_scenario": null,
+        "method": "Model indexed by Ls, local time, altitude, dust/EUV scenario",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "Numerical provider and version-matched output contract not integrated; no temperatures, winds or pressure fabricated.",
+        "sample": null
+      },
+      "temperature_diurnal": {
+        "name": "Diurnal temperature variation",
+        "value": null,
+        "unit": "K",
+        "source": "https://www-mars.lmd.jussieu.fr/mcd_python/",
+        "product": "Mars Climate Database web6.2; linked documentation6.1",
+        "spatial_resolution": null,
+        "temporal_resolution": "Scenario-dependent climatology, never current weather forecast.",
+        "date_or_scenario": null,
+        "method": "Model indexed by Ls, local time, altitude, dust/EUV scenario",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "Numerical provider and version-matched output contract not integrated; no temperatures, winds or pressure fabricated.",
+        "sample": null
+      },
+      "temperature_min": {
+        "name": "Scenario minimum temperature",
+        "value": null,
+        "unit": "K",
+        "source": "https://www-mars.lmd.jussieu.fr/mcd_python/",
+        "product": "Mars Climate Database web6.2; linked documentation6.1",
+        "spatial_resolution": null,
+        "temporal_resolution": "Scenario-dependent climatology, never current weather forecast.",
+        "date_or_scenario": null,
+        "method": "Model indexed by Ls, local time, altitude, dust/EUV scenario",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "Numerical provider and version-matched output contract not integrated; no temperatures, winds or pressure fabricated.",
+        "sample": null
+      },
+      "temperature_max": {
+        "name": "Scenario maximum temperature",
+        "value": null,
+        "unit": "K",
+        "source": "https://www-mars.lmd.jussieu.fr/mcd_python/",
+        "product": "Mars Climate Database web6.2; linked documentation6.1",
+        "spatial_resolution": null,
+        "temporal_resolution": "Scenario-dependent climatology, never current weather forecast.",
+        "date_or_scenario": null,
+        "method": "Model indexed by Ls, local time, altitude, dust/EUV scenario",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "Numerical provider and version-matched output contract not integrated; no temperatures, winds or pressure fabricated.",
+        "sample": null
+      },
+      "pressure": {
+        "name": "Surface pressure",
+        "value": null,
+        "unit": "Pa",
+        "source": "https://www-mars.lmd.jussieu.fr/mcd_python/",
+        "product": "Mars Climate Database web6.2; linked documentation6.1",
+        "spatial_resolution": null,
+        "temporal_resolution": "Scenario-dependent climatology, never current weather forecast.",
+        "date_or_scenario": null,
+        "method": "Model indexed by Ls, local time, altitude, dust/EUV scenario",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "Numerical provider and version-matched output contract not integrated; no temperatures, winds or pressure fabricated.",
+        "sample": null
+      },
+      "wind_speed": {
+        "name": "Wind speed",
+        "value": null,
+        "unit": "m/s",
+        "source": "https://www-mars.lmd.jussieu.fr/mcd_python/",
+        "product": "Mars Climate Database web6.2; linked documentation6.1",
+        "spatial_resolution": null,
+        "temporal_resolution": "Scenario-dependent climatology, never current weather forecast.",
+        "date_or_scenario": null,
+        "method": "Model indexed by Ls, local time, altitude, dust/EUV scenario",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "Numerical provider and version-matched output contract not integrated; no temperatures, winds or pressure fabricated.",
+        "sample": null
+      },
+      "wind_direction": {
+        "name": "Wind direction",
+        "value": null,
+        "unit": "degree",
+        "source": "https://www-mars.lmd.jussieu.fr/mcd_python/",
+        "product": "Mars Climate Database web6.2; linked documentation6.1",
+        "spatial_resolution": null,
+        "temporal_resolution": "Scenario-dependent climatology, never current weather forecast.",
+        "date_or_scenario": null,
+        "method": "Model indexed by Ls, local time, altitude, dust/EUV scenario",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "Numerical provider and version-matched output contract not integrated; no temperatures, winds or pressure fabricated.",
+        "sample": null
+      },
+      "atmospheric_dust": {
+        "name": "Atmospheric dust concentration",
+        "value": null,
+        "unit": null,
+        "source": "https://www-mars.lmd.jussieu.fr/mcd_python/",
+        "product": "Mars Climate Database web6.2; linked documentation6.1",
+        "spatial_resolution": null,
+        "temporal_resolution": "Scenario-dependent climatology, never current weather forecast.",
+        "date_or_scenario": null,
+        "method": "Model indexed by Ls, local time, altitude, dust/EUV scenario",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "Numerical provider and version-matched output contract not integrated; no temperatures, winds or pressure fabricated.",
+        "sample": null
+      },
+      "high_dust_scenario": {
+        "name": "High dust scenario",
+        "value": null,
+        "unit": null,
+        "source": "https://www-mars.lmd.jussieu.fr/mcd_python/",
+        "product": "Mars Climate Database web6.2; linked documentation6.1",
+        "spatial_resolution": null,
+        "temporal_resolution": "Scenario-dependent climatology, never current weather forecast.",
+        "date_or_scenario": null,
+        "method": "Model indexed by Ls, local time, altitude, dust/EUV scenario",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "Numerical provider and version-matched output contract not integrated; no temperatures, winds or pressure fabricated.",
+        "sample": null
+      },
+      "solar_flux": {
+        "name": "Solar flux",
+        "value": null,
+        "unit": "W/m2",
+        "source": "https://www-mars.lmd.jussieu.fr/mcd_python/",
+        "product": "Mars Climate Database web6.2; linked documentation6.1",
+        "spatial_resolution": null,
+        "temporal_resolution": "Scenario-dependent climatology, never current weather forecast.",
+        "date_or_scenario": null,
+        "method": "Model indexed by Ls, local time, altitude, dust/EUV scenario",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "Numerical provider and version-matched output contract not integrated; no temperatures, winds or pressure fabricated.",
+        "sample": null
+      },
+      "solar_exposure": {
+        "name": "Integrated solar exposure",
+        "value": null,
+        "unit": "J/m2",
+        "source": "https://www-mars.lmd.jussieu.fr/mcd_python/",
+        "product": "Mars Climate Database web6.2; linked documentation6.1",
+        "spatial_resolution": null,
+        "temporal_resolution": "Scenario-dependent climatology, never current weather forecast.",
+        "date_or_scenario": null,
+        "method": "Model indexed by Ls, local time, altitude, dust/EUV scenario",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "Numerical provider and version-matched output contract not integrated; no temperatures, winds or pressure fabricated.",
+        "sample": null
+      },
+      "thermal_inertia": {
+        "name": "Thermal inertia",
+        "value": null,
+        "unit": "J m-2 K-1 s-1/2",
+        "source": "https://mars.asu.edu/data/",
+        "product": "Mars Global Data Sets: TES and Viking IRTM",
+        "spatial_resolution": {
+          "albedo_ppd": 8,
+          "thermal_inertia_2005_ppd": 20,
+          "surface_dust_ppd": 16,
+          "rock_abundance_ppd": 1
+        },
+        "temporal_resolution": "Published static composites; not a forecast.",
+        "date_or_scenario": null,
+        "method": "Candidate numeric products; colorized maps excluded from quantitative queries",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "Albedo raw VICAR link exists; numerical CRS/NoData/value interpretation not validated here. Thermal inertia/dust display colors are not quantitative substitutes.",
+        "sample": null
+      },
+      "surface_dust": {
+        "name": "Surface dust index",
+        "value": null,
+        "unit": "1",
+        "source": "https://mars.asu.edu/data/",
+        "product": "Mars Global Data Sets: TES and Viking IRTM",
+        "spatial_resolution": {
+          "albedo_ppd": 8,
+          "thermal_inertia_2005_ppd": 20,
+          "surface_dust_ppd": 16,
+          "rock_abundance_ppd": 1
+        },
+        "temporal_resolution": "Published static composites; not a forecast.",
+        "date_or_scenario": null,
+        "method": "Candidate numeric products; colorized maps excluded from quantitative queries",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "Albedo raw VICAR link exists; numerical CRS/NoData/value interpretation not validated here. Thermal inertia/dust display colors are not quantitative substitutes.",
+        "sample": null
+      },
+      "albedo": {
+        "name": "Albedo",
+        "value": null,
+        "unit": "1",
+        "source": "https://mars.asu.edu/data/",
+        "product": "Mars Global Data Sets: TES and Viking IRTM",
+        "spatial_resolution": {
+          "albedo_ppd": 8,
+          "thermal_inertia_2005_ppd": 20,
+          "surface_dust_ppd": 16,
+          "rock_abundance_ppd": 1
+        },
+        "temporal_resolution": "Published static composites; not a forecast.",
+        "date_or_scenario": null,
+        "method": "Candidate numeric products; colorized maps excluded from quantitative queries",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "Albedo raw VICAR link exists; numerical CRS/NoData/value interpretation not validated here. Thermal inertia/dust display colors are not quantitative substitutes.",
+        "sample": null
+      },
+      "rock_abundance": {
+        "name": "Rock abundance",
+        "value": null,
+        "unit": null,
+        "source": "https://mars.asu.edu/data/",
+        "product": "Mars Global Data Sets: TES and Viking IRTM",
+        "spatial_resolution": {
+          "albedo_ppd": 8,
+          "thermal_inertia_2005_ppd": 20,
+          "surface_dust_ppd": 16,
+          "rock_abundance_ppd": 1
+        },
+        "temporal_resolution": "Published static composites; not a forecast.",
+        "date_or_scenario": null,
+        "method": "Candidate numeric products; colorized maps excluded from quantitative queries",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "Albedo raw VICAR link exists; numerical CRS/NoData/value interpretation not validated here. Thermal inertia/dust display colors are not quantitative substitutes.",
+        "sample": null
+      },
+      "thermal_properties": {
+        "name": "Thermal properties",
+        "value": null,
+        "unit": null,
+        "source": "https://mars.asu.edu/data/",
+        "product": "Mars Global Data Sets: TES and Viking IRTM",
+        "spatial_resolution": {
+          "albedo_ppd": 8,
+          "thermal_inertia_2005_ppd": 20,
+          "surface_dust_ppd": 16,
+          "rock_abundance_ppd": 1
+        },
+        "temporal_resolution": "Published static composites; not a forecast.",
+        "date_or_scenario": null,
+        "method": "Candidate numeric products; colorized maps excluded from quantitative queries",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "Albedo raw VICAR link exists; numerical CRS/NoData/value interpretation not validated here. Thermal inertia/dust display colors are not quantitative substitutes.",
+        "sample": null
+      },
+      "geology": {
+        "name": "Geologic unit",
+        "value": null,
+        "unit": null,
+        "source": "https://astrogeology-usgs.hub.arcgis.com/pages/interactive-maps-mars",
+        "product": "Planetary cartography catalog",
+        "spatial_resolution": null,
+        "temporal_resolution": null,
+        "date_or_scenario": null,
+        "method": "Candidate geologic units/vector overlays",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "No regional geology or mineral numeric layer registered in this stage.",
+        "sample": null
+      },
+      "mineralogy": {
+        "name": "Mineralogy",
+        "value": null,
+        "unit": null,
+        "source": "https://astrogeology-usgs.hub.arcgis.com/pages/interactive-maps-mars",
+        "product": "Planetary cartography catalog",
+        "spatial_resolution": null,
+        "temporal_resolution": null,
+        "date_or_scenario": null,
+        "method": "Candidate geologic units/vector overlays",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "No regional geology or mineral numeric layer registered in this stage.",
+        "sample": null
+      },
+      "mobility_proxy": {
+        "name": "Mobility proxy",
+        "value": null,
+        "unit": null,
+        "source": "https://astrogeology-usgs.hub.arcgis.com/pages/interactive-maps-mars",
+        "product": "Planetary cartography catalog",
+        "spatial_resolution": null,
+        "temporal_resolution": null,
+        "date_or_scenario": null,
+        "method": "Candidate geologic units/vector overlays",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "No regional geology or mineral numeric layer registered in this stage.",
+        "sample": null
+      },
+      "topographic_illumination": {
+        "name": "Topographic illumination",
+        "value": null,
+        "unit": null,
+        "source": "https://astrogeology-usgs.hub.arcgis.com/pages/interactive-maps-mars",
+        "product": "Planetary cartography catalog",
+        "spatial_resolution": null,
+        "temporal_resolution": null,
+        "date_or_scenario": null,
+        "method": "Candidate geologic units/vector overlays",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "No regional geology or mineral numeric layer registered in this stage.",
+        "sample": null
+      },
+      "uv_radiation": {
+        "name": "Ultraviolet radiation",
+        "value": null,
+        "unit": null,
+        "source": "https://astrogeology-usgs.hub.arcgis.com/pages/interactive-maps-mars",
+        "product": "Planetary cartography catalog",
+        "spatial_resolution": null,
+        "temporal_resolution": null,
+        "date_or_scenario": null,
+        "method": "Candidate geologic units/vector overlays",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "No regional geology or mineral numeric layer registered in this stage.",
+        "sample": null
+      },
+      "ionizing_radiation": {
+        "name": "Ionizing radiation dose",
+        "value": null,
+        "unit": null,
+        "source": "https://science.nasa.gov/resource/radiation-measurements-on-mars/",
+        "product": "Radiation Measurements on Mars",
+        "spatial_resolution": {
+          "scope": "local rover measurement"
+        },
+        "temporal_resolution": "August2012\u2013June2013 reference plot.",
+        "date_or_scenario": null,
+        "method": "Reference of local ionizing dose measurements",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "Not a global map or a validated model for this region. Never extrapolate local Gale doses.",
+        "sample": null
+      },
+      "thermal_inertia_day": {
+        "name": "TES apparent thermal inertia (day)",
+        "value": 312.0,
+        "unit": "J m^-2 K^-1 s^-1/2",
+        "source": "https://pds-geosciences.wustl.edu/missions/mgs/tes-timap.html",
+        "product": "MGS-M-TES-5-TIMAP-V1.0, Putzig & Mellon 2007",
+        "spatial_resolution": {
+          "degrees": 0.05,
+          "nominal_equatorial_km": 2.96
+        },
+        "temporal_resolution": "1999-02 to 2004-04 observations; day/night apparent inertia products, not hourly forecasts",
+        "date_or_scenario": "1999-02 to 2004-04 observations; day/night apparent inertia products, not hourly forecasts",
+        "method": "Nearest native cell; signed MSB 16-bit inertia with original interpolation mask; interpolated cells excluded. Shared planetocentric angular coordinates; native sphere3396km differs from model3396.190km, no Earth CRS transform.",
+        "uncertainty": null,
+        "availability": "Available",
+        "classification": "Derived",
+        "reason": "Not temperature or stability. Validity screening 5..5000, original mask0 excluded. Uncertainty not supplied.",
+        "sample": {
+          "value": 312.0,
+          "unit": "J m^-2 K^-1 s^-1/2",
+          "source": "MGS-M-TES-5-TIMAP-V1.0",
+          "source_url": "https://pds-geosciences.wustl.edu/missions/mgs/tes-timap.html",
+          "resolution_degrees": 0.05,
+          "resolution_equator_km": 2.96,
+          "observation_period": "1999-02 to 2004-04",
+          "kind": "derived",
+          "period": "day",
+          "status": "available",
+          "cell": {
+            "row": 1431,
+            "column": 5148,
+            "latitude": 18.424999999999997,
+            "longitude_east": 77.42500000000001
+          },
+          "interpolated": false
+        }
+      },
+      "thermal_inertia_night": {
+        "name": "TES apparent thermal inertia (night)",
+        "value": 336.0,
+        "unit": "J m^-2 K^-1 s^-1/2",
+        "source": "https://pds-geosciences.wustl.edu/missions/mgs/tes-timap.html",
+        "product": "MGS-M-TES-5-TIMAP-V1.0, Putzig & Mellon 2007",
+        "spatial_resolution": {
+          "degrees": 0.05,
+          "nominal_equatorial_km": 2.96
+        },
+        "temporal_resolution": "1999-02 to 2004-04 observations; day/night apparent inertia products, not hourly forecasts",
+        "date_or_scenario": "1999-02 to 2004-04 observations; day/night apparent inertia products, not hourly forecasts",
+        "method": "Nearest native cell; signed MSB 16-bit inertia with original interpolation mask; interpolated cells excluded. Shared planetocentric angular coordinates; native sphere3396km differs from model3396.190km, no Earth CRS transform.",
+        "uncertainty": null,
+        "availability": "Available",
+        "classification": "Derived",
+        "reason": "Not temperature or stability. Validity screening 5..5000, original mask0 excluded. Uncertainty not supplied.",
+        "sample": {
+          "value": 336.0,
+          "unit": "J m^-2 K^-1 s^-1/2",
+          "source": "MGS-M-TES-5-TIMAP-V1.0",
+          "source_url": "https://pds-geosciences.wustl.edu/missions/mgs/tes-timap.html",
+          "resolution_degrees": 0.05,
+          "resolution_equator_km": 2.96,
+          "observation_period": "1999-02 to 2004-04",
+          "kind": "derived",
+          "period": "night",
+          "status": "available",
+          "cell": {
+            "row": 1431,
+            "column": 5148,
+            "latitude": 18.424999999999997,
+            "longitude_east": 77.42500000000001
+          },
+          "interpolated": false
+        }
+      }
+    },
+    "notice": "Scientific elevations retain the source product reference; visual heights are exaggerated. No route safety assessment."
+  },
+  {
+    "coverage": "Available",
+    "position": {
+      "x": 8375,
+      "z": -20625,
+      "geographic": {
+        "latitude": 17.847900836970044,
+        "longitude": 77.14843407601983,
+        "latitude_type": "planetocentric",
+        "longitude_direction": "positive east",
+        "longitude_domain": [
+          -180,
+          180
+        ]
+      },
+      "grid": {
+        "row": 321,
+        "column": 433,
+        "center_xz": [
+          8375.0,
+          -20625.0
+        ]
+      },
+      "visual_elevation": 7350.0,
+      "scientific_elevation": -2050.528076171875
+    },
+    "variables": {
+      "scientific_elevation": {
+        "name": "Scientific elevation",
+        "value": -2050.528076171875,
+        "unit": "m",
+        "source": "https://astrogeology.usgs.gov/search/map/mars_mgs_mola_mex_hrsc_blended_dem_global_200m",
+        "product": "HRSC/MOLA blended DEM global 200m v2",
+        "spatial_resolution": {
+          "nominal_m": 200,
+          "processed_grid_m": 250
+        },
+        "temporal_resolution": "Static composite v2 published 2018; input acquisitions differ.",
+        "date_or_scenario": "Static source composite",
+        "method": "Unquantized reprojected DEM cell value",
+        "uncertainty": null,
+        "availability": "Available",
+        "classification": "Derived",
+        "reason": null,
+        "sample": {
+          "grid": {
+            "row": 321,
+            "column": 433,
+            "center_xz": [
+              8375.0,
+              -20625.0
+            ]
+          },
+          "source_resolution_nominal_m": 200,
+          "processed_grid_m": 250
+        }
+      },
+      "slope": {
+        "name": "Slope",
+        "value": 0.5093710422515869,
+        "unit": "degree",
+        "source": "https://astrogeology.usgs.gov/search/map/mars_mgs_mola_mex_hrsc_blended_dem_global_200m",
+        "product": "HRSC/MOLA blended DEM global 200m v2",
+        "spatial_resolution": {
+          "nominal_m": 200,
+          "processed_grid_m": 250
+        },
+        "temporal_resolution": "Static composite v2 published 2018; input acquisitions differ.",
+        "date_or_scenario": "Static source composite",
+        "method": "3x3 central-constrained plane in geodesic east/north offsets",
+        "uncertainty": null,
+        "availability": "Available",
+        "classification": "Derived",
+        "reason": null,
+        "sample": {
+          "grid": {
+            "row": 321,
+            "column": 433,
+            "center_xz": [
+              8375.0,
+              -20625.0
+            ]
+          },
+          "source_resolution_nominal_m": 200,
+          "processed_grid_m": 250
+        }
+      },
+      "aspect": {
+        "name": "Downhill aspect",
+        "value": 289.32672119140625,
+        "unit": "degree",
+        "source": "https://astrogeology.usgs.gov/search/map/mars_mgs_mola_mex_hrsc_blended_dem_global_200m",
+        "product": "HRSC/MOLA blended DEM global 200m v2",
+        "spatial_resolution": {
+          "nominal_m": 200,
+          "processed_grid_m": 250
+        },
+        "temporal_resolution": "Static composite v2 published 2018; input acquisitions differ.",
+        "date_or_scenario": "Static source composite",
+        "method": "Clockwise from true north; flat undefined",
+        "uncertainty": null,
+        "availability": "Available",
+        "classification": "Derived",
+        "reason": null,
+        "sample": {
+          "grid": {
+            "row": 321,
+            "column": 433,
+            "center_xz": [
+              8375.0,
+              -20625.0
+            ]
+          },
+          "source_resolution_nominal_m": 200,
+          "processed_grid_m": 250
+        }
+      },
+      "roughness": {
+        "name": "Detrended local roughness",
+        "value": 2.591386079788208,
+        "unit": "m",
+        "source": "https://astrogeology.usgs.gov/search/map/mars_mgs_mola_mex_hrsc_blended_dem_global_200m",
+        "product": "HRSC/MOLA blended DEM global 200m v2",
+        "spatial_resolution": {
+          "nominal_m": 200,
+          "processed_grid_m": 250
+        },
+        "temporal_resolution": "Static composite v2 published 2018; input acquisitions differ.",
+        "date_or_scenario": "Static source composite",
+        "method": "RMS of 3x3 plane residuals; not mechanical stability",
+        "uncertainty": null,
+        "availability": "Available",
+        "classification": "Derived",
+        "reason": null,
+        "sample": {
+          "grid": {
+            "row": 321,
+            "column": 433,
+            "center_xz": [
+              8375.0,
+              -20625.0
+            ]
+          },
+          "source_resolution_nominal_m": 200,
+          "processed_grid_m": 250
+        }
+      },
+      "local_relief": {
+        "name": "Local relief",
+        "value": 7.0623779296875,
+        "unit": "m",
+        "source": "https://astrogeology.usgs.gov/search/map/mars_mgs_mola_mex_hrsc_blended_dem_global_200m",
+        "product": "HRSC/MOLA blended DEM global 200m v2",
+        "spatial_resolution": {
+          "nominal_m": 200,
+          "processed_grid_m": 250
+        },
+        "temporal_resolution": "Static composite v2 published 2018; input acquisitions differ.",
+        "date_or_scenario": "Static source composite",
+        "method": "3x3 max minus min",
+        "uncertainty": null,
+        "availability": "Available",
+        "classification": "Derived",
+        "reason": null,
+        "sample": {
+          "grid": {
+            "row": 321,
+            "column": 433,
+            "center_xz": [
+              8375.0,
+              -20625.0
+            ]
+          },
+          "source_resolution_nominal_m": 200,
+          "processed_grid_m": 250
+        }
+      },
+      "dust_optical_depth": {
+        "name": "Historical IR absorption CDOD at 610Pa",
+        "value": null,
+        "unit": "Pa/Pa",
+        "source": "https://www-mars.lmd.jussieu.fr/mars/dust_climatology/",
+        "product": "Gridded CDOD MY36 v2.5",
+        "spatial_resolution": {
+          "longitude_degrees": 6,
+          "latitude_degrees": 5
+        },
+        "temporal_resolution": "MY36 sols1\u2013669, one daily average; observation windows vary.",
+        "date_or_scenario": null,
+        "method": "Native daily cell; requires explicit MY36 and sol1\u2013669",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "Select Mars year36 and sol-of-year1\u00e2\u20ac\u201c669 explicitly; no current-date default.",
+        "sample": null
+      },
+      "surface_temperature": {
+        "name": "Surface temperature",
+        "value": null,
+        "unit": "K",
+        "source": "https://www-mars.lmd.jussieu.fr/mcd_python/",
+        "product": "Mars Climate Database web6.2; linked documentation6.1",
+        "spatial_resolution": null,
+        "temporal_resolution": "Scenario-dependent climatology, never current weather forecast.",
+        "date_or_scenario": null,
+        "method": "Model indexed by Ls, local time, altitude, dust/EUV scenario",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "Numerical provider and version-matched output contract not integrated; no temperatures, winds or pressure fabricated.",
+        "sample": null
+      },
+      "atmospheric_temperature": {
+        "name": "Atmospheric temperature",
+        "value": null,
+        "unit": "K",
+        "source": "https://www-mars.lmd.jussieu.fr/mcd_python/",
+        "product": "Mars Climate Database web6.2; linked documentation6.1",
+        "spatial_resolution": null,
+        "temporal_resolution": "Scenario-dependent climatology, never current weather forecast.",
+        "date_or_scenario": null,
+        "method": "Model indexed by Ls, local time, altitude, dust/EUV scenario",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "Numerical provider and version-matched output contract not integrated; no temperatures, winds or pressure fabricated.",
+        "sample": null
+      },
+      "temperature_diurnal": {
+        "name": "Diurnal temperature variation",
+        "value": null,
+        "unit": "K",
+        "source": "https://www-mars.lmd.jussieu.fr/mcd_python/",
+        "product": "Mars Climate Database web6.2; linked documentation6.1",
+        "spatial_resolution": null,
+        "temporal_resolution": "Scenario-dependent climatology, never current weather forecast.",
+        "date_or_scenario": null,
+        "method": "Model indexed by Ls, local time, altitude, dust/EUV scenario",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "Numerical provider and version-matched output contract not integrated; no temperatures, winds or pressure fabricated.",
+        "sample": null
+      },
+      "temperature_min": {
+        "name": "Scenario minimum temperature",
+        "value": null,
+        "unit": "K",
+        "source": "https://www-mars.lmd.jussieu.fr/mcd_python/",
+        "product": "Mars Climate Database web6.2; linked documentation6.1",
+        "spatial_resolution": null,
+        "temporal_resolution": "Scenario-dependent climatology, never current weather forecast.",
+        "date_or_scenario": null,
+        "method": "Model indexed by Ls, local time, altitude, dust/EUV scenario",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "Numerical provider and version-matched output contract not integrated; no temperatures, winds or pressure fabricated.",
+        "sample": null
+      },
+      "temperature_max": {
+        "name": "Scenario maximum temperature",
+        "value": null,
+        "unit": "K",
+        "source": "https://www-mars.lmd.jussieu.fr/mcd_python/",
+        "product": "Mars Climate Database web6.2; linked documentation6.1",
+        "spatial_resolution": null,
+        "temporal_resolution": "Scenario-dependent climatology, never current weather forecast.",
+        "date_or_scenario": null,
+        "method": "Model indexed by Ls, local time, altitude, dust/EUV scenario",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "Numerical provider and version-matched output contract not integrated; no temperatures, winds or pressure fabricated.",
+        "sample": null
+      },
+      "pressure": {
+        "name": "Surface pressure",
+        "value": null,
+        "unit": "Pa",
+        "source": "https://www-mars.lmd.jussieu.fr/mcd_python/",
+        "product": "Mars Climate Database web6.2; linked documentation6.1",
+        "spatial_resolution": null,
+        "temporal_resolution": "Scenario-dependent climatology, never current weather forecast.",
+        "date_or_scenario": null,
+        "method": "Model indexed by Ls, local time, altitude, dust/EUV scenario",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "Numerical provider and version-matched output contract not integrated; no temperatures, winds or pressure fabricated.",
+        "sample": null
+      },
+      "wind_speed": {
+        "name": "Wind speed",
+        "value": null,
+        "unit": "m/s",
+        "source": "https://www-mars.lmd.jussieu.fr/mcd_python/",
+        "product": "Mars Climate Database web6.2; linked documentation6.1",
+        "spatial_resolution": null,
+        "temporal_resolution": "Scenario-dependent climatology, never current weather forecast.",
+        "date_or_scenario": null,
+        "method": "Model indexed by Ls, local time, altitude, dust/EUV scenario",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "Numerical provider and version-matched output contract not integrated; no temperatures, winds or pressure fabricated.",
+        "sample": null
+      },
+      "wind_direction": {
+        "name": "Wind direction",
+        "value": null,
+        "unit": "degree",
+        "source": "https://www-mars.lmd.jussieu.fr/mcd_python/",
+        "product": "Mars Climate Database web6.2; linked documentation6.1",
+        "spatial_resolution": null,
+        "temporal_resolution": "Scenario-dependent climatology, never current weather forecast.",
+        "date_or_scenario": null,
+        "method": "Model indexed by Ls, local time, altitude, dust/EUV scenario",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "Numerical provider and version-matched output contract not integrated; no temperatures, winds or pressure fabricated.",
+        "sample": null
+      },
+      "atmospheric_dust": {
+        "name": "Atmospheric dust concentration",
+        "value": null,
+        "unit": null,
+        "source": "https://www-mars.lmd.jussieu.fr/mcd_python/",
+        "product": "Mars Climate Database web6.2; linked documentation6.1",
+        "spatial_resolution": null,
+        "temporal_resolution": "Scenario-dependent climatology, never current weather forecast.",
+        "date_or_scenario": null,
+        "method": "Model indexed by Ls, local time, altitude, dust/EUV scenario",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "Numerical provider and version-matched output contract not integrated; no temperatures, winds or pressure fabricated.",
+        "sample": null
+      },
+      "high_dust_scenario": {
+        "name": "High dust scenario",
+        "value": null,
+        "unit": null,
+        "source": "https://www-mars.lmd.jussieu.fr/mcd_python/",
+        "product": "Mars Climate Database web6.2; linked documentation6.1",
+        "spatial_resolution": null,
+        "temporal_resolution": "Scenario-dependent climatology, never current weather forecast.",
+        "date_or_scenario": null,
+        "method": "Model indexed by Ls, local time, altitude, dust/EUV scenario",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "Numerical provider and version-matched output contract not integrated; no temperatures, winds or pressure fabricated.",
+        "sample": null
+      },
+      "solar_flux": {
+        "name": "Solar flux",
+        "value": null,
+        "unit": "W/m2",
+        "source": "https://www-mars.lmd.jussieu.fr/mcd_python/",
+        "product": "Mars Climate Database web6.2; linked documentation6.1",
+        "spatial_resolution": null,
+        "temporal_resolution": "Scenario-dependent climatology, never current weather forecast.",
+        "date_or_scenario": null,
+        "method": "Model indexed by Ls, local time, altitude, dust/EUV scenario",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "Numerical provider and version-matched output contract not integrated; no temperatures, winds or pressure fabricated.",
+        "sample": null
+      },
+      "solar_exposure": {
+        "name": "Integrated solar exposure",
+        "value": null,
+        "unit": "J/m2",
+        "source": "https://www-mars.lmd.jussieu.fr/mcd_python/",
+        "product": "Mars Climate Database web6.2; linked documentation6.1",
+        "spatial_resolution": null,
+        "temporal_resolution": "Scenario-dependent climatology, never current weather forecast.",
+        "date_or_scenario": null,
+        "method": "Model indexed by Ls, local time, altitude, dust/EUV scenario",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "Numerical provider and version-matched output contract not integrated; no temperatures, winds or pressure fabricated.",
+        "sample": null
+      },
+      "thermal_inertia": {
+        "name": "Thermal inertia",
+        "value": null,
+        "unit": "J m-2 K-1 s-1/2",
+        "source": "https://mars.asu.edu/data/",
+        "product": "Mars Global Data Sets: TES and Viking IRTM",
+        "spatial_resolution": {
+          "albedo_ppd": 8,
+          "thermal_inertia_2005_ppd": 20,
+          "surface_dust_ppd": 16,
+          "rock_abundance_ppd": 1
+        },
+        "temporal_resolution": "Published static composites; not a forecast.",
+        "date_or_scenario": null,
+        "method": "Candidate numeric products; colorized maps excluded from quantitative queries",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "Albedo raw VICAR link exists; numerical CRS/NoData/value interpretation not validated here. Thermal inertia/dust display colors are not quantitative substitutes.",
+        "sample": null
+      },
+      "surface_dust": {
+        "name": "Surface dust index",
+        "value": null,
+        "unit": "1",
+        "source": "https://mars.asu.edu/data/",
+        "product": "Mars Global Data Sets: TES and Viking IRTM",
+        "spatial_resolution": {
+          "albedo_ppd": 8,
+          "thermal_inertia_2005_ppd": 20,
+          "surface_dust_ppd": 16,
+          "rock_abundance_ppd": 1
+        },
+        "temporal_resolution": "Published static composites; not a forecast.",
+        "date_or_scenario": null,
+        "method": "Candidate numeric products; colorized maps excluded from quantitative queries",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "Albedo raw VICAR link exists; numerical CRS/NoData/value interpretation not validated here. Thermal inertia/dust display colors are not quantitative substitutes.",
+        "sample": null
+      },
+      "albedo": {
+        "name": "Albedo",
+        "value": null,
+        "unit": "1",
+        "source": "https://mars.asu.edu/data/",
+        "product": "Mars Global Data Sets: TES and Viking IRTM",
+        "spatial_resolution": {
+          "albedo_ppd": 8,
+          "thermal_inertia_2005_ppd": 20,
+          "surface_dust_ppd": 16,
+          "rock_abundance_ppd": 1
+        },
+        "temporal_resolution": "Published static composites; not a forecast.",
+        "date_or_scenario": null,
+        "method": "Candidate numeric products; colorized maps excluded from quantitative queries",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "Albedo raw VICAR link exists; numerical CRS/NoData/value interpretation not validated here. Thermal inertia/dust display colors are not quantitative substitutes.",
+        "sample": null
+      },
+      "rock_abundance": {
+        "name": "Rock abundance",
+        "value": null,
+        "unit": null,
+        "source": "https://mars.asu.edu/data/",
+        "product": "Mars Global Data Sets: TES and Viking IRTM",
+        "spatial_resolution": {
+          "albedo_ppd": 8,
+          "thermal_inertia_2005_ppd": 20,
+          "surface_dust_ppd": 16,
+          "rock_abundance_ppd": 1
+        },
+        "temporal_resolution": "Published static composites; not a forecast.",
+        "date_or_scenario": null,
+        "method": "Candidate numeric products; colorized maps excluded from quantitative queries",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "Albedo raw VICAR link exists; numerical CRS/NoData/value interpretation not validated here. Thermal inertia/dust display colors are not quantitative substitutes.",
+        "sample": null
+      },
+      "thermal_properties": {
+        "name": "Thermal properties",
+        "value": null,
+        "unit": null,
+        "source": "https://mars.asu.edu/data/",
+        "product": "Mars Global Data Sets: TES and Viking IRTM",
+        "spatial_resolution": {
+          "albedo_ppd": 8,
+          "thermal_inertia_2005_ppd": 20,
+          "surface_dust_ppd": 16,
+          "rock_abundance_ppd": 1
+        },
+        "temporal_resolution": "Published static composites; not a forecast.",
+        "date_or_scenario": null,
+        "method": "Candidate numeric products; colorized maps excluded from quantitative queries",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "Albedo raw VICAR link exists; numerical CRS/NoData/value interpretation not validated here. Thermal inertia/dust display colors are not quantitative substitutes.",
+        "sample": null
+      },
+      "geology": {
+        "name": "Geologic unit",
+        "value": null,
+        "unit": null,
+        "source": "https://astrogeology-usgs.hub.arcgis.com/pages/interactive-maps-mars",
+        "product": "Planetary cartography catalog",
+        "spatial_resolution": null,
+        "temporal_resolution": null,
+        "date_or_scenario": null,
+        "method": "Candidate geologic units/vector overlays",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "No regional geology or mineral numeric layer registered in this stage.",
+        "sample": null
+      },
+      "mineralogy": {
+        "name": "Mineralogy",
+        "value": null,
+        "unit": null,
+        "source": "https://astrogeology-usgs.hub.arcgis.com/pages/interactive-maps-mars",
+        "product": "Planetary cartography catalog",
+        "spatial_resolution": null,
+        "temporal_resolution": null,
+        "date_or_scenario": null,
+        "method": "Candidate geologic units/vector overlays",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "No regional geology or mineral numeric layer registered in this stage.",
+        "sample": null
+      },
+      "mobility_proxy": {
+        "name": "Mobility proxy",
+        "value": null,
+        "unit": null,
+        "source": "https://astrogeology-usgs.hub.arcgis.com/pages/interactive-maps-mars",
+        "product": "Planetary cartography catalog",
+        "spatial_resolution": null,
+        "temporal_resolution": null,
+        "date_or_scenario": null,
+        "method": "Candidate geologic units/vector overlays",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "No regional geology or mineral numeric layer registered in this stage.",
+        "sample": null
+      },
+      "topographic_illumination": {
+        "name": "Topographic illumination",
+        "value": null,
+        "unit": null,
+        "source": "https://astrogeology-usgs.hub.arcgis.com/pages/interactive-maps-mars",
+        "product": "Planetary cartography catalog",
+        "spatial_resolution": null,
+        "temporal_resolution": null,
+        "date_or_scenario": null,
+        "method": "Candidate geologic units/vector overlays",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "No regional geology or mineral numeric layer registered in this stage.",
+        "sample": null
+      },
+      "uv_radiation": {
+        "name": "Ultraviolet radiation",
+        "value": null,
+        "unit": null,
+        "source": "https://astrogeology-usgs.hub.arcgis.com/pages/interactive-maps-mars",
+        "product": "Planetary cartography catalog",
+        "spatial_resolution": null,
+        "temporal_resolution": null,
+        "date_or_scenario": null,
+        "method": "Candidate geologic units/vector overlays",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "No regional geology or mineral numeric layer registered in this stage.",
+        "sample": null
+      },
+      "ionizing_radiation": {
+        "name": "Ionizing radiation dose",
+        "value": null,
+        "unit": null,
+        "source": "https://science.nasa.gov/resource/radiation-measurements-on-mars/",
+        "product": "Radiation Measurements on Mars",
+        "spatial_resolution": {
+          "scope": "local rover measurement"
+        },
+        "temporal_resolution": "August2012\u2013June2013 reference plot.",
+        "date_or_scenario": null,
+        "method": "Reference of local ionizing dose measurements",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "Not a global map or a validated model for this region. Never extrapolate local Gale doses.",
+        "sample": null
+      },
+      "thermal_inertia_day": {
+        "name": "TES apparent thermal inertia (day)",
+        "value": 256.0,
+        "unit": "J m^-2 K^-1 s^-1/2",
+        "source": "https://pds-geosciences.wustl.edu/missions/mgs/tes-timap.html",
+        "product": "MGS-M-TES-5-TIMAP-V1.0, Putzig & Mellon 2007",
+        "spatial_resolution": {
+          "degrees": 0.05,
+          "nominal_equatorial_km": 2.96
+        },
+        "temporal_resolution": "1999-02 to 2004-04 observations; day/night apparent inertia products, not hourly forecasts",
+        "date_or_scenario": "1999-02 to 2004-04 observations; day/night apparent inertia products, not hourly forecasts",
+        "method": "Nearest native cell; signed MSB 16-bit inertia with original interpolation mask; interpolated cells excluded. Shared planetocentric angular coordinates; native sphere3396km differs from model3396.190km, no Earth CRS transform.",
+        "uncertainty": null,
+        "availability": "Available",
+        "classification": "Derived",
+        "reason": "Not temperature or stability. Validity screening 5..5000, original mask0 excluded. Uncertainty not supplied.",
+        "sample": {
+          "value": 256.0,
+          "unit": "J m^-2 K^-1 s^-1/2",
+          "source": "MGS-M-TES-5-TIMAP-V1.0",
+          "source_url": "https://pds-geosciences.wustl.edu/missions/mgs/tes-timap.html",
+          "resolution_degrees": 0.05,
+          "resolution_equator_km": 2.96,
+          "observation_period": "1999-02 to 2004-04",
+          "kind": "derived",
+          "period": "day",
+          "status": "available",
+          "cell": {
+            "row": 1443,
+            "column": 5142,
+            "latitude": 17.825000000000003,
+            "longitude_east": 77.125
+          },
+          "interpolated": false
+        }
+      },
+      "thermal_inertia_night": {
+        "name": "TES apparent thermal inertia (night)",
+        "value": 291.0,
+        "unit": "J m^-2 K^-1 s^-1/2",
+        "source": "https://pds-geosciences.wustl.edu/missions/mgs/tes-timap.html",
+        "product": "MGS-M-TES-5-TIMAP-V1.0, Putzig & Mellon 2007",
+        "spatial_resolution": {
+          "degrees": 0.05,
+          "nominal_equatorial_km": 2.96
+        },
+        "temporal_resolution": "1999-02 to 2004-04 observations; day/night apparent inertia products, not hourly forecasts",
+        "date_or_scenario": "1999-02 to 2004-04 observations; day/night apparent inertia products, not hourly forecasts",
+        "method": "Nearest native cell; signed MSB 16-bit inertia with original interpolation mask; interpolated cells excluded. Shared planetocentric angular coordinates; native sphere3396km differs from model3396.190km, no Earth CRS transform.",
+        "uncertainty": null,
+        "availability": "Available",
+        "classification": "Derived",
+        "reason": "Not temperature or stability. Validity screening 5..5000, original mask0 excluded. Uncertainty not supplied.",
+        "sample": {
+          "value": 291.0,
+          "unit": "J m^-2 K^-1 s^-1/2",
+          "source": "MGS-M-TES-5-TIMAP-V1.0",
+          "source_url": "https://pds-geosciences.wustl.edu/missions/mgs/tes-timap.html",
+          "resolution_degrees": 0.05,
+          "resolution_equator_km": 2.96,
+          "observation_period": "1999-02 to 2004-04",
+          "kind": "derived",
+          "period": "night",
+          "status": "available",
+          "cell": {
+            "row": 1443,
+            "column": 5142,
+            "latitude": 17.825000000000003,
+            "longitude_east": 77.125
+          },
+          "interpolated": false
+        }
+      }
+    },
+    "notice": "Scientific elevations retain the source product reference; visual heights are exaggerated. No route safety assessment."
+  },
+  {
+    "coverage": "Available",
+    "position": {
+      "x": -50000,
+      "z": 0,
+      "geographic": {
+        "latitude": 17.49804223388963,
+        "longitude": 76.11554032475105,
+        "latitude_type": "planetocentric",
+        "longitude_direction": "positive east",
+        "longitude_domain": [
+          -180,
+          180
+        ]
+      },
+      "grid": {
+        "row": 404,
+        "column": 200,
+        "center_xz": [
+          -49875.0,
+          125.0
+        ]
+      },
+      "visual_elevation": 8982.0,
+      "scientific_elevation": -1506.8485107421875
+    },
+    "variables": {
+      "scientific_elevation": {
+        "name": "Scientific elevation",
+        "value": -1506.8485107421875,
+        "unit": "m",
+        "source": "https://astrogeology.usgs.gov/search/map/mars_mgs_mola_mex_hrsc_blended_dem_global_200m",
+        "product": "HRSC/MOLA blended DEM global 200m v2",
+        "spatial_resolution": {
+          "nominal_m": 200,
+          "processed_grid_m": 250
+        },
+        "temporal_resolution": "Static composite v2 published 2018; input acquisitions differ.",
+        "date_or_scenario": "Static source composite",
+        "method": "Unquantized reprojected DEM cell value",
+        "uncertainty": null,
+        "availability": "Available",
+        "classification": "Derived",
+        "reason": null,
+        "sample": {
+          "grid": {
+            "row": 404,
+            "column": 200,
+            "center_xz": [
+              -49875.0,
+              125.0
+            ]
+          },
+          "source_resolution_nominal_m": 200,
+          "processed_grid_m": 250
+        }
+      },
+      "slope": {
+        "name": "Slope",
+        "value": 1.3618335723876953,
+        "unit": "degree",
+        "source": "https://astrogeology.usgs.gov/search/map/mars_mgs_mola_mex_hrsc_blended_dem_global_200m",
+        "product": "HRSC/MOLA blended DEM global 200m v2",
+        "spatial_resolution": {
+          "nominal_m": 200,
+          "processed_grid_m": 250
+        },
+        "temporal_resolution": "Static composite v2 published 2018; input acquisitions differ.",
+        "date_or_scenario": "Static source composite",
+        "method": "3x3 central-constrained plane in geodesic east/north offsets",
+        "uncertainty": null,
+        "availability": "Available",
+        "classification": "Derived",
+        "reason": null,
+        "sample": {
+          "grid": {
+            "row": 404,
+            "column": 200,
+            "center_xz": [
+              -49875.0,
+              125.0
+            ]
+          },
+          "source_resolution_nominal_m": 200,
+          "processed_grid_m": 250
+        }
+      },
+      "aspect": {
+        "name": "Downhill aspect",
+        "value": 88.9085464477539,
+        "unit": "degree",
+        "source": "https://astrogeology.usgs.gov/search/map/mars_mgs_mola_mex_hrsc_blended_dem_global_200m",
+        "product": "HRSC/MOLA blended DEM global 200m v2",
+        "spatial_resolution": {
+          "nominal_m": 200,
+          "processed_grid_m": 250
+        },
+        "temporal_resolution": "Static composite v2 published 2018; input acquisitions differ.",
+        "date_or_scenario": "Static source composite",
+        "method": "Clockwise from true north; flat undefined",
+        "uncertainty": null,
+        "availability": "Available",
+        "classification": "Derived",
+        "reason": null,
+        "sample": {
+          "grid": {
+            "row": 404,
+            "column": 200,
+            "center_xz": [
+              -49875.0,
+              125.0
+            ]
+          },
+          "source_resolution_nominal_m": 200,
+          "processed_grid_m": 250
+        }
+      },
+      "roughness": {
+        "name": "Detrended local roughness",
+        "value": 16.615079879760742,
+        "unit": "m",
+        "source": "https://astrogeology.usgs.gov/search/map/mars_mgs_mola_mex_hrsc_blended_dem_global_200m",
+        "product": "HRSC/MOLA blended DEM global 200m v2",
+        "spatial_resolution": {
+          "nominal_m": 200,
+          "processed_grid_m": 250
+        },
+        "temporal_resolution": "Static composite v2 published 2018; input acquisitions differ.",
+        "date_or_scenario": "Static source composite",
+        "method": "RMS of 3x3 plane residuals; not mechanical stability",
+        "uncertainty": null,
+        "availability": "Available",
+        "classification": "Derived",
+        "reason": null,
+        "sample": {
+          "grid": {
+            "row": 404,
+            "column": 200,
+            "center_xz": [
+              -49875.0,
+              125.0
+            ]
+          },
+          "source_resolution_nominal_m": 200,
+          "processed_grid_m": 250
+        }
+      },
+      "local_relief": {
+        "name": "Local relief",
+        "value": 30.01318359375,
+        "unit": "m",
+        "source": "https://astrogeology.usgs.gov/search/map/mars_mgs_mola_mex_hrsc_blended_dem_global_200m",
+        "product": "HRSC/MOLA blended DEM global 200m v2",
+        "spatial_resolution": {
+          "nominal_m": 200,
+          "processed_grid_m": 250
+        },
+        "temporal_resolution": "Static composite v2 published 2018; input acquisitions differ.",
+        "date_or_scenario": "Static source composite",
+        "method": "3x3 max minus min",
+        "uncertainty": null,
+        "availability": "Available",
+        "classification": "Derived",
+        "reason": null,
+        "sample": {
+          "grid": {
+            "row": 404,
+            "column": 200,
+            "center_xz": [
+              -49875.0,
+              125.0
+            ]
+          },
+          "source_resolution_nominal_m": 200,
+          "processed_grid_m": 250
+        }
+      },
+      "dust_optical_depth": {
+        "name": "Historical IR absorption CDOD at 610Pa",
+        "value": null,
+        "unit": "Pa/Pa",
+        "source": "https://www-mars.lmd.jussieu.fr/mars/dust_climatology/",
+        "product": "Gridded CDOD MY36 v2.5",
+        "spatial_resolution": {
+          "longitude_degrees": 6,
+          "latitude_degrees": 5
+        },
+        "temporal_resolution": "MY36 sols1\u2013669, one daily average; observation windows vary.",
+        "date_or_scenario": null,
+        "method": "Native daily cell; requires explicit MY36 and sol1\u2013669",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "Select Mars year36 and sol-of-year1\u00e2\u20ac\u201c669 explicitly; no current-date default.",
+        "sample": null
+      },
+      "surface_temperature": {
+        "name": "Surface temperature",
+        "value": null,
+        "unit": "K",
+        "source": "https://www-mars.lmd.jussieu.fr/mcd_python/",
+        "product": "Mars Climate Database web6.2; linked documentation6.1",
+        "spatial_resolution": null,
+        "temporal_resolution": "Scenario-dependent climatology, never current weather forecast.",
+        "date_or_scenario": null,
+        "method": "Model indexed by Ls, local time, altitude, dust/EUV scenario",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "Numerical provider and version-matched output contract not integrated; no temperatures, winds or pressure fabricated.",
+        "sample": null
+      },
+      "atmospheric_temperature": {
+        "name": "Atmospheric temperature",
+        "value": null,
+        "unit": "K",
+        "source": "https://www-mars.lmd.jussieu.fr/mcd_python/",
+        "product": "Mars Climate Database web6.2; linked documentation6.1",
+        "spatial_resolution": null,
+        "temporal_resolution": "Scenario-dependent climatology, never current weather forecast.",
+        "date_or_scenario": null,
+        "method": "Model indexed by Ls, local time, altitude, dust/EUV scenario",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "Numerical provider and version-matched output contract not integrated; no temperatures, winds or pressure fabricated.",
+        "sample": null
+      },
+      "temperature_diurnal": {
+        "name": "Diurnal temperature variation",
+        "value": null,
+        "unit": "K",
+        "source": "https://www-mars.lmd.jussieu.fr/mcd_python/",
+        "product": "Mars Climate Database web6.2; linked documentation6.1",
+        "spatial_resolution": null,
+        "temporal_resolution": "Scenario-dependent climatology, never current weather forecast.",
+        "date_or_scenario": null,
+        "method": "Model indexed by Ls, local time, altitude, dust/EUV scenario",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "Numerical provider and version-matched output contract not integrated; no temperatures, winds or pressure fabricated.",
+        "sample": null
+      },
+      "temperature_min": {
+        "name": "Scenario minimum temperature",
+        "value": null,
+        "unit": "K",
+        "source": "https://www-mars.lmd.jussieu.fr/mcd_python/",
+        "product": "Mars Climate Database web6.2; linked documentation6.1",
+        "spatial_resolution": null,
+        "temporal_resolution": "Scenario-dependent climatology, never current weather forecast.",
+        "date_or_scenario": null,
+        "method": "Model indexed by Ls, local time, altitude, dust/EUV scenario",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "Numerical provider and version-matched output contract not integrated; no temperatures, winds or pressure fabricated.",
+        "sample": null
+      },
+      "temperature_max": {
+        "name": "Scenario maximum temperature",
+        "value": null,
+        "unit": "K",
+        "source": "https://www-mars.lmd.jussieu.fr/mcd_python/",
+        "product": "Mars Climate Database web6.2; linked documentation6.1",
+        "spatial_resolution": null,
+        "temporal_resolution": "Scenario-dependent climatology, never current weather forecast.",
+        "date_or_scenario": null,
+        "method": "Model indexed by Ls, local time, altitude, dust/EUV scenario",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "Numerical provider and version-matched output contract not integrated; no temperatures, winds or pressure fabricated.",
+        "sample": null
+      },
+      "pressure": {
+        "name": "Surface pressure",
+        "value": null,
+        "unit": "Pa",
+        "source": "https://www-mars.lmd.jussieu.fr/mcd_python/",
+        "product": "Mars Climate Database web6.2; linked documentation6.1",
+        "spatial_resolution": null,
+        "temporal_resolution": "Scenario-dependent climatology, never current weather forecast.",
+        "date_or_scenario": null,
+        "method": "Model indexed by Ls, local time, altitude, dust/EUV scenario",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "Numerical provider and version-matched output contract not integrated; no temperatures, winds or pressure fabricated.",
+        "sample": null
+      },
+      "wind_speed": {
+        "name": "Wind speed",
+        "value": null,
+        "unit": "m/s",
+        "source": "https://www-mars.lmd.jussieu.fr/mcd_python/",
+        "product": "Mars Climate Database web6.2; linked documentation6.1",
+        "spatial_resolution": null,
+        "temporal_resolution": "Scenario-dependent climatology, never current weather forecast.",
+        "date_or_scenario": null,
+        "method": "Model indexed by Ls, local time, altitude, dust/EUV scenario",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "Numerical provider and version-matched output contract not integrated; no temperatures, winds or pressure fabricated.",
+        "sample": null
+      },
+      "wind_direction": {
+        "name": "Wind direction",
+        "value": null,
+        "unit": "degree",
+        "source": "https://www-mars.lmd.jussieu.fr/mcd_python/",
+        "product": "Mars Climate Database web6.2; linked documentation6.1",
+        "spatial_resolution": null,
+        "temporal_resolution": "Scenario-dependent climatology, never current weather forecast.",
+        "date_or_scenario": null,
+        "method": "Model indexed by Ls, local time, altitude, dust/EUV scenario",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "Numerical provider and version-matched output contract not integrated; no temperatures, winds or pressure fabricated.",
+        "sample": null
+      },
+      "atmospheric_dust": {
+        "name": "Atmospheric dust concentration",
+        "value": null,
+        "unit": null,
+        "source": "https://www-mars.lmd.jussieu.fr/mcd_python/",
+        "product": "Mars Climate Database web6.2; linked documentation6.1",
+        "spatial_resolution": null,
+        "temporal_resolution": "Scenario-dependent climatology, never current weather forecast.",
+        "date_or_scenario": null,
+        "method": "Model indexed by Ls, local time, altitude, dust/EUV scenario",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "Numerical provider and version-matched output contract not integrated; no temperatures, winds or pressure fabricated.",
+        "sample": null
+      },
+      "high_dust_scenario": {
+        "name": "High dust scenario",
+        "value": null,
+        "unit": null,
+        "source": "https://www-mars.lmd.jussieu.fr/mcd_python/",
+        "product": "Mars Climate Database web6.2; linked documentation6.1",
+        "spatial_resolution": null,
+        "temporal_resolution": "Scenario-dependent climatology, never current weather forecast.",
+        "date_or_scenario": null,
+        "method": "Model indexed by Ls, local time, altitude, dust/EUV scenario",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "Numerical provider and version-matched output contract not integrated; no temperatures, winds or pressure fabricated.",
+        "sample": null
+      },
+      "solar_flux": {
+        "name": "Solar flux",
+        "value": null,
+        "unit": "W/m2",
+        "source": "https://www-mars.lmd.jussieu.fr/mcd_python/",
+        "product": "Mars Climate Database web6.2; linked documentation6.1",
+        "spatial_resolution": null,
+        "temporal_resolution": "Scenario-dependent climatology, never current weather forecast.",
+        "date_or_scenario": null,
+        "method": "Model indexed by Ls, local time, altitude, dust/EUV scenario",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "Numerical provider and version-matched output contract not integrated; no temperatures, winds or pressure fabricated.",
+        "sample": null
+      },
+      "solar_exposure": {
+        "name": "Integrated solar exposure",
+        "value": null,
+        "unit": "J/m2",
+        "source": "https://www-mars.lmd.jussieu.fr/mcd_python/",
+        "product": "Mars Climate Database web6.2; linked documentation6.1",
+        "spatial_resolution": null,
+        "temporal_resolution": "Scenario-dependent climatology, never current weather forecast.",
+        "date_or_scenario": null,
+        "method": "Model indexed by Ls, local time, altitude, dust/EUV scenario",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "Numerical provider and version-matched output contract not integrated; no temperatures, winds or pressure fabricated.",
+        "sample": null
+      },
+      "thermal_inertia": {
+        "name": "Thermal inertia",
+        "value": null,
+        "unit": "J m-2 K-1 s-1/2",
+        "source": "https://mars.asu.edu/data/",
+        "product": "Mars Global Data Sets: TES and Viking IRTM",
+        "spatial_resolution": {
+          "albedo_ppd": 8,
+          "thermal_inertia_2005_ppd": 20,
+          "surface_dust_ppd": 16,
+          "rock_abundance_ppd": 1
+        },
+        "temporal_resolution": "Published static composites; not a forecast.",
+        "date_or_scenario": null,
+        "method": "Candidate numeric products; colorized maps excluded from quantitative queries",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "Albedo raw VICAR link exists; numerical CRS/NoData/value interpretation not validated here. Thermal inertia/dust display colors are not quantitative substitutes.",
+        "sample": null
+      },
+      "surface_dust": {
+        "name": "Surface dust index",
+        "value": null,
+        "unit": "1",
+        "source": "https://mars.asu.edu/data/",
+        "product": "Mars Global Data Sets: TES and Viking IRTM",
+        "spatial_resolution": {
+          "albedo_ppd": 8,
+          "thermal_inertia_2005_ppd": 20,
+          "surface_dust_ppd": 16,
+          "rock_abundance_ppd": 1
+        },
+        "temporal_resolution": "Published static composites; not a forecast.",
+        "date_or_scenario": null,
+        "method": "Candidate numeric products; colorized maps excluded from quantitative queries",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "Albedo raw VICAR link exists; numerical CRS/NoData/value interpretation not validated here. Thermal inertia/dust display colors are not quantitative substitutes.",
+        "sample": null
+      },
+      "albedo": {
+        "name": "Albedo",
+        "value": null,
+        "unit": "1",
+        "source": "https://mars.asu.edu/data/",
+        "product": "Mars Global Data Sets: TES and Viking IRTM",
+        "spatial_resolution": {
+          "albedo_ppd": 8,
+          "thermal_inertia_2005_ppd": 20,
+          "surface_dust_ppd": 16,
+          "rock_abundance_ppd": 1
+        },
+        "temporal_resolution": "Published static composites; not a forecast.",
+        "date_or_scenario": null,
+        "method": "Candidate numeric products; colorized maps excluded from quantitative queries",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "Albedo raw VICAR link exists; numerical CRS/NoData/value interpretation not validated here. Thermal inertia/dust display colors are not quantitative substitutes.",
+        "sample": null
+      },
+      "rock_abundance": {
+        "name": "Rock abundance",
+        "value": null,
+        "unit": null,
+        "source": "https://mars.asu.edu/data/",
+        "product": "Mars Global Data Sets: TES and Viking IRTM",
+        "spatial_resolution": {
+          "albedo_ppd": 8,
+          "thermal_inertia_2005_ppd": 20,
+          "surface_dust_ppd": 16,
+          "rock_abundance_ppd": 1
+        },
+        "temporal_resolution": "Published static composites; not a forecast.",
+        "date_or_scenario": null,
+        "method": "Candidate numeric products; colorized maps excluded from quantitative queries",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "Albedo raw VICAR link exists; numerical CRS/NoData/value interpretation not validated here. Thermal inertia/dust display colors are not quantitative substitutes.",
+        "sample": null
+      },
+      "thermal_properties": {
+        "name": "Thermal properties",
+        "value": null,
+        "unit": null,
+        "source": "https://mars.asu.edu/data/",
+        "product": "Mars Global Data Sets: TES and Viking IRTM",
+        "spatial_resolution": {
+          "albedo_ppd": 8,
+          "thermal_inertia_2005_ppd": 20,
+          "surface_dust_ppd": 16,
+          "rock_abundance_ppd": 1
+        },
+        "temporal_resolution": "Published static composites; not a forecast.",
+        "date_or_scenario": null,
+        "method": "Candidate numeric products; colorized maps excluded from quantitative queries",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "Albedo raw VICAR link exists; numerical CRS/NoData/value interpretation not validated here. Thermal inertia/dust display colors are not quantitative substitutes.",
+        "sample": null
+      },
+      "geology": {
+        "name": "Geologic unit",
+        "value": null,
+        "unit": null,
+        "source": "https://astrogeology-usgs.hub.arcgis.com/pages/interactive-maps-mars",
+        "product": "Planetary cartography catalog",
+        "spatial_resolution": null,
+        "temporal_resolution": null,
+        "date_or_scenario": null,
+        "method": "Candidate geologic units/vector overlays",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "No regional geology or mineral numeric layer registered in this stage.",
+        "sample": null
+      },
+      "mineralogy": {
+        "name": "Mineralogy",
+        "value": null,
+        "unit": null,
+        "source": "https://astrogeology-usgs.hub.arcgis.com/pages/interactive-maps-mars",
+        "product": "Planetary cartography catalog",
+        "spatial_resolution": null,
+        "temporal_resolution": null,
+        "date_or_scenario": null,
+        "method": "Candidate geologic units/vector overlays",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "No regional geology or mineral numeric layer registered in this stage.",
+        "sample": null
+      },
+      "mobility_proxy": {
+        "name": "Mobility proxy",
+        "value": null,
+        "unit": null,
+        "source": "https://astrogeology-usgs.hub.arcgis.com/pages/interactive-maps-mars",
+        "product": "Planetary cartography catalog",
+        "spatial_resolution": null,
+        "temporal_resolution": null,
+        "date_or_scenario": null,
+        "method": "Candidate geologic units/vector overlays",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "No regional geology or mineral numeric layer registered in this stage.",
+        "sample": null
+      },
+      "topographic_illumination": {
+        "name": "Topographic illumination",
+        "value": null,
+        "unit": null,
+        "source": "https://astrogeology-usgs.hub.arcgis.com/pages/interactive-maps-mars",
+        "product": "Planetary cartography catalog",
+        "spatial_resolution": null,
+        "temporal_resolution": null,
+        "date_or_scenario": null,
+        "method": "Candidate geologic units/vector overlays",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "No regional geology or mineral numeric layer registered in this stage.",
+        "sample": null
+      },
+      "uv_radiation": {
+        "name": "Ultraviolet radiation",
+        "value": null,
+        "unit": null,
+        "source": "https://astrogeology-usgs.hub.arcgis.com/pages/interactive-maps-mars",
+        "product": "Planetary cartography catalog",
+        "spatial_resolution": null,
+        "temporal_resolution": null,
+        "date_or_scenario": null,
+        "method": "Candidate geologic units/vector overlays",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "No regional geology or mineral numeric layer registered in this stage.",
+        "sample": null
+      },
+      "ionizing_radiation": {
+        "name": "Ionizing radiation dose",
+        "value": null,
+        "unit": null,
+        "source": "https://science.nasa.gov/resource/radiation-measurements-on-mars/",
+        "product": "Radiation Measurements on Mars",
+        "spatial_resolution": {
+          "scope": "local rover measurement"
+        },
+        "temporal_resolution": "August2012\u2013June2013 reference plot.",
+        "date_or_scenario": null,
+        "method": "Reference of local ionizing dose measurements",
+        "uncertainty": null,
+        "availability": "Unavailable",
+        "classification": "Unavailable",
+        "reason": "Not a global map or a validated model for this region. Never extrapolate local Gale doses.",
+        "sample": null
+      },
+      "thermal_inertia_day": {
+        "name": "TES apparent thermal inertia (day)",
+        "value": 229.0,
+        "unit": "J m^-2 K^-1 s^-1/2",
+        "source": "https://pds-geosciences.wustl.edu/missions/mgs/tes-timap.html",
+        "product": "MGS-M-TES-5-TIMAP-V1.0, Putzig & Mellon 2007",
+        "spatial_resolution": {
+          "degrees": 0.05,
+          "nominal_equatorial_km": 2.96
+        },
+        "temporal_resolution": "1999-02 to 2004-04 observations; day/night apparent inertia products, not hourly forecasts",
+        "date_or_scenario": "1999-02 to 2004-04 observations; day/night apparent inertia products, not hourly forecasts",
+        "method": "Nearest native cell; signed MSB 16-bit inertia with original interpolation mask; interpolated cells excluded. Shared planetocentric angular coordinates; native sphere3396km differs from model3396.190km, no Earth CRS transform.",
+        "uncertainty": null,
+        "availability": "Available",
+        "classification": "Derived",
+        "reason": "Not temperature or stability. Validity screening 5..5000, original mask0 excluded. Uncertainty not supplied.",
+        "sample": {
+          "value": 229.0,
+          "unit": "J m^-2 K^-1 s^-1/2",
+          "source": "MGS-M-TES-5-TIMAP-V1.0",
+          "source_url": "https://pds-geosciences.wustl.edu/missions/mgs/tes-timap.html",
+          "resolution_degrees": 0.05,
+          "resolution_equator_km": 2.96,
+          "observation_period": "1999-02 to 2004-04",
+          "kind": "derived",
+          "period": "day",
+          "status": "available",
+          "cell": {
+            "row": 1450,
+            "column": 5122,
+            "latitude": 17.474999999999994,
+            "longitude_east": 76.125
+          },
+          "interpolated": false
+        }
+      },
+      "thermal_inertia_night": {
+        "name": "TES apparent thermal inertia (night)",
+        "value": 233.0,
+        "unit": "J m^-2 K^-1 s^-1/2",
+        "source": "https://pds-geosciences.wustl.edu/missions/mgs/tes-timap.html",
+        "product": "MGS-M-TES-5-TIMAP-V1.0, Putzig & Mellon 2007",
+        "spatial_resolution": {
+          "degrees": 0.05,
+          "nominal_equatorial_km": 2.96
+        },
+        "temporal_resolution": "1999-02 to 2004-04 observations; day/night apparent inertia products, not hourly forecasts",
+        "date_or_scenario": "1999-02 to 2004-04 observations; day/night apparent inertia products, not hourly forecasts",
+        "method": "Nearest native cell; signed MSB 16-bit inertia with original interpolation mask; interpolated cells excluded. Shared planetocentric angular coordinates; native sphere3396km differs from model3396.190km, no Earth CRS transform.",
+        "uncertainty": null,
+        "availability": "Available",
+        "classification": "Derived",
+        "reason": "Not temperature or stability. Validity screening 5..5000, original mask0 excluded. Uncertainty not supplied.",
+        "sample": {
+          "value": 233.0,
+          "unit": "J m^-2 K^-1 s^-1/2",
+          "source": "MGS-M-TES-5-TIMAP-V1.0",
+          "source_url": "https://pds-geosciences.wustl.edu/missions/mgs/tes-timap.html",
+          "resolution_degrees": 0.05,
+          "resolution_equator_km": 2.96,
+          "observation_period": "1999-02 to 2004-04",
+          "kind": "derived",
+          "period": "night",
+          "status": "available",
+          "cell": {
+            "row": 1450,
+            "column": 5122,
+            "latitude": 17.474999999999994,
+            "longitude_east": 76.125
+          },
+          "interpolated": false
+        }
+      }
+    },
+    "notice": "Scientific elevations retain the source product reference; visual heights are exaggerated. No route safety assessment."
+  }
+]

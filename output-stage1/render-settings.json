@@ -1,0 +1,62 @@
+[
+  {
+    "model": "original",
+    "view": "overview",
+    "camera_blender": [
+      130000,
+      -180000,
+      145000
+    ],
+    "target": [
+      0,
+      0,
+      6500
+    ],
+    "orthographic_scale": 245000
+  },
+  {
+    "model": "original",
+    "view": "detail",
+    "camera_blender": [
+      55000,
+      -75000,
+      42000
+    ],
+    "target": [
+      15000,
+      35000,
+      6500
+    ],
+    "orthographic_scale": 50000
+  },
+  {
+    "model": "optimized",
+    "view": "overview",
+    "camera_blender": [
+      130000,
+      -180000,
+      145000
+    ],
+    "target": [
+      0,
+      0,
+      6500
+    ],
+    "orthographic_scale": 245000
+  },
+  {
+    "model": "optimized",
+    "view": "detail",
+    "camera_blender": [
+      55000,
+      -75000,
+      42000
+    ],
+    "target": [
+      15000,
+      35000,
+      6500
+    ],
+    "orthographic_scale": 50000
+  }
+]

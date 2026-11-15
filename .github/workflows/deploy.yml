@@ -1,0 +1,46 @@
+name: Deploy GitHub Pages
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: true
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    defaults:
+      run:
+        working-directory: WebApp/frontend
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: WebApp/frontend/package-lock.json
+      - uses: actions/configure-pages@v5
+      - run: npm ci
+      - name: Build
+        env:
+          VITE_API_BASE_URL: ${{ vars.VITE_API_BASE_URL }}
+          REPO_NAME: ${{ github.event.repository.name }}
+          OWNER: ${{ github.repository_owner }}
+        run: |
+          test -n "$VITE_API_BASE_URL" || { echo 'Set VITE_API_BASE_URL in repository variables'; exit 1; }
+          node scripts/check-deploy-terrain.mjs
+          if [ "${REPO_NAME,,}" = "${OWNER,,}.github.io" ]; then export VITE_BASE_PATH=/; else export VITE_BASE_PATH="/$REPO_NAME/"; fi
+          export VITE_ROUTER_MODE=hash
+          npm run build
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: WebApp/frontend/dist
+      - id: deploy
+        uses: actions/deploy-pages@v4

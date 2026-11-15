@@ -1,0 +1,55 @@
+{
+  "dataset_id": "jezero_crater_repeat_coverage_assessment",
+  "name": "Jezero Crater repeat-coverage assessment",
+  "source": "Published literature and PDS product metadata",
+  "provider": "NASA PDS and peer-reviewed literature",
+  "mission": "Mars Reconnaissance Orbiter",
+  "instrument": "HiRISE and Context Camera (CTX)",
+  "location": "Jezero Crater, Mars",
+  "acquisition_dates": [],
+  "acquisition_dates_status": "not_applicable",
+  "resolution": [
+    {
+      "value": 0.25,
+      "unit": "m/pixel",
+      "product": "HiRISE orthoimages where available"
+    },
+    {
+      "value": 6.0,
+      "unit": "m/pixel",
+      "product": "CTX orthoimages where available"
+    }
+  ],
+  "coordinate_reference_system": {
+    "name": "Product-specific Mars map projection",
+    "units": "metre",
+    "spheroid": "MARS",
+    "semi_major_axis_m": 3396190.0,
+    "status": "No site-specific product stack has been assembled."
+  },
+  "data_type": "assessment_record",
+  "license": "Not applicable to this assessment record; source products retain their own licenses",
+  "limitations": [
+    "This is not a curated multitemporal dune dataset and contains no pixels or labels.",
+    "Repeat HiRISE coverage exists, but interior dune migration at Jezero is reported to be limited.",
+    "Published observations describe a small number of dunes in the inlet channel and no detected ripple movement over some one-year and four-year pairs.",
+    "Rates measured at Hargraves, Coprates or other sites must not be transferred to Jezero.",
+    "A future Jezero study must resolve product IDs, dates, geometry, quality and a verified metre-per-pixel scale."
+  ],
+  "doi": null,
+  "url": "https://hirise-pds.lpl.arizona.edu/PDS/",
+  "version": null,
+  "retrieved_at_utc": "2026-11-14T00:00:00+00:00",
+  "has_pixels": false,
+  "has_labels": false,
+  "has_temporal_series": false,
+  "files": [],
+  "published_context": {
+    "repeat_coverage_context": "About 44 HiRISE images over roughly ten years have been reported for Jezero in conference literature.",
+    "interior_dune_context": "Interior dune migration is reported as limited; seven dunes were noted in the inlet channel.",
+    "ripple_context": "No ripple movement was detected in some one-year and four-year comparisons.",
+    "related_regional_study_doi": "10.1002/esp.6013",
+    "related_regional_study_note": "Sahu et al. report Pasteur crater ripple-crest rates of 0.29-1.18 m per Earth year; these are not Jezero measurements."
+  },
+  "notes": "Assessment record only. It exists to prevent unsupported transfer of migration rates to Jezero and to define the checks required before a dedicated study."
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "file": "data\\additional-science\\BridgesMavors_science_pack\\raw\\thermal\\global_ti_day_2007.img",
+    "url": "https://pds-geosciences.wustl.edu/mgs/mgs-m-tes-5-timap-v1/mgst_9001/data/global_ti_day_2007.img",
+    "bytes": 51840000,
+    "sha256": "d8b1ac57c5f2c6d4f43d7e5331591fae0254f48af7629bd0d230c2603da48f9a"
+  },
+  {
+    "file": "data\\additional-science\\BridgesMavors_science_pack\\raw\\thermal\\global_ti_day_2007.lbl",
+    "url": "https://pds-geosciences.wustl.edu/mgs/mgs-m-tes-5-timap-v1/mgst_9001/data/global_ti_day_2007.lbl",
+    "bytes": 2408,
+    "sha256": "9355e67000b0018768b04b2a8ebfed2b278099dde14e49633081a8ffe6d13631"
+  },
+  {
+    "file": "data\\additional-science\\BridgesMavors_science_pack\\raw\\thermal\\global_ti_msk_day_2007.img",
+    "url": "https://pds-geosciences.wustl.edu/mgs/mgs-m-tes-5-timap-v1/mgst_9001/data/global_ti_msk_day_2007.img",
+    "bytes": 25920000,
+    "sha256": "23bab175ab99e5aa7b68a4b664f3d616f08c92fcc410188c116d5083103d16cb"
+  },
+  {
+    "file": "data\\additional-science\\BridgesMavors_science_pack\\raw\\thermal\\global_ti_msk_day_2007.lbl",
+    "url": "https://pds-geosciences.wustl.edu/mgs/mgs-m-tes-5-timap-v1/mgst_9001/data/global_ti_msk_day_2007.lbl",
+    "bytes": 2478,
+    "sha256": "4189613d7fe1407f991a27fd2809b708ef3087cb48ca297a2df8f492cfe2c9fd"
+  },
+  {
+    "file": "data\\additional-science\\BridgesMavors_science_pack\\raw\\thermal\\global_ti_night_2007.img",
+    "url": "https://pds-geosciences.wustl.edu/mgs/mgs-m-tes-5-timap-v1/mgst_9001/data/global_ti_night_2007.img",
+    "bytes": 51840000,
+    "sha256": "faee32838da40045ee7ebd21bed156cc649620312c01165b556d77a2128258f4"
+  },
+  {
+    "file": "data\\additional-science\\BridgesMavors_science_pack\\raw\\thermal\\global_ti_night_2007.lbl",
+    "url": "https://pds-geosciences.wustl.edu/mgs/mgs-m-tes-5-timap-v1/mgst_9001/data/global_ti_night_2007.lbl",
+    "bytes": 2415,
+    "sha256": "c1c897d9bd5399292166f99d84a29a73e42432cedfb9dd9a81a1441b3004b72b"
+  },
+  {
+    "file": "data\\additional-science\\BridgesMavors_science_pack\\raw\\thermal\\global_ti_msk_night_2007.img",
+    "url": "https://pds-geosciences.wustl.edu/mgs/mgs-m-tes-5-timap-v1/mgst_9001/data/global_ti_msk_night_2007.img",
+    "bytes": 25920000,
+    "sha256": "fca7ec6fab8b3e81226e1d14dbb3a22509ad111bda4e03bf2b64f050bd550d0b"
+  },
+  {
+    "file": "data\\additional-science\\BridgesMavors_science_pack\\raw\\thermal\\global_ti_msk_night_2007.lbl",
+    "url": "https://pds-geosciences.wustl.edu/mgs/mgs-m-tes-5-timap-v1/mgst_9001/data/global_ti_msk_night_2007.lbl",
+    "bytes": 2485,
+    "sha256": "164838970c1405b2dc6cf367a74c60c0de96d18f05f5e924db6c00f77038ee8a"
+  },
+  {
+    "file": "data\\additional-science\\BridgesMavors_science_pack\\raw\\roughness\\_read_me.pdf",
+    "url": "https://zenodo.org/records/15734221/files/_read_me.pdf?download=1",
+    "bytes": 45858,
+    "sha256": "a7f495e34f9ab361a6307b40bd7d1ca696e41ab31ce8d423687aa9049237e2e9"
+  },
+  {
+    "file": "data\\additional-science\\BridgesMavors_science_pack\\raw\\roughness\\E8R0.raw",
+    "url": "https://zenodo.org/records/15734221/files/E8R0.raw?download=1",
+    "bytes": 4147200,
+    "sha256": "7e7bc7ed7454d993f607c0854fecee45da1397f089252a371bad0ed430478641"
+  },
+  {
+    "file": "data\\additional-science\\BridgesMavors_science_pack\\raw\\roughness\\E8R1.raw",
+    "url": "https://zenodo.org/records/15734221/files/E8R1.raw?download=1",
+    "bytes": 4147200,
+    "sha256": "c7c8141fd70d7b2e9920929bf2bf0240436b6084aaa41b521d5b97a60fe0f690"
+  },
+  {
+    "file": "data\\additional-science\\BridgesMavors_science_pack\\raw\\roughness\\E8R2.raw",
+    "url": "https://zenodo.org/records/15734221/files/E8R2.raw?download=1",
+    "bytes": 4147200,
+    "sha256": "dc56d5bd928e21dee06834484d59bb261252b3d0269a52fcbdad949fcb09c38a"
+  },
+  {
+    "file": "data\\additional-science\\BridgesMavors_science_pack\\raw\\roughness\\N8R0.raw",
+    "url": "https://zenodo.org/records/15734221/files/N8R0.raw?download=1",
+    "bytes": 2073600,
+    "sha256": "997e0cde801c7f2522871e83dee029c79037285b17a9a8f426c26584d4e1bccf"
+  },
+  {
+    "file": "data\\additional-science\\BridgesMavors_science_pack\\raw\\roughness\\N8R1.raw",
+    "url": "https://zenodo.org/records/15734221/files/N8R1.raw?download=1",
+    "bytes": 2073600,
+    "sha256": "5910aeac89e524ba21113452ef5330a168979638e62e0227478b0efc311c8a4b"
+  },
+  {
+    "file": "data\\additional-science\\BridgesMavors_science_pack\\raw\\roughness\\N8R2.raw",
+    "url": "https://zenodo.org/records/15734221/files/N8R2.raw?download=1",
+    "bytes": 2073600,
+    "sha256": "042f71bac1a0f3a0c69a29e5aa6526bfec91483ead254e369541dc96f6fe4943"
+  },
+  {
+    "file": "data\\additional-science\\BridgesMavors_science_pack\\raw\\roughness\\S8R0.raw",
+    "url": "https://zenodo.org/records/15734221/files/S8R0.raw?download=1",
+    "bytes": 2073600,
+    "sha256": "d3c4aed53104d89f10be23b799350642e567c8d1144afc903db0c98688231673"
+  },
+  {
+    "file": "data\\additional-science\\BridgesMavors_science_pack\\raw\\roughness\\S8R1.raw",
+    "url": "https://zenodo.org/records/15734221/files/S8R1.raw?download=1",
+    "bytes": 2073600,
+    "sha256": "f8d2d71feaf9103be44b04ea4ae4da3881c0c0b37b5482e815009b7eae1b1d3c"
+  },
+  {
+    "file": "data\\additional-science\\BridgesMavors_science_pack\\raw\\roughness\\S8R2.raw",
+    "url": "https://zenodo.org/records/15734221/files/S8R2.raw?download=1",
+    "bytes": 2073600,
+    "sha256": "5b811c4a19980c340e4c381c1733d1aa14167a15b85a95285023e532748e84fb"
+  }
+]

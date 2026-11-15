@@ -1,0 +1,417 @@
+{
+  "sources": [
+    {
+      "id": "hrsc-mola-v2",
+      "product": "HRSC/MOLA blended DEM global 200m v2",
+      "institution": "USGS; NASA; ESA/DLR",
+      "mission_instrument": "MGS/MOLA; Mars Express/HRSC",
+      "url": "https://astrogeology.usgs.gov/search/map/mars_mgs_mola_mex_hrsc_blended_dem_global_200m",
+      "download_url": "https://asc-pds-services.s3.us-west-2.amazonaws.com/mosaic/Mars/HRSC_MOLA_Blend/Mars_HRSC_MOLA_BlendDEM_Global_200mp_v2.tif",
+      "access_date": "2026-11-15",
+      "spatial_resolution": {
+        "nominal_m": 200,
+        "processed_grid_m": 250
+      },
+      "region": "Mars; regional crop EZ FID27",
+      "units": "m",
+      "method": "Bilinear reprojection; source elevations preserved",
+      "availability": "Available",
+      "limitations": "Effective source resolution varies. Areoid realization not specified in retrieved labels; no absolute accuracy certification.",
+      "conditions_of_use": "Credit Fergason, Hare, Laura (2018), USGS, NASA and ESA/DLR; underlying MOLA CC0, HRSC CC BY-SA 3.0 IGO. See USGS companion product terms.",
+      "temporal_reference": "Static composite v2 published 2018; input acquisitions differ."
+    },
+    {
+      "id": "dust-my36",
+      "product": "Gridded CDOD MY36 v2.5",
+      "institution": "LMD; Montabone et al.",
+      "mission_instrument": "MRO/MCS v5.2",
+      "url": "https://www-mars.lmd.jussieu.fr/mars/dust_climatology/",
+      "download_url": "https://www-mars.lmd.jussieu.fr/mars/dust_climatology/dataset_v2/griddedcdod_MY36_v2-5.nc",
+      "access_date": "2026-11-15",
+      "spatial_resolution": {
+        "longitude_degrees": 6,
+        "latitude_degrees": 5
+      },
+      "region": "Native cell [75,81)E \u00d7 [15,20)N covering model",
+      "units": "Pa/Pa",
+      "method": "IWB observation-derived diurnal averages; exact native cell and sol lookup",
+      "availability": "Available",
+      "limitations": "9.3 micron absorption normalized to 610 Pa, not visible extinction or current forecast. Missing sols remain null.",
+      "conditions_of_use": "CC BY-SA 3.0 Unported; retain credit and same license for derivatives.",
+      "temporal_reference": "MY36 sols1\u2013669, one daily average; observation windows vary."
+    },
+    {
+      "id": "mcd",
+      "product": "Mars Climate Database web6.2; linked documentation6.1",
+      "institution": "LMD/CNRS and collaborators",
+      "mission_instrument": "GCM-derived climatology",
+      "url": "https://www-mars.lmd.jussieu.fr/mcd_python/",
+      "download_url": null,
+      "access_date": "2026-11-15",
+      "spatial_resolution": null,
+      "region": "Mars",
+      "units": null,
+      "method": "Model indexed by Ls, local time, altitude, dust/EUV scenario",
+      "availability": "Unavailable",
+      "limitations": "Numerical provider and version-matched output contract not integrated; no temperatures, winds or pressure fabricated.",
+      "conditions_of_use": "Freely distributed for scientific/engineering use; cite MCD authors. No dataset installed.",
+      "temporal_reference": "Scenario-dependent climatology, never current weather forecast."
+    },
+    {
+      "id": "asu-tes",
+      "product": "Mars Global Data Sets: TES and Viking IRTM",
+      "institution": "Arizona State University",
+      "mission_instrument": "MGS/TES; Viking/IRTM",
+      "url": "https://mars.asu.edu/data/",
+      "download_url": null,
+      "access_date": "2026-11-15",
+      "spatial_resolution": {
+        "albedo_ppd": 8,
+        "thermal_inertia_2005_ppd": 20,
+        "surface_dust_ppd": 16,
+        "rock_abundance_ppd": 1
+      },
+      "region": "Mars",
+      "units": null,
+      "method": "Candidate numeric products; colorized maps excluded from quantitative queries",
+      "availability": "Unavailable",
+      "limitations": "Albedo raw VICAR link exists; numerical CRS/NoData/value interpretation not validated here. Thermal inertia/dust display colors are not quantitative substitutes.",
+      "conditions_of_use": "Product-specific attribution/terms require checking before redistribution.",
+      "temporal_reference": "Published static composites; not a forecast."
+    },
+    {
+      "id": "usgs-geology",
+      "product": "Planetary cartography catalog",
+      "institution": "USGS Astrogeology",
+      "mission_instrument": null,
+      "url": "https://astrogeology-usgs.hub.arcgis.com/pages/interactive-maps-mars",
+      "download_url": null,
+      "access_date": "2026-11-15",
+      "spatial_resolution": null,
+      "region": "Mars",
+      "units": null,
+      "method": "Candidate geologic units/vector overlays",
+      "availability": "Unavailable",
+      "limitations": "No regional geology or mineral numeric layer registered in this stage.",
+      "conditions_of_use": "Product-specific conditions, not verified for an unselected product.",
+      "temporal_reference": null
+    },
+    {
+      "id": "rad-gale",
+      "product": "Radiation Measurements on Mars",
+      "institution": "NASA/JPL-Caltech/SwRI",
+      "mission_instrument": "MSL/Curiosity RAD",
+      "url": "https://science.nasa.gov/resource/radiation-measurements-on-mars/",
+      "download_url": null,
+      "access_date": "2026-11-15",
+      "spatial_resolution": {
+        "scope": "local rover measurement"
+      },
+      "region": "Gale crater",
+      "units": "microgray/day",
+      "method": "Reference of local ionizing dose measurements",
+      "availability": "Unavailable",
+      "limitations": "Not a global map or a validated model for this region. Never extrapolate local Gale doses.",
+      "conditions_of_use": null,
+      "temporal_reference": "August2012\u2013June2013 reference plot."
+    },
+    {
+      "id": "hirise-ctx",
+      "product": "Mars2020 CTX DEM and HiRISE catalog",
+      "institution": "USGS; NASA; University of Arizona",
+      "mission_instrument": "MRO/CTX and HiRISE",
+      "url": "https://hirise.lpl.arizona.edu/",
+      "download_url": "https://planetarymaps.usgs.gov/mosaic/mars2020_trn/CTX/ScienceInvestigationMaps_JPL/M20_JezeroCrater_CTXDEM_20m.tif",
+      "access_date": "2026-11-15",
+      "spatial_resolution": {
+        "ctx_dem_m": 20
+      },
+      "region": "Partial Jezero coverage",
+      "units": "m",
+      "method": "Existing CTX DEM identified; not merged",
+      "availability": "Unavailable",
+      "limitations": "Partial coverage and unresolved vertical/registration reconciliation; imagery is not a DEM.",
+      "conditions_of_use": null,
+      "temporal_reference": null
+    }
+  ],
+  "variables": [
+    {
+      "id": "scientific_elevation",
+      "name": "Scientific elevation",
+      "unit": "m",
+      "source_id": "hrsc-mola-v2",
+      "method": "Unquantized reprojected DEM cell value",
+      "availability": "Available"
+    },
+    {
+      "id": "slope",
+      "name": "Slope",
+      "unit": "degree",
+      "source_id": "hrsc-mola-v2",
+      "method": "3x3 central-constrained plane in geodesic east/north offsets",
+      "availability": "Available"
+    },
+    {
+      "id": "aspect",
+      "name": "Downhill aspect",
+      "unit": "degree",
+      "source_id": "hrsc-mola-v2",
+      "method": "Clockwise from true north; flat undefined",
+      "availability": "Available"
+    },
+    {
+      "id": "roughness",
+      "name": "Detrended local roughness",
+      "unit": "m",
+      "source_id": "hrsc-mola-v2",
+      "method": "RMS of 3x3 plane residuals; not mechanical stability",
+      "availability": "Available"
+    },
+    {
+      "id": "local_relief",
+      "name": "Local relief",
+      "unit": "m",
+      "source_id": "hrsc-mola-v2",
+      "method": "3x3 max minus min",
+      "availability": "Available"
+    },
+    {
+      "id": "dust_optical_depth",
+      "name": "Historical IR absorption CDOD at 610Pa",
+      "unit": "Pa/Pa",
+      "source_id": "dust-my36",
+      "method": "Native daily cell; requires explicit MY36 and sol1\u2013669",
+      "availability": "Available"
+    },
+    {
+      "id": "surface_temperature",
+      "name": "Surface temperature",
+      "unit": "K",
+      "source_id": "mcd",
+      "method": null,
+      "availability": "Unavailable"
+    },
+    {
+      "id": "atmospheric_temperature",
+      "name": "Atmospheric temperature",
+      "unit": "K",
+      "source_id": "mcd",
+      "method": null,
+      "availability": "Unavailable"
+    },
+    {
+      "id": "temperature_diurnal",
+      "name": "Diurnal temperature variation",
+      "unit": "K",
+      "source_id": "mcd",
+      "method": null,
+      "availability": "Unavailable"
+    },
+    {
+      "id": "temperature_min",
+      "name": "Scenario minimum temperature",
+      "unit": "K",
+      "source_id": "mcd",
+      "method": null,
+      "availability": "Unavailable"
+    },
+    {
+      "id": "temperature_max",
+      "name": "Scenario maximum temperature",
+      "unit": "K",
+      "source_id": "mcd",
+      "method": null,
+      "availability": "Unavailable"
+    },
+    {
+      "id": "pressure",
+      "name": "Surface pressure",
+      "unit": "Pa",
+      "source_id": "mcd",
+      "method": null,
+      "availability": "Unavailable"
+    },
+    {
+      "id": "wind_speed",
+      "name": "Wind speed",
+      "unit": "m/s",
+      "source_id": "mcd",
+      "method": null,
+      "availability": "Unavailable"
+    },
+    {
+      "id": "wind_direction",
+      "name": "Wind direction",
+      "unit": "degree",
+      "source_id": "mcd",
+      "method": null,
+      "availability": "Unavailable"
+    },
+    {
+      "id": "atmospheric_dust",
+      "name": "Atmospheric dust concentration",
+      "unit": null,
+      "source_id": "mcd",
+      "method": null,
+      "availability": "Unavailable"
+    },
+    {
+      "id": "high_dust_scenario",
+      "name": "High dust scenario",
+      "unit": null,
+      "source_id": "mcd",
+      "method": null,
+      "availability": "Unavailable"
+    },
+    {
+      "id": "solar_flux",
+      "name": "Solar flux",
+      "unit": "W/m2",
+      "source_id": "mcd",
+      "method": null,
+      "availability": "Unavailable"
+    },
+    {
+      "id": "solar_exposure",
+      "name": "Integrated solar exposure",
+      "unit": "J/m2",
+      "source_id": "mcd",
+      "method": null,
+      "availability": "Unavailable"
+    },
+    {
+      "id": "thermal_inertia",
+      "name": "Thermal inertia",
+      "unit": "J m-2 K-1 s-1/2",
+      "source_id": "asu-tes",
+      "method": null,
+      "availability": "Unavailable"
+    },
+    {
+      "id": "surface_dust",
+      "name": "Surface dust index",
+      "unit": "1",
+      "source_id": "asu-tes",
+      "method": null,
+      "availability": "Unavailable"
+    },
+    {
+      "id": "albedo",
+      "name": "Albedo",
+      "unit": "1",
+      "source_id": "asu-tes",
+      "method": null,
+      "availability": "Unavailable"
+    },
+    {
+      "id": "rock_abundance",
+      "name": "Rock abundance",
+      "unit": null,
+      "source_id": "asu-tes",
+      "method": null,
+      "availability": "Unavailable"
+    },
+    {
+      "id": "thermal_properties",
+      "name": "Thermal properties",
+      "unit": null,
+      "source_id": "asu-tes",
+      "method": null,
+      "availability": "Unavailable"
+    },
+    {
+      "id": "geology",
+      "name": "Geologic unit",
+      "unit": null,
+      "source_id": "usgs-geology",
+      "method": null,
+      "availability": "Unavailable"
+    },
+    {
+      "id": "mineralogy",
+      "name": "Mineralogy",
+      "unit": null,
+      "source_id": "usgs-geology",
+      "method": null,
+      "availability": "Unavailable"
+    },
+    {
+      "id": "mobility_proxy",
+      "name": "Mobility proxy",
+      "unit": null,
+      "source_id": "usgs-geology",
+      "method": null,
+      "availability": "Unavailable"
+    },
+    {
+      "id": "topographic_illumination",
+      "name": "Topographic illumination",
+      "unit": null,
+      "source_id": "usgs-geology",
+      "method": null,
+      "availability": "Unavailable"
+    },
+    {
+      "id": "uv_radiation",
+      "name": "Ultraviolet radiation",
+      "unit": null,
+      "source_id": "usgs-geology",
+      "method": null,
+      "availability": "Unavailable"
+    },
+    {
+      "id": "ionizing_radiation",
+      "name": "Ionizing radiation dose",
+      "unit": null,
+      "source_id": "rad-gale",
+      "method": null,
+      "availability": "Unavailable"
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "static-topography",
+      "availability": "Available",
+      "classification": "Derived",
+      "time_parameters": null
+    },
+    {
+      "id": "my36-observed-dust",
+      "availability": "Available",
+      "classification": "Derived",
+      "mars_year": 36,
+      "sol_of_year": [
+        1,
+        669
+      ],
+      "local_time": "daily average; not selectable",
+      "spatial_resolution_degrees": [
+        6,
+        5
+      ]
+    },
+    {
+      "id": "mcd-climatology",
+      "availability": "Unavailable",
+      "classification": "Modeled",
+      "reason": "Provider/output version not integrated",
+      "requires": [
+        "solar_longitude_ls [0,360)",
+        "local_time [0,24)",
+        "altitude definition",
+        "dust scenario",
+        "solar EUV scenario",
+        "MCD version"
+      ],
+      "candidate_dust_scenarios": [
+        "climatology",
+        "cold",
+        "warm",
+        "dust storm",
+        "historical Mars year"
+      ],
+      "forecast": false
+    }
+  ]
+}

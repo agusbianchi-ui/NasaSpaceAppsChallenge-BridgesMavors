@@ -1,0 +1,38 @@
+.terrain-viewer { background: var(--bg); border: 1px solid var(--border); border-radius: var(--radius-md); overflow: hidden; }
+.terrain-toolbar { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; padding: 12px; border-bottom: 1px solid var(--border); }
+.terrain-viewer button, .terrain-viewer select { background: var(--panel); color: var(--text); border: 1px solid var(--border-strong); border-radius: var(--radius-sm); padding: 8px 10px; min-height: 40px; font: inherit; font-size: 12px; cursor: pointer; }
+.terrain-viewer button:hover { border-color: var(--accent); }
+.terrain-viewer button:focus-visible, .terrain-viewer select:focus-visible, .terrain-canvas canvas:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+.terrain-viewer button:disabled { opacity: .4; cursor: default; }
+.terrain-toolbar label { margin-left: auto; font-size: 12px; color: var(--muted); }
+.terrain-stage { position: relative; height: clamp(420px, 68vh, 850px); min-width: 0; }
+.terrain-canvas { position: absolute; inset: 0; }
+.terrain-canvas canvas { display: block; width: 100%; height: 100%; touch-action: none; }
+.terrain-overlay { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; gap: 12px; padding: 28px; background: color-mix(in srgb, var(--bg) 88%, transparent); }
+.terrain-overlay p { max-width: 44ch; color: var(--muted); }
+.terrain-overlay button { border-color: var(--accent); }
+.terrain-overlay small { color: var(--muted); }
+.terrain-loading { position: absolute; left: 16px; top: 16px; display: grid; gap: 6px; padding: 12px; background: var(--panel); border: 1px solid var(--border); border-radius: var(--radius-sm); font-size: 12px; pointer-events: none; }
+.terrain-loading progress { accent-color: var(--accent); width: 200px; max-width: 60vw; }
+.terrain-orientation { position: absolute; top: 16px; right: 16px; color: var(--muted); pointer-events: none; font: 11px var(--font-mono); display: grid; text-align: center; gap: 5px; }
+.terrain-orientation span { display: block; font-size: 28px; transform: rotate(var(--terrain-heading, 0deg)); }
+.terrain-camera-buttons { position: absolute; bottom: 12px; right: 12px; display: grid; grid-template-columns: repeat(2, minmax(42px, auto)); gap: 4px; }
+.terrain-caption { display: flex; flex-wrap: wrap; gap: 12px 28px; padding: 12px 16px; color: var(--muted); font-size: 11px; }
+.terrain-caption p { margin: 0; max-width: 65ch; }
+.terrain-diagnostics { padding: 8px 16px; color: var(--muted); font-size: 11px; }
+.terrain-diagnostics output { display: block; overflow-wrap: anywhere; font-family: var(--font-mono); }
+.terrain-viewer:fullscreen, .terrain-viewer--expanded { height: 100dvh; width: 100%; overflow: auto; border-radius: 0; }
+.terrain-viewer--expanded { position: fixed; inset: 0; z-index: 1000; }
+.terrain-viewer:fullscreen .terrain-stage, .terrain-viewer--expanded .terrain-stage { height: calc(100dvh - 160px); min-height: 300px; }
+@media (max-width: 600px) { .terrain-toolbar { gap: 5px; padding: 8px; } .terrain-toolbar label { margin-left: 0; } .terrain-stage { height: 65vh; min-height: 420px; } .terrain-caption { gap: 8px; } }
+.terrain-planning { padding: 12px 16px; border-top: 1px solid var(--border); font-size: 12px; }
+.terrain-planning p { color: var(--muted); margin: 8px 0; }
+.terrain-planning-actions { display: flex; flex-wrap: wrap; gap: 8px; align-items: end; }
+.terrain-planning label { display: grid; gap: 4px; }
+.terrain-marker-editor { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 12px; }
+.terrain-marker-editor > label { flex: 1; min-width: 200px; }
+.terrain-marker-editor form { flex: 2; display: flex; flex-wrap: wrap; gap: 8px; min-width: 240px; }
+.terrain-marker-editor form label { flex: 1; min-width: 100px; }
+.terrain-marker-editor input { width: 100%; min-width: 0; box-sizing: border-box; background: var(--panel); color: var(--text); border: 1px solid var(--border-strong); border-radius: var(--radius-sm); padding: 8px; }
+.terrain-marker-editor output { width: 100%; font: 11px var(--font-mono); overflow-wrap: anywhere; color: var(--muted); }
+.terrain-planning .terrain-route-error { color: var(--text); border-left: 2px solid var(--accent); padding-left: 8px; }

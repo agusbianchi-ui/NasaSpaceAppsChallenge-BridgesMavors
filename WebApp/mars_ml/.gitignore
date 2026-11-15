@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+outputs/
+models/runs/
+*.pt
+*.pth
+datasets/**/raw/
+datasets/**/processed/
+datasets/**/downloads/
+build/
+dist/
+*.egg-info/

@@ -1,0 +1,113 @@
+{
+  "product": "Gridded CDOD MY36 v2.5",
+  "source_file": "data/science/dust-my36.nc",
+  "source_sha256": "eb8bc34147850050f9b62fa0d842a1b74d00833a97aa6b104a8accdd785c1649",
+  "native_resolution_degrees": [
+    6,
+    5
+  ],
+  "temporal_resolution": "1 sol; diurnal average, source observation windows recorded per cell",
+  "year": 36,
+  "sol_range": [
+    1,
+    669
+  ],
+  "longitude_centers": [
+    78.0
+  ],
+  "latitude_centers": [
+    17.5
+  ],
+  "source_rows": [
+    14
+  ],
+  "source_columns": [
+    43
+  ],
+  "bounds": [
+    75.0,
+    15.0,
+    81.0,
+    20.0
+  ],
+  "classification": "Derived",
+  "value": "9.3 micron absorption column dust optical depth normalized to 610 Pa",
+  "units": "Pa/Pa",
+  "not_equivalent_to": "visible extinction, surface dust, local instantaneous opacity, storm forecast",
+  "method": "Native cell lookup; daily value by exact SOY, no interpolation or pressure conversion",
+  "nodata": "NaN",
+  "valid_daily_cells": 558,
+  "license": "Data included in the present file are publicly available with open access, under Creative Commons Attribution-ShareAlike 3.0 Unported License (i.e. you are free to copy, redistribute, and modify the material for scientific as well as commercial purposes, as far as you give appropriate credit, indicate if changes were made, and distribute your contributions with the same license as the original).",
+  "original_global_metadata": {
+    "title": "Gridded column dust optical depth (CDOD) for MY36 produced using iterative weighted binning (IWB). This dataset includes diurnal averages of four values per sol, which are provided as a separate dataset (version 2.5.1). Observations are from the Mars Reconnaissance Orbiter/Mars Climate Sounder v5.2 (there is no use of Mars Odyssey/Thermal Emission Imaging System in this version). Values are provided for the CDOD (in absorption at 9.3 micron wavelength) normalized to the reference pressure level of 610 Pa, as well as for the non-normalized CDOD (i.e. the total optical depth down to the local grid point surface -see Appendix B of Montabone et al., 2015, for details).",
+    "version": "2-5",
+    "creation_date": "08-February-2023",
+    "contact": "Luca Montabone (lmontabone@paneureka.org)",
+    "citation": "Montabone, L., Spiga, A., Kass, D. M., Kleinb\u00f6hl, A., Forget, F., Millour, E., Martian Year 34 Column Dust Climatology from Mars Climate Sounder Observations: Reconstructed Maps and Model Simulations, J. Geophys. Res. - Planets (2020), doi: 10.1029/2019JE006111 [Resource type: Data Entity Version 2.5 for MY 36].",
+    "references": "The general description of the Iterative Weighted Binning (IWB) methodology and Mars column dust optical depth (CDOD) data can be found in Montabone et al., Eight-year Climatology of Dust Optical Depth on Mars, Icarus (2015), 251, pp 65-95, doi: https://doi.org/10.1016/j.icarus.2014.12.034 ; The detailed description of the methodology (and data) initially applied to MY 34 but then extended to MY 35 and MY 36 can be found in Montabone et al., Martian Year 34 Column Dust Climatology from Mars Climate Sounder Observations: Reconstructed Maps and Model Simulations, J. Geophys. Res. - Planets (2020), doi: https://doi.org/10.1029/2019JE006111",
+    "copyright": "Data included in the present file are publicly available with open access, under Creative Commons Attribution-ShareAlike 3.0 Unported License (i.e. you are free to copy, redistribute, and modify the material for scientific as well as commercial purposes, as far as you give appropriate credit, indicate if changes were made, and distribute your contributions with the same license as the original).",
+    "disclaimer": "These data are made publicly available on the condition that we provide no warranties regarding the reliability, validity or accuracy of the data and we bear no responsibility for any use made of such data.",
+    "comment": "About units of dimensionless quantities. In general, we use 1 for the unit of dimensionless quantities following the convention of considering such quantities as quantities of dimension one (International vocabulary of metrology -Basic and general concepts and associated terms (VIM)). Exceptions are the use of the dimensionless units of degrees for angles and Pa/Pa for the CDOD normalized to 610 Pa, which results from the ratio of two quantities having the same units."
+  },
+  "variables": {
+    "Time": {
+      "long_name": "Time",
+      "units": "sol",
+      "comment": "The time variable is the fractional sol since the beginning of the year (marked by 0.0). The .0 fraction corresponds to 00:00 MUT, so the .5 fraction corresponds to 12:00 MUT (noon). See also Appendix A of Montabone et al., 2015, for the sol-based calendar we use."
+    },
+    "SOY": {
+      "long_name": "Sol-of-Year",
+      "units": "sol",
+      "comment": "The sol-of-year is the integer sol number starting from sol 1 as first day of the year. A sol starts at 00:00 MUT and ends at 24:00 MUT. See also Appendix A of Montabone et al., 2015, for the sol-based calendar we use."
+    },
+    "Ls": {
+      "long_name": "Solar longitude",
+      "units": "degrees",
+      "comment": "The areocentric solar longitude (Ls) is the angle described by the line connecting the Sun to the position of Mars in its orbit, relative to the planet\u2019s position at northern hemisphere spring equinox, when Ls=0 degrees. Ls=90 degrees corresponds to summer solstice, and so on."
+    },
+    "aveMJD": {
+      "long_name": "Average Modified Julian Date of observations",
+      "units": "day since 1858-11-17 00:00:00",
+      "comment": "The average Modified Julian Date of all observations used to reconstruct a map at a given Time, used as representative MJD of the corresponding map. Because in this dataset we provide the diurnal average of four CDOD maps per sol, the average Modified Julian Date of observations is calculated as the average of all four, each of them calculated as the average of the Modified Julian Date of all respectively used observations. The Julian Date can be obtained by adding 2400000.5 to the Modified Julian date."
+    },
+    "longitude": {
+      "long_name": "Longitude",
+      "units": "degrees_east"
+    },
+    "latitude": {
+      "long_name": "Latitude",
+      "units": "degrees_north"
+    },
+    "cdod610": {
+      "long_name": "IR absorption CDOD normalized to the reference pressure of 610 Pa",
+      "units": "Pa/Pa",
+      "comment": "See Equations 1 and 3 of Montabone et al., 2015. In this dataset we provide the diurnal average of four CDOD values per sol."
+    },
+    "cdod610unc": {
+      "long_name": "Combined uncertainty of CDOD normalized to the reference pressure of 610 Pa",
+      "units": "Pa/Pa",
+      "comment": "See Eq. 5 of Montabone et al., 2015 for the calculation of the combined uncertainty of a grid point. Because in this dataset we provide the diurnal average of four CDOD values per sol, the uncertainty provided here is further calculated as combined uncertainty of the four values with weights equal to 1."
+    },
+    "cdodnum": {
+      "long_name": "Number of averaged CDOD observations",
+      "units": "1",
+      "comment": "The number of averaged observations that contributed to the corresponding valid grid point. Because in this dataset we provide the diurnal average of four CDOD values per sol, the number of averaged CDOD observations is calculated as diurnal average as well."
+    },
+    "cdodtw": {
+      "long_name": "Time window of observations",
+      "units": "sol",
+      "comment": "The minimum time window within which averaged observations provided a valid grid point. Because in this dataset we provide the diurnal average of four CDOD values per sol, the time window of observations is calculated as diurnal average as well."
+    },
+    "cdodrel": {
+      "long_name": "Reliability value",
+      "units": "1",
+      "comment": "The reliability value of the grid point, calculated as the weighted average of the reliability values of the observations (see Section 2.4 of Montabone et al., 2015). Because in this dataset we provide the diurnal average of four CDOD values per sol, the reliability value is calculated as diurnal average as well."
+    },
+    "gridMJDanom": {
+      "long_name": "Grid point Modified Julian Date anomaly",
+      "units": "day",
+      "comment": "The anomaly of the grid point Modified Julian Date with respect to the average (representative) Modified Julian Date of all observations used to reconstruct a map at a given Time. The anomaly of the grid point MJD is obtained by subtracting the value of the corresponding aveMJD variable from the grid point MJD, which is calculated as the weighted average of the Modified Julian Dates of the observations (as for the CDOD values). The grid point Julian Date can be obtained by adding 2400000.5 and the value of the corresponding aveMJD variable to the grid point MJD anomaly. Because in this dataset at each grid point we provide the diurnal average of four CDOD values per sol, the grid point Modified Julian Date anomaly is calculated as diurnal average as well."
+    }
+  },
+  "cache_sha256": "2e34ac8dc5d7652f50183adb1a7fbfb0e63aa3286bdf10d7886098c7aae73fcb"
+}

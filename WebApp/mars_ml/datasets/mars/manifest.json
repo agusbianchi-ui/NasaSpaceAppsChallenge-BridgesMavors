@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at_utc": "2026-11-14T00:00:00+00:00",
+  "description": "Verified Martian dataset metadata. Pixels are not included. Dates marked as unresolved must be obtained from PDS labels or indexes.",
+  "datasets": [
+    "hargraves/dataset.json",
+    "coprates/dataset.json",
+    "ctx_multitemporal/dataset.json",
+    "hirise/dataset.json",
+    "jezero/dataset.json"
+  ]
+}

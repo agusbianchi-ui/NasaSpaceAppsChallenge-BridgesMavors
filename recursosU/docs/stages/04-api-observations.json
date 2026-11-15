@@ -1,0 +1,2841 @@
+{
+  "/terrain/metadata": {
+    "success": true,
+    "data": {
+      "availability": "Available",
+      "metadata": {
+        "source": "MapaMarteN.glb",
+        "source_sha256": "8786642ea6461b4c62ee5b0f9a3b190a962e84ef1e3844dd293a73494068ab48",
+        "rows": 808,
+        "columns": 800,
+        "cellSize": 250.0,
+        "originX": -100000.0,
+        "originZ": -101000.0,
+        "bounds": [
+          [
+            -100000.0,
+            1800.0,
+            -101000.0
+          ],
+          [
+            100000.0,
+            15462.0,
+            101000.0
+          ]
+        ],
+        "axes": "X east, Y visual up, Z south",
+        "order": "row-major: rows increase +Z, columns increase +X",
+        "cellConvention": "half-open [min,max), center=min+cellSize/2",
+        "dtype": "float32",
+        "endianness": "little",
+        "nodata": "NaN and mask=0",
+        "mask": "uint8, 1 valid, 0 absent",
+        "classification": "Registered visual/scientific bundle; variable classifications are separate",
+        "georeference_verified": true,
+        "verticalScale": "Visual exaggeration 3x with -4500 m reference and 2 m quantization; scientific grid unexaggerated",
+        "modelToOptimized": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "nodeTransforms": [
+          {
+            "node": 0,
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "node": 1,
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "node": 2,
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "node": 3,
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "node": 4,
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "node": 5,
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "node": 6,
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "node": 7,
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "node": 8,
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "node": 9,
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "node": 10,
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "node": 11,
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "node": 12,
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "node": 13,
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "node": 14,
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "node": 15,
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "node": 16,
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "node": 17,
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "node": 18,
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "node": 19,
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "node": 20,
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "node": 21,
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "node": 22,
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "node": 23,
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "node": 24,
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "node": 25,
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "node": 26,
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "node": 27,
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "node": 28,
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "node": 29,
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "node": 30,
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "node": 31,
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "node": 32,
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "node": 33,
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "node": 34,
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "node": 35,
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "node": 36,
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "node": 37,
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "node": 38,
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "node": 39,
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "node": 40,
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "node": 41,
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "node": 42,
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "node": 43,
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        ],
+        "validCells": 507538,
+        "enclosedHoleCells": 0,
+        "exteriorAbsentCells": 138862,
+        "visual_elevation.bin": {
+          "bytes": 2585600,
+          "sha256": "36f723b223baf148bcd10fa0d288aaee5090990db56fa09d8b3074d73887bf99",
+          "dtype": "float32 little-endian"
+        },
+        "valid_mask.bin": {
+          "bytes": 646400,
+          "sha256": "afe8b31169a4910b4e29c9362eefc47ca187ac208a4d79b7d11fa8bcefd016a5",
+          "dtype": "uint8"
+        },
+        "stage": 4,
+        "georeference_scope": "complete geometry and mask match to georeferenced source pipeline; not independent surveyed positional accuracy",
+        "crs_wkt": "PROJCRS[\"unknown\",BASEGEOGCRS[\"unknown\",DATUM[\"unknown\",ELLIPSOID[\"unknown\",3396190,0,LENGTHUNIT[\"metre\",1,ID[\"EPSG\",9001]]]],PRIMEM[\"Reference meridian\",0,ANGLEUNIT[\"degree\",0.0174532925199433,ID[\"EPSG\",9122]]]],CONVERSION[\"unknown\",METHOD[\"Azimuthal Equidistant\",ID[\"EPSG\",1125]],PARAMETER[\"Latitude of natural origin\",17.5,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8801]],PARAMETER[\"Longitude of natural origin\",77,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8802]],PARAMETER[\"False easting\",0,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8806]],PARAMETER[\"False northing\",0,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8807]]],CS[Cartesian,2],AXIS[\"(E)\",east,ORDER[1],LENGTHUNIT[\"metre\",1,ID[\"EPSG\",9001]]],AXIS[\"(N)\",north,ORDER[2],LENGTHUNIT[\"metre\",1,ID[\"EPSG\",9001]]]]",
+        "radius_m": 3396190,
+        "latitude_type": "planetocentric",
+        "longitude_direction": "positive east",
+        "longitude_domain": [
+          -180,
+          180
+        ],
+        "region": "NASA EMC Jezero Crater EZ buffer FID27 and surrounding terrain; region is not only Jezero crater",
+        "projection_center": [
+          77,
+          17.5
+        ],
+        "horizontal_unit": "metre",
+        "horizontal_scale": 1,
+        "rotation_degrees": 0,
+        "visual_transform": {
+          "formula": "Y=3*(round(h/2)*2+4500)",
+          "vertical_exaggeration": 3,
+          "reference_elevation_m": -4500,
+          "quantization_m": 2,
+          "inverse_unquantized_formula": "h=Y/3-4500",
+          "inverse_limitation": "recovers quantized h only, \u00b11 m relative to processed DEM"
+        },
+        "vertical_reference": "HRSC/MOLA blended product elevations preserved; exact areoid realization not identified in retrieved labels; not ellipsoidal height",
+        "scientific_elevation_unit": "m",
+        "source_id": "hrsc-mola-v2",
+        "source_info": {
+          "wkt": "GEOGCS[\"GCS_Mars_2000_Sphere\",DATUM[\"Mars_2000_(Sphere)\",SPHEROID[\"Mars_2000_Sphere_IAU_IAG\",3396190,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+          "transform": [
+            0.003374120830641,
+            0.0,
+            74.99918177569359,
+            0.0,
+            -0.003374120830641,
+            19.50111936458694
+          ],
+          "shape": [
+            1215,
+            1185
+          ],
+          "nodata": -32768.0,
+          "scale": 1.0,
+          "offset": 0.0,
+          "bounds": [
+            74.99918177569359,
+            15.401562555358126,
+            78.99751496000317,
+            19.50111936458694
+          ]
+        },
+        "source_resolution": {
+          "nominal_m": 200,
+          "degrees": 0.003374120830641,
+          "effective": "blend of differing source resolutions; not uniformly 200 m measured detail"
+        },
+        "scientific_grid_method": "bilinear source reprojection, no exaggeration, mask by official polygon cell centers",
+        "historical_grid_offset": [
+          108,
+          112
+        ],
+        "coverage_lon_lat": [
+          75.23273450676716,
+          15.79815395026328,
+          78.76726549323286,
+          19.201822252318696
+        ],
+        "gradient_method": "3x3 plane through central elevation; 8 neighbor geodesic east/north offsets on Mars sphere; requires all nine valid",
+        "roughness_method": "RMS plane residual across 9 samples, not mechanical stability",
+        "local_relief_method": "maximum minus minimum in 3x3; all samples required",
+        "aspect_method": "downhill clockwise from geographic north; null for flat/invalid",
+        "geodesic_adjacent_x_distance_m": [
+          249.96324192607284,
+          249.99999994486427
+        ],
+        "aspect.bin": {
+          "bytes": 2585600,
+          "sha256": "fbc119d0af0fac0c6e257aca59e1f73920c1338d85390fc738eaa064abb30b93",
+          "dtype": "float32 little-endian"
+        },
+        "local_relief.bin": {
+          "bytes": 2585600,
+          "sha256": "7286adcc4f0102dcc075814879e9e35fff65f9bdfaffde54983514e347134ea5",
+          "dtype": "float32 little-endian"
+        },
+        "roughness.bin": {
+          "bytes": 2585600,
+          "sha256": "500fdd5c9669aee0fe23d9c517c8402cc4e8cd72888ef44987ae983df337c5ac",
+          "dtype": "float32 little-endian"
+        },
+        "scientific_elevation.bin": {
+          "bytes": 2585600,
+          "sha256": "dfc84c673159fe675e5fa7371f58d3d07a2f6189452d5e7c68f5b11e786304b8",
+          "dtype": "float32 little-endian"
+        },
+        "slope.bin": {
+          "bytes": 2585600,
+          "sha256": "a5a2041a90655d1e742638b1eaf522215cc171e706e88fbb1ee9b2fa35960535",
+          "dtype": "float32 little-endian"
+        },
+        "lineage": [
+          {
+            "file": "MapaMarteN.glb",
+            "sha256": "8786642ea6461b4c62ee5b0f9a3b190a962e84ef1e3844dd293a73494068ab48",
+            "bytes": 242847404
+          },
+          {
+            "file": "MapaMarte1.blend",
+            "sha256": "b7d34987535c32a9c66b8db133b5e0b23757b9f734821abfd79374593aaf9511",
+            "bytes": 383597133
+          },
+          {
+            "file": "data/raw/ez-hrsc200.tif",
+            "sha256": "8f29232a711b87259e62ff1fe556841969c1b32686b361b332c4214375a81e46",
+            "bytes": 2887375
+          },
+          {
+            "file": "data/raw/ez-viking.tif",
+            "sha256": "e1b29e7cb03c7fef14e5863f7f72b0d3de4da40508e83e791e4d1acacea76a63",
+            "bytes": 3149287
+          },
+          {
+            "file": "data/raw/ez-layer4.json",
+            "sha256": "6cdd718f80c1b2aba5c2fb30db7eeeea26fb678e405f809156db062faca4c761",
+            "bytes": 14810
+          },
+          {
+            "file": "output-visual/ez-dem.tif",
+            "sha256": "9b8155ec1ec1124aba6d33cae3810a70e1262177950735b403abc73d5c0b7718",
+            "bytes": 4197975
+          },
+          {
+            "file": "output-visual/elevation.f32",
+            "sha256": "694d36d2d83933d10a86b20837344d1dba00ab5181111e2986e8cc0f3bfa12b5",
+            "bytes": 4194304
+          },
+          {
+            "file": "output-visual/metadata.json",
+            "sha256": "a5602bbc11bd07c2c8274f41c17164523dfbb47f04644289a3212ffb03e95a3c",
+            "bytes": 3533
+          },
+          {
+            "file": "scripts/build_visual.py",
+            "sha256": "721d1fbf57933cc0429e007b7ec7dcbfe69646fed9735c8433b4a76433bd9dd2",
+            "bytes": 8894
+          },
+          {
+            "file": "scripts/download_visual.py",
+            "sha256": "5f77598386fcb4b79df0a9d2a3d8b8fde0c4dbb6d9a73120390e406b74004f16",
+            "bytes": 2850
+          },
+          {
+            "file": "scripts/extract-stage3.py",
+            "sha256": "4ffbc742c0085ced98a279523ea2526ef6fd7328e4477c34c0caf03159a61ba1",
+            "bytes": 5245
+          }
+        ]
+      }
+    }
+  },
+  "/terrain/point?x=24875&z=-55625&mars_year=36&sol=1": {
+    "success": true,
+    "data": {
+      "coverage": "Available",
+      "position": {
+        "x": 24875.0,
+        "z": -55625.0,
+        "geographic": {
+          "latitude": 18.437931833218357,
+          "longitude": 77.44234491532272,
+          "latitude_type": "planetocentric",
+          "longitude_direction": "positive east",
+          "longitude_domain": [
+            -180,
+            180
+          ]
+        },
+        "grid": {
+          "row": 181,
+          "column": 499,
+          "center_xz": [
+            24875.0,
+            -55625.0
+          ]
+        },
+        "visual_elevation": 5790.0,
+        "scientific_elevation": -2570.583984375
+      },
+      "variables": {
+        "scientific_elevation": {
+          "name": "Scientific elevation",
+          "value": -2570.583984375,
+          "unit": "m",
+          "source": "https://astrogeology.usgs.gov/search/map/mars_mgs_mola_mex_hrsc_blended_dem_global_200m",
+          "product": "HRSC/MOLA blended DEM global 200m v2",
+          "spatial_resolution": {
+            "nominal_m": 200,
+            "processed_grid_m": 250
+          },
+          "temporal_resolution": "Static composite v2 published 2018; input acquisitions differ.",
+          "date_or_scenario": "Static source composite",
+          "method": "Unquantized reprojected DEM cell value",
+          "uncertainty": null,
+          "availability": "Available",
+          "classification": "Derived",
+          "reason": null,
+          "sample": {
+            "grid": {
+              "row": 181,
+              "column": 499,
+              "center_xz": [
+                24875.0,
+                -55625.0
+              ]
+            },
+            "source_resolution_nominal_m": 200,
+            "processed_grid_m": 250
+          }
+        },
+        "slope": {
+          "name": "Slope",
+          "value": 1.4482548236846924,
+          "unit": "degree",
+          "source": "https://astrogeology.usgs.gov/search/map/mars_mgs_mola_mex_hrsc_blended_dem_global_200m",
+          "product": "HRSC/MOLA blended DEM global 200m v2",
+          "spatial_resolution": {
+            "nominal_m": 200,
+            "processed_grid_m": 250
+          },
+          "temporal_resolution": "Static composite v2 published 2018; input acquisitions differ.",
+          "date_or_scenario": "Static source composite",
+          "method": "3x3 central-constrained plane in geodesic east/north offsets",
+          "uncertainty": null,
+          "availability": "Available",
+          "classification": "Derived",
+          "reason": null,
+          "sample": {
+            "grid": {
+              "row": 181,
+              "column": 499,
+              "center_xz": [
+                24875.0,
+                -55625.0
+              ]
+            },
+            "source_resolution_nominal_m": 200,
+            "processed_grid_m": 250
+          }
+        },
+        "aspect": {
+          "name": "Downhill aspect",
+          "value": 130.56568908691406,
+          "unit": "degree",
+          "source": "https://astrogeology.usgs.gov/search/map/mars_mgs_mola_mex_hrsc_blended_dem_global_200m",
+          "product": "HRSC/MOLA blended DEM global 200m v2",
+          "spatial_resolution": {
+            "nominal_m": 200,
+            "processed_grid_m": 250
+          },
+          "temporal_resolution": "Static composite v2 published 2018; input acquisitions differ.",
+          "date_or_scenario": "Static source composite",
+          "method": "Clockwise from true north; flat undefined",
+          "uncertainty": null,
+          "availability": "Available",
+          "classification": "Derived",
+          "reason": null,
+          "sample": {
+            "grid": {
+              "row": 181,
+              "column": 499,
+              "center_xz": [
+                24875.0,
+                -55625.0
+              ]
+            },
+            "source_resolution_nominal_m": 200,
+            "processed_grid_m": 250
+          }
+        },
+        "roughness": {
+          "name": "Detrended local roughness",
+          "value": 1.4986449480056763,
+          "unit": "m",
+          "source": "https://astrogeology.usgs.gov/search/map/mars_mgs_mola_mex_hrsc_blended_dem_global_200m",
+          "product": "HRSC/MOLA blended DEM global 200m v2",
+          "spatial_resolution": {
+            "nominal_m": 200,
+            "processed_grid_m": 250
+          },
+          "temporal_resolution": "Static composite v2 published 2018; input acquisitions differ.",
+          "date_or_scenario": "Static source composite",
+          "method": "RMS of 3x3 plane residuals; not mechanical stability",
+          "uncertainty": null,
+          "availability": "Available",
+          "classification": "Derived",
+          "reason": null,
+          "sample": {
+            "grid": {
+              "row": 181,
+              "column": 499,
+              "center_xz": [
+                24875.0,
+                -55625.0
+              ]
+            },
+            "source_resolution_nominal_m": 200,
+            "processed_grid_m": 250
+          }
+        },
+        "local_relief": {
+          "name": "Local relief",
+          "value": 16.8671875,
+          "unit": "m",
+          "source": "https://astrogeology.usgs.gov/search/map/mars_mgs_mola_mex_hrsc_blended_dem_global_200m",
+          "product": "HRSC/MOLA blended DEM global 200m v2",
+          "spatial_resolution": {
+            "nominal_m": 200,
+            "processed_grid_m": 250
+          },
+          "temporal_resolution": "Static composite v2 published 2018; input acquisitions differ.",
+          "date_or_scenario": "Static source composite",
+          "method": "3x3 max minus min",
+          "uncertainty": null,
+          "availability": "Available",
+          "classification": "Derived",
+          "reason": null,
+          "sample": {
+            "grid": {
+              "row": 181,
+              "column": 499,
+              "center_xz": [
+                24875.0,
+                -55625.0
+              ]
+            },
+            "source_resolution_nominal_m": 200,
+            "processed_grid_m": 250
+          }
+        },
+        "dust_optical_depth": {
+          "name": "Historical IR absorption CDOD at 610Pa",
+          "value": 0.16697147488594055,
+          "unit": "Pa/Pa",
+          "source": "https://www-mars.lmd.jussieu.fr/mars/dust_climatology/",
+          "product": "Gridded CDOD MY36 v2.5",
+          "spatial_resolution": {
+            "longitude_degrees": 6,
+            "latitude_degrees": 5
+          },
+          "temporal_resolution": "MY36 sols1\u2013669, one daily average; observation windows vary.",
+          "date_or_scenario": {
+            "mars_year": 36,
+            "sol_of_year": 1,
+            "solar_longitude_ls": 0.13339394330978394,
+            "local_time": "diurnal mean",
+            "reference_time_MJD": 59252.48789271738,
+            "cell_time_anomaly_days": 0.9828293323516846
+          },
+          "method": "Native daily cell; requires explicit MY36 and sol1\u2013669",
+          "uncertainty": {
+            "value": 0.02927452325820923,
+            "unit": "Pa/Pa",
+            "method": "Original combined uncertainty cdod610unc"
+          },
+          "availability": "Available",
+          "classification": "Derived",
+          "reason": null,
+          "sample": {
+            "native_cell_center": [
+              78.0,
+              17.5
+            ],
+            "native_cell_bounds": [
+              75.0,
+              15.0,
+              81.0,
+              20.0
+            ],
+            "observation_window_sols": 4.5,
+            "mean_observation_count": 18.0,
+            "reliability": 0.9130190014839172
+          }
+        },
+        "surface_temperature": {
+          "name": "Surface temperature",
+          "value": null,
+          "unit": "K",
+          "source": "https://www-mars.lmd.jussieu.fr/mcd_python/",
+          "product": "Mars Climate Database web6.2; linked documentation6.1",
+          "spatial_resolution": null,
+          "temporal_resolution": "Scenario-dependent climatology, never current weather forecast.",
+          "date_or_scenario": null,
+          "method": "Model indexed by Ls, local time, altitude, dust/EUV scenario",
+          "uncertainty": null,
+          "availability": "Unavailable",
+          "classification": "Unavailable",
+          "reason": "Numerical provider and version-matched output contract not integrated; no temperatures, winds or pressure fabricated.",
+          "sample": null
+        },
+        "atmospheric_temperature": {
+          "name": "Atmospheric temperature",
+          "value": null,
+          "unit": "K",
+          "source": "https://www-mars.lmd.jussieu.fr/mcd_python/",
+          "product": "Mars Climate Database web6.2; linked documentation6.1",
+          "spatial_resolution": null,
+          "temporal_resolution": "Scenario-dependent climatology, never current weather forecast.",
+          "date_or_scenario": null,
+          "method": "Model indexed by Ls, local time, altitude, dust/EUV scenario",
+          "uncertainty": null,
+          "availability": "Unavailable",
+          "classification": "Unavailable",
+          "reason": "Numerical provider and version-matched output contract not integrated; no temperatures, winds or pressure fabricated.",
+          "sample": null
+        },
+        "temperature_diurnal": {
+          "name": "Diurnal temperature variation",
+          "value": null,
+          "unit": "K",
+          "source": "https://www-mars.lmd.jussieu.fr/mcd_python/",
+          "product": "Mars Climate Database web6.2; linked documentation6.1",
+          "spatial_resolution": null,
+          "temporal_resolution": "Scenario-dependent climatology, never current weather forecast.",
+          "date_or_scenario": null,
+          "method": "Model indexed by Ls, local time, altitude, dust/EUV scenario",
+          "uncertainty": null,
+          "availability": "Unavailable",
+          "classification": "Unavailable",
+          "reason": "Numerical provider and version-matched output contract not integrated; no temperatures, winds or pressure fabricated.",
+          "sample": null
+        },
+        "temperature_min": {
+          "name": "Scenario minimum temperature",
+          "value": null,
+          "unit": "K",
+          "source": "https://www-mars.lmd.jussieu.fr/mcd_python/",
+          "product": "Mars Climate Database web6.2; linked documentation6.1",
+          "spatial_resolution": null,
+          "temporal_resolution": "Scenario-dependent climatology, never current weather forecast.",
+          "date_or_scenario": null,
+          "method": "Model indexed by Ls, local time, altitude, dust/EUV scenario",
+          "uncertainty": null,
+          "availability": "Unavailable",
+          "classification": "Unavailable",
+          "reason": "Numerical provider and version-matched output contract not integrated; no temperatures, winds or pressure fabricated.",
+          "sample": null
+        },
+        "temperature_max": {
+          "name": "Scenario maximum temperature",
+          "value": null,
+          "unit": "K",
+          "source": "https://www-mars.lmd.jussieu.fr/mcd_python/",
+          "product": "Mars Climate Database web6.2; linked documentation6.1",
+          "spatial_resolution": null,
+          "temporal_resolution": "Scenario-dependent climatology, never current weather forecast.",
+          "date_or_scenario": null,
+          "method": "Model indexed by Ls, local time, altitude, dust/EUV scenario",
+          "uncertainty": null,
+          "availability": "Unavailable",
+          "classification": "Unavailable",
+          "reason": "Numerical provider and version-matched output contract not integrated; no temperatures, winds or pressure fabricated.",
+          "sample": null
+        },
+        "pressure": {
+          "name": "Surface pressure",
+          "value": null,
+          "unit": "Pa",
+          "source": "https://www-mars.lmd.jussieu.fr/mcd_python/",
+          "product": "Mars Climate Database web6.2; linked documentation6.1",
+          "spatial_resolution": null,
+          "temporal_resolution": "Scenario-dependent climatology, never current weather forecast.",
+          "date_or_scenario": null,
+          "method": "Model indexed by Ls, local time, altitude, dust/EUV scenario",
+          "uncertainty": null,
+          "availability": "Unavailable",
+          "classification": "Unavailable",
+          "reason": "Numerical provider and version-matched output contract not integrated; no temperatures, winds or pressure fabricated.",
+          "sample": null
+        },
+        "wind_speed": {
+          "name": "Wind speed",
+          "value": null,
+          "unit": "m/s",
+          "source": "https://www-mars.lmd.jussieu.fr/mcd_python/",
+          "product": "Mars Climate Database web6.2; linked documentation6.1",
+          "spatial_resolution": null,
+          "temporal_resolution": "Scenario-dependent climatology, never current weather forecast.",
+          "date_or_scenario": null,
+          "method": "Model indexed by Ls, local time, altitude, dust/EUV scenario",
+          "uncertainty": null,
+          "availability": "Unavailable",
+          "classification": "Unavailable",
+          "reason": "Numerical provider and version-matched output contract not integrated; no temperatures, winds or pressure fabricated.",
+          "sample": null
+        },
+        "wind_direction": {
+          "name": "Wind direction",
+          "value": null,
+          "unit": "degree",
+          "source": "https://www-mars.lmd.jussieu.fr/mcd_python/",
+          "product": "Mars Climate Database web6.2; linked documentation6.1",
+          "spatial_resolution": null,
+          "temporal_resolution": "Scenario-dependent climatology, never current weather forecast.",
+          "date_or_scenario": null,
+          "method": "Model indexed by Ls, local time, altitude, dust/EUV scenario",
+          "uncertainty": null,
+          "availability": "Unavailable",
+          "classification": "Unavailable",
+          "reason": "Numerical provider and version-matched output contract not integrated; no temperatures, winds or pressure fabricated.",
+          "sample": null
+        },
+        "atmospheric_dust": {
+          "name": "Atmospheric dust concentration",
+          "value": null,
+          "unit": null,
+          "source": "https://www-mars.lmd.jussieu.fr/mcd_python/",
+          "product": "Mars Climate Database web6.2; linked documentation6.1",
+          "spatial_resolution": null,
+          "temporal_resolution": "Scenario-dependent climatology, never current weather forecast.",
+          "date_or_scenario": null,
+          "method": "Model indexed by Ls, local time, altitude, dust/EUV scenario",
+          "uncertainty": null,
+          "availability": "Unavailable",
+          "classification": "Unavailable",
+          "reason": "Numerical provider and version-matched output contract not integrated; no temperatures, winds or pressure fabricated.",
+          "sample": null
+        },
+        "high_dust_scenario": {
+          "name": "High dust scenario",
+          "value": null,
+          "unit": null,
+          "source": "https://www-mars.lmd.jussieu.fr/mcd_python/",
+          "product": "Mars Climate Database web6.2; linked documentation6.1",
+          "spatial_resolution": null,
+          "temporal_resolution": "Scenario-dependent climatology, never current weather forecast.",
+          "date_or_scenario": null,
+          "method": "Model indexed by Ls, local time, altitude, dust/EUV scenario",
+          "uncertainty": null,
+          "availability": "Unavailable",
+          "classification": "Unavailable",
+          "reason": "Numerical provider and version-matched output contract not integrated; no temperatures, winds or pressure fabricated.",
+          "sample": null
+        },
+        "solar_flux": {
+          "name": "Solar flux",
+          "value": null,
+          "unit": "W/m2",
+          "source": "https://www-mars.lmd.jussieu.fr/mcd_python/",
+          "product": "Mars Climate Database web6.2; linked documentation6.1",
+          "spatial_resolution": null,
+          "temporal_resolution": "Scenario-dependent climatology, never current weather forecast.",
+          "date_or_scenario": null,
+          "method": "Model indexed by Ls, local time, altitude, dust/EUV scenario",
+          "uncertainty": null,
+          "availability": "Unavailable",
+          "classification": "Unavailable",
+          "reason": "Numerical provider and version-matched output contract not integrated; no temperatures, winds or pressure fabricated.",
+          "sample": null
+        },
+        "solar_exposure": {
+          "name": "Integrated solar exposure",
+          "value": null,
+          "unit": "J/m2",
+          "source": "https://www-mars.lmd.jussieu.fr/mcd_python/",
+          "product": "Mars Climate Database web6.2; linked documentation6.1",
+          "spatial_resolution": null,
+          "temporal_resolution": "Scenario-dependent climatology, never current weather forecast.",
+          "date_or_scenario": null,
+          "method": "Model indexed by Ls, local time, altitude, dust/EUV scenario",
+          "uncertainty": null,
+          "availability": "Unavailable",
+          "classification": "Unavailable",
+          "reason": "Numerical provider and version-matched output contract not integrated; no temperatures, winds or pressure fabricated.",
+          "sample": null
+        },
+        "thermal_inertia": {
+          "name": "Thermal inertia",
+          "value": null,
+          "unit": "J m-2 K-1 s-1/2",
+          "source": "https://mars.asu.edu/data/",
+          "product": "Mars Global Data Sets: TES and Viking IRTM",
+          "spatial_resolution": {
+            "albedo_ppd": 8,
+            "thermal_inertia_2005_ppd": 20,
+            "surface_dust_ppd": 16,
+            "rock_abundance_ppd": 1
+          },
+          "temporal_resolution": "Published static composites; not a forecast.",
+          "date_or_scenario": null,
+          "method": "Candidate numeric products; colorized maps excluded from quantitative queries",
+          "uncertainty": null,
+          "availability": "Unavailable",
+          "classification": "Unavailable",
+          "reason": "Albedo raw VICAR link exists; numerical CRS/NoData/value interpretation not validated here. Thermal inertia/dust display colors are not quantitative substitutes.",
+          "sample": null
+        },
+        "surface_dust": {
+          "name": "Surface dust index",
+          "value": null,
+          "unit": "1",
+          "source": "https://mars.asu.edu/data/",
+          "product": "Mars Global Data Sets: TES and Viking IRTM",
+          "spatial_resolution": {
+            "albedo_ppd": 8,
+            "thermal_inertia_2005_ppd": 20,
+            "surface_dust_ppd": 16,
+            "rock_abundance_ppd": 1
+          },
+          "temporal_resolution": "Published static composites; not a forecast.",
+          "date_or_scenario": null,
+          "method": "Candidate numeric products; colorized maps excluded from quantitative queries",
+          "uncertainty": null,
+          "availability": "Unavailable",
+          "classification": "Unavailable",
+          "reason": "Albedo raw VICAR link exists; numerical CRS/NoData/value interpretation not validated here. Thermal inertia/dust display colors are not quantitative substitutes.",
+          "sample": null
+        },
+        "albedo": {
+          "name": "Albedo",
+          "value": null,
+          "unit": "1",
+          "source": "https://mars.asu.edu/data/",
+          "product": "Mars Global Data Sets: TES and Viking IRTM",
+          "spatial_resolution": {
+            "albedo_ppd": 8,
+            "thermal_inertia_2005_ppd": 20,
+            "surface_dust_ppd": 16,
+            "rock_abundance_ppd": 1
+          },
+          "temporal_resolution": "Published static composites; not a forecast.",
+          "date_or_scenario": null,
+          "method": "Candidate numeric products; colorized maps excluded from quantitative queries",
+          "uncertainty": null,
+          "availability": "Unavailable",
+          "classification": "Unavailable",
+          "reason": "Albedo raw VICAR link exists; numerical CRS/NoData/value interpretation not validated here. Thermal inertia/dust display colors are not quantitative substitutes.",
+          "sample": null
+        },
+        "rock_abundance": {
+          "name": "Rock abundance",
+          "value": null,
+          "unit": null,
+          "source": "https://mars.asu.edu/data/",
+          "product": "Mars Global Data Sets: TES and Viking IRTM",
+          "spatial_resolution": {
+            "albedo_ppd": 8,
+            "thermal_inertia_2005_ppd": 20,
+            "surface_dust_ppd": 16,
+            "rock_abundance_ppd": 1
+          },
+          "temporal_resolution": "Published static composites; not a forecast.",
+          "date_or_scenario": null,
+          "method": "Candidate numeric products; colorized maps excluded from quantitative queries",
+          "uncertainty": null,
+          "availability": "Unavailable",
+          "classification": "Unavailable",
+          "reason": "Albedo raw VICAR link exists; numerical CRS/NoData/value interpretation not validated here. Thermal inertia/dust display colors are not quantitative substitutes.",
+          "sample": null
+        },
+        "thermal_properties": {
+          "name": "Thermal properties",
+          "value": null,
+          "unit": null,
+          "source": "https://mars.asu.edu/data/",
+          "product": "Mars Global Data Sets: TES and Viking IRTM",
+          "spatial_resolution": {
+            "albedo_ppd": 8,
+            "thermal_inertia_2005_ppd": 20,
+            "surface_dust_ppd": 16,
+            "rock_abundance_ppd": 1
+          },
+          "temporal_resolution": "Published static composites; not a forecast.",
+          "date_or_scenario": null,
+          "method": "Candidate numeric products; colorized maps excluded from quantitative queries",
+          "uncertainty": null,
+          "availability": "Unavailable",
+          "classification": "Unavailable",
+          "reason": "Albedo raw VICAR link exists; numerical CRS/NoData/value interpretation not validated here. Thermal inertia/dust display colors are not quantitative substitutes.",
+          "sample": null
+        },
+        "geology": {
+          "name": "Geologic unit",
+          "value": null,
+          "unit": null,
+          "source": "https://astrogeology-usgs.hub.arcgis.com/pages/interactive-maps-mars",
+          "product": "Planetary cartography catalog",
+          "spatial_resolution": null,
+          "temporal_resolution": null,
+          "date_or_scenario": null,
+          "method": "Candidate geologic units/vector overlays",
+          "uncertainty": null,
+          "availability": "Unavailable",
+          "classification": "Unavailable",
+          "reason": "No regional geology or mineral numeric layer registered in this stage.",
+          "sample": null
+        },
+        "mineralogy": {
+          "name": "Mineralogy",
+          "value": null,
+          "unit": null,
+          "source": "https://astrogeology-usgs.hub.arcgis.com/pages/interactive-maps-mars",
+          "product": "Planetary cartography catalog",
+          "spatial_resolution": null,
+          "temporal_resolution": null,
+          "date_or_scenario": null,
+          "method": "Candidate geologic units/vector overlays",
+          "uncertainty": null,
+          "availability": "Unavailable",
+          "classification": "Unavailable",
+          "reason": "No regional geology or mineral numeric layer registered in this stage.",
+          "sample": null
+        },
+        "mobility_proxy": {
+          "name": "Mobility proxy",
+          "value": null,
+          "unit": null,
+          "source": "https://astrogeology-usgs.hub.arcgis.com/pages/interactive-maps-mars",
+          "product": "Planetary cartography catalog",
+          "spatial_resolution": null,
+          "temporal_resolution": null,
+          "date_or_scenario": null,
+          "method": "Candidate geologic units/vector overlays",
+          "uncertainty": null,
+          "availability": "Unavailable",
+          "classification": "Unavailable",
+          "reason": "No regional geology or mineral numeric layer registered in this stage.",
+          "sample": null
+        },
+        "topographic_illumination": {
+          "name": "Topographic illumination",
+          "value": null,
+          "unit": null,
+          "source": "https://astrogeology-usgs.hub.arcgis.com/pages/interactive-maps-mars",
+          "product": "Planetary cartography catalog",
+          "spatial_resolution": null,
+          "temporal_resolution": null,
+          "date_or_scenario": null,
+          "method": "Candidate geologic units/vector overlays",
+          "uncertainty": null,
+          "availability": "Unavailable",
+          "classification": "Unavailable",
+          "reason": "No regional geology or mineral numeric layer registered in this stage.",
+          "sample": null
+        },
+        "uv_radiation": {
+          "name": "Ultraviolet radiation",
+          "value": null,
+          "unit": null,
+          "source": "https://astrogeology-usgs.hub.arcgis.com/pages/interactive-maps-mars",
+          "product": "Planetary cartography catalog",
+          "spatial_resolution": null,
+          "temporal_resolution": null,
+          "date_or_scenario": null,
+          "method": "Candidate geologic units/vector overlays",
+          "uncertainty": null,
+          "availability": "Unavailable",
+          "classification": "Unavailable",
+          "reason": "No regional geology or mineral numeric layer registered in this stage.",
+          "sample": null
+        },
+        "ionizing_radiation": {
+          "name": "Ionizing radiation dose",
+          "value": null,
+          "unit": null,
+          "source": "https://science.nasa.gov/resource/radiation-measurements-on-mars/",
+          "product": "Radiation Measurements on Mars",
+          "spatial_resolution": {
+            "scope": "local rover measurement"
+          },
+          "temporal_resolution": "August2012\u2013June2013 reference plot.",
+          "date_or_scenario": null,
+          "method": "Reference of local ionizing dose measurements",
+          "uncertainty": null,
+          "availability": "Unavailable",
+          "classification": "Unavailable",
+          "reason": "Not a global map or a validated model for this region. Never extrapolate local Gale doses.",
+          "sample": null
+        }
+      },
+      "notice": "Scientific elevations retain the source product reference; visual heights are exaggerated. No route safety assessment."
+    }
+  },
+  "/science/sources": {
+    "success": true,
+    "data": [
+      {
+        "id": "hrsc-mola-v2",
+        "product": "HRSC/MOLA blended DEM global 200m v2",
+        "institution": "USGS; NASA; ESA/DLR",
+        "mission_instrument": "MGS/MOLA; Mars Express/HRSC",
+        "url": "https://astrogeology.usgs.gov/search/map/mars_mgs_mola_mex_hrsc_blended_dem_global_200m",
+        "download_url": "https://asc-pds-services.s3.us-west-2.amazonaws.com/mosaic/Mars/HRSC_MOLA_Blend/Mars_HRSC_MOLA_BlendDEM_Global_200mp_v2.tif",
+        "access_date": "2026-11-15",
+        "spatial_resolution": {
+          "nominal_m": 200,
+          "processed_grid_m": 250
+        },
+        "region": "Mars; regional crop EZ FID27",
+        "units": "m",
+        "method": "Bilinear reprojection; source elevations preserved",
+        "availability": "Available",
+        "limitations": "Effective source resolution varies. Areoid realization not specified in retrieved labels; no absolute accuracy certification.",
+        "conditions_of_use": "Credit Fergason, Hare, Laura (2018), USGS, NASA and ESA/DLR; underlying MOLA CC0, HRSC CC BY-SA 3.0 IGO. See USGS companion product terms.",
+        "temporal_reference": "Static composite v2 published 2018; input acquisitions differ.",
+        "cache_error": null,
+        "projection": "PROJCRS[\"unknown\",BASEGEOGCRS[\"unknown\",DATUM[\"unknown\",ELLIPSOID[\"unknown\",3396190,0,LENGTHUNIT[\"metre\",1,ID[\"EPSG\",9001]]]],PRIMEM[\"Reference meridian\",0,ANGLEUNIT[\"degree\",0.0174532925199433,ID[\"EPSG\",9122]]]],CONVERSION[\"unknown\",METHOD[\"Azimuthal Equidistant\",ID[\"EPSG\",1125]],PARAMETER[\"Latitude of natural origin\",17.5,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8801]],PARAMETER[\"Longitude of natural origin\",77,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8802]],PARAMETER[\"False easting\",0,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8806]],PARAMETER[\"False northing\",0,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8807]]],CS[Cartesian,2],AXIS[\"(E)\",east,ORDER[1],LENGTHUNIT[\"metre\",1,ID[\"EPSG\",9001]]],AXIS[\"(N)\",north,ORDER[2],LENGTHUNIT[\"metre\",1,ID[\"EPSG\",9001]]]]",
+        "source_projection": "GEOGCS[\"GCS_Mars_2000_Sphere\",DATUM[\"Mars_2000_(Sphere)\",SPHEROID[\"Mars_2000_Sphere_IAU_IAG\",3396190,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+        "source_nodata": -32768.0,
+        "lineage": [
+          {
+            "file": "MapaMarteN.glb",
+            "sha256": "8786642ea6461b4c62ee5b0f9a3b190a962e84ef1e3844dd293a73494068ab48",
+            "bytes": 242847404
+          },
+          {
+            "file": "MapaMarte1.blend",
+            "sha256": "b7d34987535c32a9c66b8db133b5e0b23757b9f734821abfd79374593aaf9511",
+            "bytes": 383597133
+          },
+          {
+            "file": "data/raw/ez-hrsc200.tif",
+            "sha256": "8f29232a711b87259e62ff1fe556841969c1b32686b361b332c4214375a81e46",
+            "bytes": 2887375
+          },
+          {
+            "file": "data/raw/ez-viking.tif",
+            "sha256": "e1b29e7cb03c7fef14e5863f7f72b0d3de4da40508e83e791e4d1acacea76a63",
+            "bytes": 3149287
+          },
+          {
+            "file": "data/raw/ez-layer4.json",
+            "sha256": "6cdd718f80c1b2aba5c2fb30db7eeeea26fb678e405f809156db062faca4c761",
+            "bytes": 14810
+          },
+          {
+            "file": "output-visual/ez-dem.tif",
+            "sha256": "9b8155ec1ec1124aba6d33cae3810a70e1262177950735b403abc73d5c0b7718",
+            "bytes": 4197975
+          },
+          {
+            "file": "output-visual/elevation.f32",
+            "sha256": "694d36d2d83933d10a86b20837344d1dba00ab5181111e2986e8cc0f3bfa12b5",
+            "bytes": 4194304
+          },
+          {
+            "file": "output-visual/metadata.json",
+            "sha256": "a5602bbc11bd07c2c8274f41c17164523dfbb47f04644289a3212ffb03e95a3c",
+            "bytes": 3533
+          },
+          {
+            "file": "scripts/build_visual.py",
+            "sha256": "721d1fbf57933cc0429e007b7ec7dcbfe69646fed9735c8433b4a76433bd9dd2",
+            "bytes": 8894
+          },
+          {
+            "file": "scripts/download_visual.py",
+            "sha256": "5f77598386fcb4b79df0a9d2a3d8b8fde0c4dbb6d9a73120390e406b74004f16",
+            "bytes": 2850
+          },
+          {
+            "file": "scripts/extract-stage3.py",
+            "sha256": "4ffbc742c0085ced98a279523ea2526ef6fd7328e4477c34c0caf03159a61ba1",
+            "bytes": 5245
+          }
+        ]
+      },
+      {
+        "id": "dust-my36",
+        "product": "Gridded CDOD MY36 v2.5",
+        "institution": "LMD; Montabone et al.",
+        "mission_instrument": "MRO/MCS v5.2",
+        "url": "https://www-mars.lmd.jussieu.fr/mars/dust_climatology/",
+        "download_url": "https://www-mars.lmd.jussieu.fr/mars/dust_climatology/dataset_v2/griddedcdod_MY36_v2-5.nc",
+        "access_date": "2026-11-15",
+        "spatial_resolution": {
+          "longitude_degrees": 6,
+          "latitude_degrees": 5
+        },
+        "region": "Native cell [75,81)E \u00d7 [15,20)N covering model",
+        "units": "Pa/Pa",
+        "method": "IWB observation-derived diurnal averages; exact native cell and sol lookup",
+        "availability": "Available",
+        "limitations": "9.3 micron absorption normalized to 610 Pa, not visible extinction or current forecast. Missing sols remain null.",
+        "conditions_of_use": "CC BY-SA 3.0 Unported; retain credit and same license for derivatives.",
+        "temporal_reference": "MY36 sols1\u2013669, one daily average; observation windows vary.",
+        "cache_error": null,
+        "source_sha256": "eb8bc34147850050f9b62fa0d842a1b74d00833a97aa6b104a8accdd785c1649",
+        "projection": "Native latitude/longitude grid, positive east; no reprojection",
+        "source_nodata": "NaN"
+      },
+      {
+        "id": "mcd",
+        "product": "Mars Climate Database web6.2; linked documentation6.1",
+        "institution": "LMD/CNRS and collaborators",
+        "mission_instrument": "GCM-derived climatology",
+        "url": "https://www-mars.lmd.jussieu.fr/mcd_python/",
+        "download_url": null,
+        "access_date": "2026-11-15",
+        "spatial_resolution": null,
+        "region": "Mars",
+        "units": null,
+        "method": "Model indexed by Ls, local time, altitude, dust/EUV scenario",
+        "availability": "Unavailable",
+        "limitations": "Numerical provider and version-matched output contract not integrated; no temperatures, winds or pressure fabricated.",
+        "conditions_of_use": "Freely distributed for scientific/engineering use; cite MCD authors. No dataset installed.",
+        "temporal_reference": "Scenario-dependent climatology, never current weather forecast."
+      },
+      {
+        "id": "asu-tes",
+        "product": "Mars Global Data Sets: TES and Viking IRTM",
+        "institution": "Arizona State University",
+        "mission_instrument": "MGS/TES; Viking/IRTM",
+        "url": "https://mars.asu.edu/data/",
+        "download_url": null,
+        "access_date": "2026-11-15",
+        "spatial_resolution": {
+          "albedo_ppd": 8,
+          "thermal_inertia_2005_ppd": 20,
+          "surface_dust_ppd": 16,
+          "rock_abundance_ppd": 1
+        },
+        "region": "Mars",
+        "units": null,
+        "method": "Candidate numeric products; colorized maps excluded from quantitative queries",
+        "availability": "Unavailable",
+        "limitations": "Albedo raw VICAR link exists; numerical CRS/NoData/value interpretation not validated here. Thermal inertia/dust display colors are not quantitative substitutes.",
+        "conditions_of_use": "Product-specific attribution/terms require checking before redistribution.",
+        "temporal_reference": "Published static composites; not a forecast."
+      },
+      {
+        "id": "usgs-geology",
+        "product": "Planetary cartography catalog",
+        "institution": "USGS Astrogeology",
+        "mission_instrument": null,
+        "url": "https://astrogeology-usgs.hub.arcgis.com/pages/interactive-maps-mars",
+        "download_url": null,
+        "access_date": "2026-11-15",
+        "spatial_resolution": null,
+        "region": "Mars",
+        "units": null,
+        "method": "Candidate geologic units/vector overlays",
+        "availability": "Unavailable",
+        "limitations": "No regional geology or mineral numeric layer registered in this stage.",
+        "conditions_of_use": "Product-specific conditions, not verified for an unselected product.",
+        "temporal_reference": null
+      },
+      {
+        "id": "rad-gale",
+        "product": "Radiation Measurements on Mars",
+        "institution": "NASA/JPL-Caltech/SwRI",
+        "mission_instrument": "MSL/Curiosity RAD",
+        "url": "https://science.nasa.gov/resource/radiation-measurements-on-mars/",
+        "download_url": null,
+        "access_date": "2026-11-15",
+        "spatial_resolution": {
+          "scope": "local rover measurement"
+        },
+        "region": "Gale crater",
+        "units": "microgray/day",
+        "method": "Reference of local ionizing dose measurements",
+        "availability": "Unavailable",
+        "limitations": "Not a global map or a validated model for this region. Never extrapolate local Gale doses.",
+        "conditions_of_use": null,
+        "temporal_reference": "August2012\u2013June2013 reference plot."
+      },
+      {
+        "id": "hirise-ctx",
+        "product": "Mars2020 CTX DEM and HiRISE catalog",
+        "institution": "USGS; NASA; University of Arizona",
+        "mission_instrument": "MRO/CTX and HiRISE",
+        "url": "https://hirise.lpl.arizona.edu/",
+        "download_url": "https://planetarymaps.usgs.gov/mosaic/mars2020_trn/CTX/ScienceInvestigationMaps_JPL/M20_JezeroCrater_CTXDEM_20m.tif",
+        "access_date": "2026-11-15",
+        "spatial_resolution": {
+          "ctx_dem_m": 20
+        },
+        "region": "Partial Jezero coverage",
+        "units": "m",
+        "method": "Existing CTX DEM identified; not merged",
+        "availability": "Unavailable",
+        "limitations": "Partial coverage and unresolved vertical/registration reconciliation; imagery is not a DEM.",
+        "conditions_of_use": null,
+        "temporal_reference": null
+      }
+    ]
+  },
+  "/science/variables": {
+    "success": true,
+    "data": [
+      {
+        "id": "scientific_elevation",
+        "name": "Scientific elevation",
+        "unit": "m",
+        "source_id": "hrsc-mola-v2",
+        "method": "Unquantized reprojected DEM cell value",
+        "availability": "Available"
+      },
+      {
+        "id": "slope",
+        "name": "Slope",
+        "unit": "degree",
+        "source_id": "hrsc-mola-v2",
+        "method": "3x3 central-constrained plane in geodesic east/north offsets",
+        "availability": "Available"
+      },
+      {
+        "id": "aspect",
+        "name": "Downhill aspect",
+        "unit": "degree",
+        "source_id": "hrsc-mola-v2",
+        "method": "Clockwise from true north; flat undefined",
+        "availability": "Available"
+      },
+      {
+        "id": "roughness",
+        "name": "Detrended local roughness",
+        "unit": "m",
+        "source_id": "hrsc-mola-v2",
+        "method": "RMS of 3x3 plane residuals; not mechanical stability",
+        "availability": "Available"
+      },
+      {
+        "id": "local_relief",
+        "name": "Local relief",
+        "unit": "m",
+        "source_id": "hrsc-mola-v2",
+        "method": "3x3 max minus min",
+        "availability": "Available"
+      },
+      {
+        "id": "dust_optical_depth",
+        "name": "Historical IR absorption CDOD at 610Pa",
+        "unit": "Pa/Pa",
+        "source_id": "dust-my36",
+        "method": "Native daily cell; requires explicit MY36 and sol1\u2013669",
+        "availability": "Available"
+      },
+      {
+        "id": "surface_temperature",
+        "name": "Surface temperature",
+        "unit": "K",
+        "source_id": "mcd",
+        "method": null,
+        "availability": "Unavailable"
+      },
+      {
+        "id": "atmospheric_temperature",
+        "name": "Atmospheric temperature",
+        "unit": "K",
+        "source_id": "mcd",
+        "method": null,
+        "availability": "Unavailable"
+      },
+      {
+        "id": "temperature_diurnal",
+        "name": "Diurnal temperature variation",
+        "unit": "K",
+        "source_id": "mcd",
+        "method": null,
+        "availability": "Unavailable"
+      },
+      {
+        "id": "temperature_min",
+        "name": "Scenario minimum temperature",
+        "unit": "K",
+        "source_id": "mcd",
+        "method": null,
+        "availability": "Unavailable"
+      },
+      {
+        "id": "temperature_max",
+        "name": "Scenario maximum temperature",
+        "unit": "K",
+        "source_id": "mcd",
+        "method": null,
+        "availability": "Unavailable"
+      },
+      {
+        "id": "pressure",
+        "name": "Surface pressure",
+        "unit": "Pa",
+        "source_id": "mcd",
+        "method": null,
+        "availability": "Unavailable"
+      },
+      {
+        "id": "wind_speed",
+        "name": "Wind speed",
+        "unit": "m/s",
+        "source_id": "mcd",
+        "method": null,
+        "availability": "Unavailable"
+      },
+      {
+        "id": "wind_direction",
+        "name": "Wind direction",
+        "unit": "degree",
+        "source_id": "mcd",
+        "method": null,
+        "availability": "Unavailable"
+      },
+      {
+        "id": "atmospheric_dust",
+        "name": "Atmospheric dust concentration",
+        "unit": null,
+        "source_id": "mcd",
+        "method": null,
+        "availability": "Unavailable"
+      },
+      {
+        "id": "high_dust_scenario",
+        "name": "High dust scenario",
+        "unit": null,
+        "source_id": "mcd",
+        "method": null,
+        "availability": "Unavailable"
+      },
+      {
+        "id": "solar_flux",
+        "name": "Solar flux",
+        "unit": "W/m2",
+        "source_id": "mcd",
+        "method": null,
+        "availability": "Unavailable"
+      },
+      {
+        "id": "solar_exposure",
+        "name": "Integrated solar exposure",
+        "unit": "J/m2",
+        "source_id": "mcd",
+        "method": null,
+        "availability": "Unavailable"
+      },
+      {
+        "id": "thermal_inertia",
+        "name": "Thermal inertia",
+        "unit": "J m-2 K-1 s-1/2",
+        "source_id": "asu-tes",
+        "method": null,
+        "availability": "Unavailable"
+      },
+      {
+        "id": "surface_dust",
+        "name": "Surface dust index",
+        "unit": "1",
+        "source_id": "asu-tes",
+        "method": null,
+        "availability": "Unavailable"
+      },
+      {
+        "id": "albedo",
+        "name": "Albedo",
+        "unit": "1",
+        "source_id": "asu-tes",
+        "method": null,
+        "availability": "Unavailable"
+      },
+      {
+        "id": "rock_abundance",
+        "name": "Rock abundance",
+        "unit": null,
+        "source_id": "asu-tes",
+        "method": null,
+        "availability": "Unavailable"
+      },
+      {
+        "id": "thermal_properties",
+        "name": "Thermal properties",
+        "unit": null,
+        "source_id": "asu-tes",
+        "method": null,
+        "availability": "Unavailable"
+      },
+      {
+        "id": "geology",
+        "name": "Geologic unit",
+        "unit": null,
+        "source_id": "usgs-geology",
+        "method": null,
+        "availability": "Unavailable"
+      },
+      {
+        "id": "mineralogy",
+        "name": "Mineralogy",
+        "unit": null,
+        "source_id": "usgs-geology",
+        "method": null,
+        "availability": "Unavailable"
+      },
+      {
+        "id": "mobility_proxy",
+        "name": "Mobility proxy",
+        "unit": null,
+        "source_id": "usgs-geology",
+        "method": null,
+        "availability": "Unavailable"
+      },
+      {
+        "id": "topographic_illumination",
+        "name": "Topographic illumination",
+        "unit": null,
+        "source_id": "usgs-geology",
+        "method": null,
+        "availability": "Unavailable"
+      },
+      {
+        "id": "uv_radiation",
+        "name": "Ultraviolet radiation",
+        "unit": null,
+        "source_id": "usgs-geology",
+        "method": null,
+        "availability": "Unavailable"
+      },
+      {
+        "id": "ionizing_radiation",
+        "name": "Ionizing radiation dose",
+        "unit": null,
+        "source_id": "rad-gale",
+        "method": null,
+        "availability": "Unavailable"
+      }
+    ]
+  },
+  "/mission/scenarios": {
+    "success": true,
+    "data": [
+      {
+        "id": "static-topography",
+        "availability": "Available",
+        "classification": "Derived",
+        "time_parameters": null
+      },
+      {
+        "id": "my36-observed-dust",
+        "availability": "Available",
+        "classification": "Derived",
+        "mars_year": 36,
+        "sol_of_year": [
+          1,
+          669
+        ],
+        "local_time": "daily average; not selectable",
+        "spatial_resolution_degrees": [
+          6,
+          5
+        ]
+      },
+      {
+        "id": "mcd-climatology",
+        "availability": "Unavailable",
+        "classification": "Modeled",
+        "reason": "Provider/output version not integrated",
+        "requires": [
+          "solar_longitude_ls [0,360)",
+          "local_time [0,24)",
+          "altitude definition",
+          "dust scenario",
+          "solar EUV scenario",
+          "MCD version"
+        ],
+        "candidate_dust_scenarios": [
+          "climatology",
+          "cold",
+          "warm",
+          "dust storm",
+          "historical Mars year"
+        ],
+        "forecast": false
+      }
+    ]
+  },
+  "/mars/layers": {
+    "success": true,
+    "data": [
+      {
+        "id": "hirise-imagery",
+        "name": "HiRISE High-Resolution Imagery",
+        "source": "nasa-mro",
+        "mission": "Mars Reconnaissance Orbiter",
+        "instrument": "HiRISE",
+        "description": "Generic catalog reference for visible imaging from the High Resolution Imaging Science Experiment on Mars Reconnaissance Orbiter. Use the verified Jezero product for map display.",
+        "data_type": "Visible imagery",
+        "region": "Mars (targeted)",
+        "resolution": 0.25,
+        "resolution_unit": "m/pixel",
+        "projection": null,
+        "bounding_box": null,
+        "source_url": "https://mars.nasa.gov/mro/",
+        "acquisition_date": null,
+        "processing_level": null,
+        "limitations": "Catalog reference only. Nominal resolution is representative; coverage, processing level and projection vary by product. Verify with the official source before scientific use.",
+        "attribution": "NASA/JPL-Caltech/University of Arizona",
+        "status": "catalog_only",
+        "visualizable": false,
+        "spatial_reference": null,
+        "provenance": null,
+        "wmts": null
+      },
+      {
+        "id": "ctx-imagery",
+        "name": "CTX Context Imagery",
+        "source": "nasa-mro",
+        "mission": "Mars Reconnaissance Orbiter",
+        "instrument": "CTX",
+        "description": "Generic catalog reference for regional visible imagery from the Context Camera on Mars Reconnaissance Orbiter. Use the verified Jezero product for map display.",
+        "data_type": "Visible imagery",
+        "region": "Mars (targeted)",
+        "resolution": 6.0,
+        "resolution_unit": "m/pixel",
+        "projection": null,
+        "bounding_box": null,
+        "source_url": "https://mars.nasa.gov/mro/",
+        "acquisition_date": null,
+        "processing_level": null,
+        "limitations": "Catalog reference only. Nominal resolution is representative; coverage, processing level and projection vary by product. Verify with the official source before scientific use.",
+        "attribution": "NASA/JPL-Caltech/MSSS",
+        "status": "catalog_only",
+        "visualizable": false,
+        "spatial_reference": null,
+        "provenance": null,
+        "wmts": null
+      },
+      {
+        "id": "crism-mineral-maps",
+        "name": "CRISM Mineral Maps",
+        "source": "nasa-mro",
+        "mission": "Mars Reconnaissance Orbiter",
+        "instrument": "CRISM",
+        "description": "Visible-infrared spectral observations from the Compact Reconnaissance Imaging Spectrometer for Mars.",
+        "data_type": "Spectral / mineralogy",
+        "region": "Mars (targeted)",
+        "resolution": 18.0,
+        "resolution_unit": "m/pixel",
+        "projection": null,
+        "bounding_box": null,
+        "source_url": "https://mars.nasa.gov/mro/",
+        "acquisition_date": null,
+        "processing_level": null,
+        "limitations": "Catalog reference only. Targeted observations are about 18 m/pixel; mapping-mode coverage is coarser (about 200 m/pixel). No mineral map is currently integrated.",
+        "attribution": "NASA/JHUAPL",
+        "status": "catalog_only",
+        "visualizable": false,
+        "spatial_reference": null,
+        "provenance": null,
+        "wmts": null
+      },
+      {
+        "id": "themis-thermal",
+        "name": "THEMIS Thermal Infrared",
+        "source": "nasa-mars-odyssey",
+        "mission": "Mars Odyssey",
+        "instrument": "THEMIS",
+        "description": "Thermal infrared observations from the Thermal Emission Imaging System on Mars Odyssey.",
+        "data_type": "Thermal infrared imagery",
+        "region": "Mars (global / targeted)",
+        "resolution": 100.0,
+        "resolution_unit": "m/pixel",
+        "projection": null,
+        "bounding_box": null,
+        "source_url": "https://mars.asu.edu/data/",
+        "acquisition_date": null,
+        "processing_level": null,
+        "limitations": "Catalog reference only. Thermal mosaics and derived products are not downloaded or processed in this stage.",
+        "attribution": "NASA/JPL-Caltech/Arizona State University",
+        "status": "catalog_only",
+        "visualizable": false,
+        "spatial_reference": null,
+        "provenance": null,
+        "wmts": null
+      },
+      {
+        "id": "mola-elevation",
+        "name": "MOLA Elevation",
+        "source": "nasa-mgs",
+        "mission": "Mars Global Surveyor",
+        "instrument": "MOLA",
+        "description": "Global elevation and topography from the Mars Orbiter Laser Altimeter on Mars Global Surveyor.",
+        "data_type": "Elevation / topography",
+        "region": "Mars (global)",
+        "resolution": 463.0,
+        "resolution_unit": "m/pixel",
+        "projection": null,
+        "bounding_box": null,
+        "source_url": "https://pds-geosciences.wustl.edu/missions/mgs/mola.html",
+        "acquisition_date": null,
+        "processing_level": null,
+        "limitations": "Catalog reference only. Global topography is not downloaded or reprojected in this stage.",
+        "attribution": "NASA/MOLA Science Team",
+        "status": "catalog_only",
+        "visualizable": false,
+        "spatial_reference": null,
+        "provenance": null,
+        "wmts": null
+      },
+      {
+        "id": "meda-environmental-monitoring",
+        "name": "MEDA Environmental Monitoring",
+        "source": "nasa-mars-2020",
+        "mission": "Mars 2020",
+        "instrument": "MEDA",
+        "description": "Environmental measurements acquired by the Mars Environmental Dynamics Analyzer on the Perseverance rover at its operational location in Jezero Crater.",
+        "data_type": "In-situ environmental measurements (not a map)",
+        "region": "Perseverance operational location, Jezero Crater, Mars",
+        "resolution": null,
+        "resolution_unit": null,
+        "projection": null,
+        "bounding_box": null,
+        "source_url": "https://pds.nasa.gov/ds-view/pds/viewBundle.jsp?identifier=urn:nasa:pds:mars2020_meda&version=1.0",
+        "acquisition_date": null,
+        "processing_level": null,
+        "limitations": "MEDA is a point-measurement instrument at the rover location, not a global map. Calibrated PDS products are not yet downloaded, parsed or displayed. No current temperature, pressure, wind or radiation values are represented.",
+        "attribution": "NASA/JPL-Caltech/CSIC-INTA",
+        "status": "planned",
+        "visualizable": false,
+        "spatial_reference": null,
+        "provenance": null,
+        "wmts": null
+      },
+      {
+        "id": "JEZ_hirise_soc_006_orthoMosaic_25cm_Eqc_latTs0_lon0_first_dd",
+        "name": "MRO HiRISE, Jezero Mosaic, Controlled",
+        "source": "nasa-mro",
+        "mission": "Mars Reconnaissance Orbiter",
+        "instrument": "HiRISE",
+        "description": "High-resolution visible orthomosaic of Jezero Crater generated from HiRISE images and delivered through NASA Mars Trek as a WMTS layer. The product was produced by the USGS Astrogeology Science Center in support of the Mars 2020 terrain-relative navigation basemap.",
+        "data_type": "Visible optical imagery (orthomosaic)",
+        "region": "Jezero Crater, Mars",
+        "resolution": 0.25,
+        "resolution_unit": "m/pixel",
+        "projection": "IAU2000:104905 (Mars equirectangular, degrees)",
+        "bounding_box": [
+          77.2229331,
+          18.3067994,
+          77.583964,
+          18.669315
+        ],
+        "source_url": "https://trek.nasa.gov/tiles/Mars/EQ/JEZ_hirise_soc_006_orthoMosaic_25cm_Eqc_latTs0_lon0_first_dd/1.0.0/WMTSCapabilities.xml",
+        "acquisition_date": null,
+        "processing_level": "Orthomosaic; controlled product (Mars 2020 terrain-relative navigation basemap).",
+        "limitations": "The product label states 25 cm/pixel. Mars Trek catalog metadata lists data_created_date 2020-08-03 as the product creation date, not the acquisition date of every contributing HiRISE image; per-image acquisition dates are not exposed by this layer. Bounding box order is west, south, east, north in degrees. Verify the PDS product before scientific use.",
+        "attribution": "NASA/JPL-Caltech/University of Arizona \u00b7 USGS Astrogeology Science Center \u00b7 NASA Mars Trek",
+        "status": "available",
+        "visualizable": true,
+        "spatial_reference": {
+          "code": "IAU2000:104905",
+          "name": "Mars 2000 Sphere / Equirectangular",
+          "units": "degrees",
+          "extent": [
+            -180.0,
+            -90.0,
+            180.0,
+            90.0
+          ],
+          "notes": "WMTS SupportedCRS urn:ogc:def:crs:EPSG::104905. Mars equirectangular degrees; this is not Earth WGS84."
+        },
+        "provenance": {
+          "provider": "NASA Mars Trek (NASA/JPL)",
+          "source_url": "https://trek.nasa.gov/mars/",
+          "citation": "MRO HiRISE, Jezero Mosaic, Controlled (JEZ_hirise_soc_006_orthoMosaic_25cm_Eqc_latTs0_lon0_first_dd). NASA Mars Trek.",
+          "attribution": "NASA/JPL-Caltech/University of Arizona \u00b7 USGS Astrogeology Science Center",
+          "verified": true,
+          "verified_at": "2026-11-14",
+          "retrieved_at": null,
+          "verification_notes": "GetCapabilities and sample tiles were retrieved from NASA Mars Trek on 2026-11-14. The tile endpoint returned image/png with Access-Control-Allow-Origin: *, so the browser can request tiles directly.",
+          "product_created_date": "2020-08-03"
+        },
+        "wmts": {
+          "service": "OGC WMTS",
+          "version": "1.0.0",
+          "endpoint": "https://trek.nasa.gov/tiles/Mars/EQ/JEZ_hirise_soc_006_orthoMosaic_25cm_Eqc_latTs0_lon0_first_dd",
+          "capabilities_url": "https://trek.nasa.gov/tiles/Mars/EQ/JEZ_hirise_soc_006_orthoMosaic_25cm_Eqc_latTs0_lon0_first_dd/1.0.0/WMTSCapabilities.xml",
+          "resource_url_template": "https://trek.nasa.gov/tiles/Mars/EQ/JEZ_hirise_soc_006_orthoMosaic_25cm_Eqc_latTs0_lon0_first_dd/1.0.0/{Style}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png",
+          "layer_identifier": "JEZ_hirise_soc_006_orthoMosaic_25cm_Eqc_latTs0_lon0_first_dd",
+          "style": "default",
+          "format": "image/png",
+          "tile_matrix_set": "default028mm",
+          "supported_crs": "urn:ogc:def:crs:EPSG::104905",
+          "tile_matrices": [
+            {
+              "id": "0",
+              "scale_denominator": 279227636.2980747,
+              "resolution_degrees": 0.703125,
+              "tile_width": 256,
+              "tile_height": 256,
+              "matrix_width": 2,
+              "matrix_height": 1
+            },
+            {
+              "id": "1",
+              "scale_denominator": 139613818.14903736,
+              "resolution_degrees": 0.3515625,
+              "tile_width": 256,
+              "tile_height": 256,
+              "matrix_width": 4,
+              "matrix_height": 2
+            },
+            {
+              "id": "2",
+              "scale_denominator": 69806909.07451868,
+              "resolution_degrees": 0.17578125,
+              "tile_width": 256,
+              "tile_height": 256,
+              "matrix_width": 8,
+              "matrix_height": 4
+            },
+            {
+              "id": "3",
+              "scale_denominator": 34903454.53725934,
+              "resolution_degrees": 0.087890625,
+              "tile_width": 256,
+              "tile_height": 256,
+              "matrix_width": 16,
+              "matrix_height": 8
+            },
+            {
+              "id": "4",
+              "scale_denominator": 17451727.26862967,
+              "resolution_degrees": 0.0439453125,
+              "tile_width": 256,
+              "tile_height": 256,
+              "matrix_width": 32,
+              "matrix_height": 16
+            },
+            {
+              "id": "5",
+              "scale_denominator": 8725863.634314835,
+              "resolution_degrees": 0.02197265625,
+              "tile_width": 256,
+              "tile_height": 256,
+              "matrix_width": 64,
+              "matrix_height": 32
+            },
+            {
+              "id": "6",
+              "scale_denominator": 4362931.817157418,
+              "resolution_degrees": 0.010986328125,
+              "tile_width": 256,
+              "tile_height": 256,
+              "matrix_width": 128,
+              "matrix_height": 64
+            },
+            {
+              "id": "7",
+              "scale_denominator": 2181465.908578709,
+              "resolution_degrees": 0.0054931640625,
+              "tile_width": 256,
+              "tile_height": 256,
+              "matrix_width": 256,
+              "matrix_height": 128
+            },
+            {
+              "id": "8",
+              "scale_denominator": 1090732.9542893544,
+              "resolution_degrees": 0.00274658203125,
+              "tile_width": 256,
+              "tile_height": 256,
+              "matrix_width": 512,
+              "matrix_height": 256
+            },
+            {
+              "id": "9",
+              "scale_denominator": 545366.4771446772,
+              "resolution_degrees": 0.001373291015625,
+              "tile_width": 256,
+              "tile_height": 256,
+              "matrix_width": 1024,
+              "matrix_height": 512
+            },
+            {
+              "id": "10",
+              "scale_denominator": 272683.2385723386,
+              "resolution_degrees": 0.0006866455078125,
+              "tile_width": 256,
+              "tile_height": 256,
+              "matrix_width": 2048,
+              "matrix_height": 1024
+            },
+            {
+              "id": "11",
+              "scale_denominator": 136341.6192861693,
+              "resolution_degrees": 0.00034332275390625,
+              "tile_width": 256,
+              "tile_height": 256,
+              "matrix_width": 4096,
+              "matrix_height": 2048
+            },
+            {
+              "id": "12",
+              "scale_denominator": 68170.80964308465,
+              "resolution_degrees": 0.000171661376953125,
+              "tile_width": 256,
+              "tile_height": 256,
+              "matrix_width": 8192,
+              "matrix_height": 4096
+            },
+            {
+              "id": "13",
+              "scale_denominator": 34085.404821542324,
+              "resolution_degrees": 8.58306884765625e-05,
+              "tile_width": 256,
+              "tile_height": 256,
+              "matrix_width": 16384,
+              "matrix_height": 8192
+            },
+            {
+              "id": "14",
+              "scale_denominator": 17042.702410771162,
+              "resolution_degrees": 4.291534423828125e-05,
+              "tile_width": 256,
+              "tile_height": 256,
+              "matrix_width": 32768,
+              "matrix_height": 16384
+            },
+            {
+              "id": "15",
+              "scale_denominator": 8521.351205385581,
+              "resolution_degrees": 2.1457672119140625e-05,
+              "tile_width": 256,
+              "tile_height": 256,
+              "matrix_width": 65536,
+              "matrix_height": 32768
+            },
+            {
+              "id": "16",
+              "scale_denominator": 4260.675602692791,
+              "resolution_degrees": 1.0728836059570312e-05,
+              "tile_width": 256,
+              "tile_height": 256,
+              "matrix_width": 131072,
+              "matrix_height": 65536
+            },
+            {
+              "id": "17",
+              "scale_denominator": 2130.3378013463953,
+              "resolution_degrees": 5.364418029785156e-06,
+              "tile_width": 256,
+              "tile_height": 256,
+              "matrix_width": 262144,
+              "matrix_height": 131072
+            }
+          ],
+          "source": "verified_snapshot",
+          "retrieved_at": null,
+          "notes": "Verified from the Mars Trek GetCapabilities document on 2026-11-14. TileMatrix identifiers 0-17 are advertised for this product."
+        }
+      },
+      {
+        "id": "JEZ_ctx_B_soc_008_orthoMosaic_6m_Eqc_latTs0_lon0",
+        "name": "MRO CTX, Jezero Mosaic, Controlled",
+        "source": "nasa-mro",
+        "mission": "Mars Reconnaissance Orbiter",
+        "instrument": "CTX",
+        "description": "Visible orthomosaic of Jezero Crater generated from Context Camera images and delivered through NASA Mars Trek as a WMTS layer. The product is the Lander Vision System map built by the USGS Astrogeology Science Center for Mars 2020.",
+        "data_type": "Visible optical imagery (orthomosaic)",
+        "region": "Jezero Crater, Mars",
+        "resolution": 6.0,
+        "resolution_unit": "m/pixel",
+        "projection": "IAU2000:104905 (Mars equirectangular, degrees)",
+        "bounding_box": [
+          77.1604655,
+          18.2110274,
+          77.6991776,
+          18.7211945
+        ],
+        "source_url": "https://trek.nasa.gov/tiles/Mars/EQ/JEZ_ctx_B_soc_008_orthoMosaic_6m_Eqc_latTs0_lon0/1.0.0/WMTSCapabilities.xml",
+        "acquisition_date": null,
+        "processing_level": "Orthomosaic; controlled product (Lander Vision System map).",
+        "limitations": "The mosaic is sampled at approximately 6 m/pixel. Mars Trek catalog metadata lists data_created_date 2020-08-03 as the product creation date, not the acquisition date of every contributing CTX image. Bounding box order is west, south, east, north in degrees. Verify the PDS product before scientific use.",
+        "attribution": "NASA/JPL-Caltech/MSSS \u00b7 USGS Astrogeology Science Center \u00b7 NASA Mars Trek",
+        "status": "available",
+        "visualizable": true,
+        "spatial_reference": {
+          "code": "IAU2000:104905",
+          "name": "Mars 2000 Sphere / Equirectangular",
+          "units": "degrees",
+          "extent": [
+            -180.0,
+            -90.0,
+            180.0,
+            90.0
+          ],
+          "notes": "WMTS SupportedCRS urn:ogc:def:crs:EPSG::104905. Mars equirectangular degrees; this is not Earth WGS84."
+        },
+        "provenance": {
+          "provider": "NASA Mars Trek (NASA/JPL)",
+          "source_url": "https://trek.nasa.gov/mars/",
+          "citation": "MRO CTX, Jezero Mosaic, Controlled (JEZ_ctx_B_soc_008_orthoMosaic_6m_Eqc_latTs0_lon0). NASA Mars Trek.",
+          "attribution": "NASA/JPL-Caltech/MSSS \u00b7 USGS Astrogeology Science Center",
+          "verified": true,
+          "verified_at": "2026-11-14",
+          "retrieved_at": null,
+          "verification_notes": "GetCapabilities and sample tiles were retrieved from NASA Mars Trek on 2026-11-14. The tile endpoint returned image/png with Access-Control-Allow-Origin: *, so the browser can request tiles directly.",
+          "product_created_date": "2020-08-03"
+        },
+        "wmts": {
+          "service": "OGC WMTS",
+          "version": "1.0.0",
+          "endpoint": "https://trek.nasa.gov/tiles/Mars/EQ/JEZ_ctx_B_soc_008_orthoMosaic_6m_Eqc_latTs0_lon0",
+          "capabilities_url": "https://trek.nasa.gov/tiles/Mars/EQ/JEZ_ctx_B_soc_008_orthoMosaic_6m_Eqc_latTs0_lon0/1.0.0/WMTSCapabilities.xml",
+          "resource_url_template": "https://trek.nasa.gov/tiles/Mars/EQ/JEZ_ctx_B_soc_008_orthoMosaic_6m_Eqc_latTs0_lon0/1.0.0/{Style}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png",
+          "layer_identifier": "JEZ_ctx_B_soc_008_orthoMosaic_6m_Eqc_latTs0_lon0",
+          "style": "default",
+          "format": "image/png",
+          "tile_matrix_set": "default028mm",
+          "supported_crs": "urn:ogc:def:crs:EPSG::104905",
+          "tile_matrices": [
+            {
+              "id": "0",
+              "scale_denominator": 279227636.2980747,
+              "resolution_degrees": 0.703125,
+              "tile_width": 256,
+              "tile_height": 256,
+              "matrix_width": 2,
+              "matrix_height": 1
+            },
+            {
+              "id": "1",
+              "scale_denominator": 139613818.14903736,
+              "resolution_degrees": 0.3515625,
+              "tile_width": 256,
+              "tile_height": 256,
+              "matrix_width": 4,
+              "matrix_height": 2
+            },
+            {
+              "id": "2",
+              "scale_denominator": 69806909.07451868,
+              "resolution_degrees": 0.17578125,
+              "tile_width": 256,
+              "tile_height": 256,
+              "matrix_width": 8,
+              "matrix_height": 4
+            },
+            {
+              "id": "3",
+              "scale_denominator": 34903454.53725934,
+              "resolution_degrees": 0.087890625,
+              "tile_width": 256,
+              "tile_height": 256,
+              "matrix_width": 16,
+              "matrix_height": 8
+            },
+            {
+              "id": "4",
+              "scale_denominator": 17451727.26862967,
+              "resolution_degrees": 0.0439453125,
+              "tile_width": 256,
+              "tile_height": 256,
+              "matrix_width": 32,
+              "matrix_height": 16
+            },
+            {
+              "id": "5",
+              "scale_denominator": 8725863.634314835,
+              "resolution_degrees": 0.02197265625,
+              "tile_width": 256,
+              "tile_height": 256,
+              "matrix_width": 64,
+              "matrix_height": 32
+            },
+            {
+              "id": "6",
+              "scale_denominator": 4362931.817157418,
+              "resolution_degrees": 0.010986328125,
+              "tile_width": 256,
+              "tile_height": 256,
+              "matrix_width": 128,
+              "matrix_height": 64
+            },
+            {
+              "id": "7",
+              "scale_denominator": 2181465.908578709,
+              "resolution_degrees": 0.0054931640625,
+              "tile_width": 256,
+              "tile_height": 256,
+              "matrix_width": 256,
+              "matrix_height": 128
+            },
+            {
+              "id": "8",
+              "scale_denominator": 1090732.9542893544,
+              "resolution_degrees": 0.00274658203125,
+              "tile_width": 256,
+              "tile_height": 256,
+              "matrix_width": 512,
+              "matrix_height": 256
+            },
+            {
+              "id": "9",
+              "scale_denominator": 545366.4771446772,
+              "resolution_degrees": 0.001373291015625,
+              "tile_width": 256,
+              "tile_height": 256,
+              "matrix_width": 1024,
+              "matrix_height": 512
+            },
+            {
+              "id": "10",
+              "scale_denominator": 272683.2385723386,
+              "resolution_degrees": 0.0006866455078125,
+              "tile_width": 256,
+              "tile_height": 256,
+              "matrix_width": 2048,
+              "matrix_height": 1024
+            },
+            {
+              "id": "11",
+              "scale_denominator": 136341.6192861693,
+              "resolution_degrees": 0.00034332275390625,
+              "tile_width": 256,
+              "tile_height": 256,
+              "matrix_width": 4096,
+              "matrix_height": 2048
+            },
+            {
+              "id": "12",
+              "scale_denominator": 68170.80964308465,
+              "resolution_degrees": 0.000171661376953125,
+              "tile_width": 256,
+              "tile_height": 256,
+              "matrix_width": 8192,
+              "matrix_height": 4096
+            },
+            {
+              "id": "13",
+              "scale_denominator": 34085.404821542324,
+              "resolution_degrees": 8.58306884765625e-05,
+              "tile_width": 256,
+              "tile_height": 256,
+              "matrix_width": 16384,
+              "matrix_height": 8192
+            }
+          ],
+          "source": "verified_snapshot",
+          "retrieved_at": null,
+          "notes": "Verified from the Mars Trek GetCapabilities document on 2026-11-14. TileMatrix identifiers 0-13 are advertised for this product; the TileMatrixSet name matches HiRISE but the zoom range does not."
+        }
+      }
+    ]
+  },
+  "local_query_timing": {
+    "samples": 25,
+    "median_ms": 1.353600004222244,
+    "max_ms": 2.079099998809397,
+    "scope": "warm localhost HTTP queries including serialization; not deployment or web FPS"
+  }
+}

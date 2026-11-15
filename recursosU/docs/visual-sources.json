@@ -1,0 +1,69 @@
+{
+  "dem": "https://asc-pds-services.s3.us-west-2.amazonaws.com/mosaic/Mars/HRSC_MOLA_Blend/Mars_HRSC_MOLA_BlendDEM_Global_200mp_v2.tif",
+  "color": [
+    {
+      "url": "https://trek.nasa.gov/tiles/Mars/EQ/Mars_Viking_MDIM21_ClrMosaic_global_232m/1.0.0/default/default028mm/7/50/181.jpg",
+      "sha256": "67343cf0c4346de8371dd5e9e06896afe21872f2250b83c3789b7928f83f25d7"
+    },
+    {
+      "url": "https://trek.nasa.gov/tiles/Mars/EQ/Mars_Viking_MDIM21_ClrMosaic_global_232m/1.0.0/default/default028mm/7/50/182.jpg",
+      "sha256": "092bfd2a925a173ce9497862f818c381d9bf11b42ab956c37e4e588adbb5f095"
+    },
+    {
+      "url": "https://trek.nasa.gov/tiles/Mars/EQ/Mars_Viking_MDIM21_ClrMosaic_global_232m/1.0.0/default/default028mm/7/50/183.jpg",
+      "sha256": "f4b509c69a8a9fec9f81f8773237d59a920ac6c0816f0e050f671bd7ee23441f"
+    },
+    {
+      "url": "https://trek.nasa.gov/tiles/Mars/EQ/Mars_Viking_MDIM21_ClrMosaic_global_232m/1.0.0/default/default028mm/7/50/184.jpg",
+      "sha256": "bc24bc2f113c6c9df73c379866070ab80bf8f169a3261bc7e3993be0edbafda7"
+    },
+    {
+      "url": "https://trek.nasa.gov/tiles/Mars/EQ/Mars_Viking_MDIM21_ClrMosaic_global_232m/1.0.0/default/default028mm/7/51/181.jpg",
+      "sha256": "e0a2fb36468c5f2448f9c4700ef2b964eb44ebf17feefe64d27fc9ee936be6b6"
+    },
+    {
+      "url": "https://trek.nasa.gov/tiles/Mars/EQ/Mars_Viking_MDIM21_ClrMosaic_global_232m/1.0.0/default/default028mm/7/51/182.jpg",
+      "sha256": "b9b0108dfc6cbc8426713a21d358e09a55cd7d4f7995b2faeaa5a6b1724992a1"
+    },
+    {
+      "url": "https://trek.nasa.gov/tiles/Mars/EQ/Mars_Viking_MDIM21_ClrMosaic_global_232m/1.0.0/default/default028mm/7/51/183.jpg",
+      "sha256": "ef188739787a26030126ed7191d9b21cc5562bd47d751c90beb543bcce6ca812"
+    },
+    {
+      "url": "https://trek.nasa.gov/tiles/Mars/EQ/Mars_Viking_MDIM21_ClrMosaic_global_232m/1.0.0/default/default028mm/7/51/184.jpg",
+      "sha256": "0ce1c8b4eda5be79bbfab59e2543d97754d6ce554e59d433f890c2f8da922dbf"
+    },
+    {
+      "url": "https://trek.nasa.gov/tiles/Mars/EQ/Mars_Viking_MDIM21_ClrMosaic_global_232m/1.0.0/default/default028mm/7/52/181.jpg",
+      "sha256": "465cdfbdf93c72808dcf45836a7572efdb00a2b1947d8cdddca73ff63fe1b8d0"
+    },
+    {
+      "url": "https://trek.nasa.gov/tiles/Mars/EQ/Mars_Viking_MDIM21_ClrMosaic_global_232m/1.0.0/default/default028mm/7/52/182.jpg",
+      "sha256": "c5da91d7a92bec20bc76a89bf972c1134601909d9aa5427406d0f2afe2e15036"
+    },
+    {
+      "url": "https://trek.nasa.gov/tiles/Mars/EQ/Mars_Viking_MDIM21_ClrMosaic_global_232m/1.0.0/default/default028mm/7/52/183.jpg",
+      "sha256": "66bf474699f36b5459f79d47d8ff104cf8c45f0e2dbc469803926c2226bf43d7"
+    },
+    {
+      "url": "https://trek.nasa.gov/tiles/Mars/EQ/Mars_Viking_MDIM21_ClrMosaic_global_232m/1.0.0/default/default028mm/7/52/184.jpg",
+      "sha256": "01697c855940be2ae08564f4f8253a25a4eda43fbb4db203319c6285dc2c6fe7"
+    },
+    {
+      "url": "https://trek.nasa.gov/tiles/Mars/EQ/Mars_Viking_MDIM21_ClrMosaic_global_232m/1.0.0/default/default028mm/7/53/181.jpg",
+      "sha256": "ceba0f893fb6b37eba9c1d0484d84673a5f041cbaa52de701524aadede441f15"
+    },
+    {
+      "url": "https://trek.nasa.gov/tiles/Mars/EQ/Mars_Viking_MDIM21_ClrMosaic_global_232m/1.0.0/default/default028mm/7/53/182.jpg",
+      "sha256": "67f93151e503caeea526e55825585155fa3c95dd2f52c2f2075fac4c1c1da020"
+    },
+    {
+      "url": "https://trek.nasa.gov/tiles/Mars/EQ/Mars_Viking_MDIM21_ClrMosaic_global_232m/1.0.0/default/default028mm/7/53/183.jpg",
+      "sha256": "75236b06067c50e2c27362f2e751dcad73b6381b87b9bb54c63efb2ec1446e57"
+    },
+    {
+      "url": "https://trek.nasa.gov/tiles/Mars/EQ/Mars_Viking_MDIM21_ClrMosaic_global_232m/1.0.0/default/default028mm/7/53/184.jpg",
+      "sha256": "759374f0e5a69123ab7951c287a054a79d76011b6f5cbcd5856d19095c3b4efd"
+    }
+  ]
+}

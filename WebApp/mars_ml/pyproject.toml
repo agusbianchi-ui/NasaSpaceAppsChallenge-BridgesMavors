@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=78", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mars-ml"
+version = "0.1.0"
+description = "MARS OPS computer vision and aeolian dynamics research toolkit"
+readme = "README.md"
+requires-python = ">=3.14"
+dynamic = ["dependencies"]
+
+[project.optional-dependencies]
+training = ["torch>=2.4,<3"]
+
+[tool.setuptools]
+package-dir = {mars_ml = "."}
+packages = [
+    "mars_ml",
+    "mars_ml.aeolian_dynamics",
+    "mars_ml.computer_vision",
+    "mars_ml.datasets",
+    "mars_ml.inference",
+    "mars_ml.ingestion",
+    "mars_ml.models",
+    "mars_ml.tests",
+    "mars_ml.training",
+    "mars_ml.validation",
+    "mars_ml.visualization",
+]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[tool.setuptools.package-data]
+mars_ml = [
+    "datasets/*.md",
+    "datasets/**/*.md",
+    "datasets/**/*.json",
+    "models/*.md",
+    "notebooks/*.md",
+]
